@@ -1,0 +1,19 @@
+addon_utils.disable: bl_ext.lab_blender_org.mcp not enabled
+21:18:24 | INFO: Data are loaded, start creating Blender stuff
+21:18:24 | INFO: Blender create Mesh node COMPOUND
+21:18:24 | INFO: Blender create Mesh node COMPOUND
+21:39:19 | INFO: glTF import finished in 1254.48s
+C:\Projects\CAD\astra-engine-pump\tools\blender_validate.py:226: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+21:08.625  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-engine-original\view_00.png'
+
+=== VALIDATION SUMMARY ===
+objects=2 triangles=4,537,176
+core size (m) = [1.673, 2.063, 2.268]
+all  size (m) = [1.673, 2.063, 2.268]
+missing roles: ['engine', 'pump', 'controller', 'bale', 'skid']
+  unclassified   objects=    2 tris=4,537,176
+renders -> C:\Projects\CAD\astra-engine-pump\reports\validate-engine-original
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

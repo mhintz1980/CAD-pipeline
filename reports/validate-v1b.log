@@ -1,0 +1,73 @@
+addon_utils.disable: bl_ext.lab_blender_org.mcp not enabled
+21:08:33 | INFO: Data are loaded, start creating Blender stuff
+21:08:33 | INFO: Blender create Mesh node Part1^PP128-PP108-SKID
+21:08:33 | INFO: Blender create Mesh node PP-FBS
+21:08:33 | INFO: Blender create Mesh node PP-FBS
+21:08:33 | INFO: Blender create Mesh node Part1^PP128-PP108-SKID
+21:08:33 | INFO: Blender create Mesh node PP-FBS
+21:08:33 | INFO: Blender create Mesh node PP-FBS
+21:08:33 | INFO: Blender create Mesh node PP128S22-MFB
+21:08:33 | INFO: Blender create Mesh node PP-LBB
+21:08:33 | INFO: Blender create Mesh node PP128S22-MFB
+21:08:33 | INFO: Blender create Mesh node PP-LBB
+21:08:33 | INFO: Blender create Mesh node LBU-PP
+21:08:33 | INFO: Blender create Mesh node LBU-PP
+21:08:33 | INFO: Blender create Mesh node LBA-CB
+21:08:33 | INFO: Blender create Mesh node LBS-LG
+21:08:33 | INFO: Blender create Mesh node LBS-SH
+21:08:33 | INFO: Blender create Mesh node LBS-LG
+21:08:33 | INFO: Blender create Mesh node LBS-SH
+21:08:33 | INFO: Blender create Mesh node PP128S22-MFB
+21:08:33 | INFO: Blender create Mesh node PP128S22-MFB
+21:08:33 | INFO: Blender create Mesh node PP-FTT
+21:08:33 | INFO: Blender create Mesh node Copy of Copy of Part11^PP128-FTA
+21:08:33 | INFO: Blender create Mesh node PP-FTS-1005
+21:08:33 | INFO: Blender create Mesh node PP-FTS-1005
+21:08:33 | INFO: Blender create Mesh node Copy of Copy of Part11^PP128-FTA
+21:08:33 | INFO: Blender create Mesh node PP-FTT
+21:08:33 | INFO: Blender create Mesh node PP-FTS-1008
+21:08:33 | INFO: Blender create Mesh node PP-FTS-1008
+21:08:33 | INFO: Blender create Mesh node PP-FTS-1008
+21:08:33 | INFO: Blender create Mesh node PP-FTS-1008
+21:08:33 | INFO: Blender create Mesh node PP-FTS-1008
+21:08:33 | INFO: Blender create Mesh node PP-FTS-1008
+21:08:33 | INFO: Blender create Mesh node MC6X18-SKE_MC6x18x57
+21:08:33 | INFO: Blender create Mesh node tube rectangular_ai_TR12x6x0.25x80
+21:08:33 | INFO: Blender create Mesh node mc channel_ai_MC6x18x31.5
+21:08:33 | INFO: Blender create Mesh node tube rectangular_ai_TR12x6x0.25x80
+21:08:33 | INFO: Blender create Mesh node MC6X18-SKE_MC6x18x57
+21:08:33 | INFO: Blender create Mesh node MC6X18-SKE1_MC6x18x57
+21:08:33 | INFO: Blender create Mesh node MC6X18-SKE1_MC6x18x57
+21:08:33 | INFO: Blender create Mesh node mc channel_ai_MC6x18x31.5
+21:08:33 | INFO: Blender create Mesh node PP12-EM-JD18
+21:08:33 | INFO: Blender create Mesh node DOUBLER
+21:08:33 | INFO: Blender create Mesh node DOUBLER
+21:08:33 | INFO: Blender create Mesh node EM-SP
+21:08:33 | INFO: Blender create Mesh node EM-SP
+21:08:33 | INFO: Blender create Mesh node EM-SP
+21:08:33 | INFO: Blender create Mesh node EM-SP
+21:08:33 | INFO: Blender create Mesh node 3336180ci510-interfaces-v5-64MB
+21:08:37 | INFO: Blender create Mesh node 3336180ci510-interfaces-v5-64MB
+21:08:41 | INFO: Blender create Mesh node MNT-PEB-CTF-PP12-WIDE
+21:08:41 | INFO: Blender create Mesh node PLT-MNT-6SL-PE-PP12
+21:08:41 | INFO: Blender create Mesh node PP-CPM-1001
+21:08:41 | INFO: Blender create Mesh node PP-CPM-1005
+21:08:41 | INFO: Blender create Mesh node MSP-CP-CP750E
+21:08:44 | INFO: glTF import finished in 10.85s
+C:\Projects\CAD\astra-engine-pump\tools\blender_validate.py:226: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+00:16.187  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v1\view_00.png'
+00:16.843  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v1\view_ALL_with_outliers.png'
+
+=== VALIDATION SUMMARY ===
+objects=53 triangles=1,077,512
+core size (m) = [2.065, 2.928, 4.744]
+all  size (m) = [2.065, 2.928, 124.932]
+missing roles: ['engine', 'pump', 'controller', 'bale', 'skid']
+  unclassified   objects=   53 tris=1,077,512
+OUTLIERS (1):
+       121.4 m  unclassified NAUO31
+renders -> C:\Projects\CAD\astra-engine-pump\reports\validate-v1
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

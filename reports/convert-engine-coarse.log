@@ -1,0 +1,26 @@
+[ ] import OCP ...
+[x] import OCP: 2.1s  rss=214MB peak=214MB
+[ ] STEP -> XCAF read+transfer ...
+[x] STEP -> XCAF read+transfer: 285.1s  rss=3091MB peak=3091MB
+[ ] walk XCAF tree ...
+[x] walk XCAF tree: 1.8s  rss=3091MB peak=3091MB
+
+== XCAF LEAF TOTALS ==
+{
+ "solids": 2,
+ "shells": 4824,
+ "faces": 82272,
+ "edges": 483999,
+ "shells_closed": 125,
+ "shells_open": 4699
+}
+[ ] tessellate lin=2.0 ang=35.0 ...
+[x] tessellate lin=2.0 ang=35.0: 14.6s  rss=3339MB peak=4990MB
+[ ] count triangles ...
+    triangles=2,275,074
+[x] count triangles: 0.4s  rss=3339MB peak=4990MB
+[ ] write GLB out/engine-original-coarse.glb ...
+[x] write GLB out/engine-original-coarse.glb: 8.2s  rss=3370MB peak=4990MB
+manifest -> reports/convert-engine-coarse.json
+
+DONE  in=473.8MB out=98.8MB tri=2,275,074 peak_rss=4990MB

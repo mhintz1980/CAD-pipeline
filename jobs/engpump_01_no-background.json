@@ -1,0 +1,90 @@
+{
+ "job_id": "engpump_01_no-background",
+ "package_model": "PP128_PP108_SKID",
+ "_description": "Engine and pump skid. Scene = out/engine-and-pump-v9.blend: full vendor engine (coarse build) + Vogelsang PP108C24 pump; PUMP PLACEMENT OWNER-CORRECTED 2026-09-18 04:17 (hand-moved in Blender GUI) - do not adjust or regenerate the scene from a GLB. See ASTRA-HANDOFF-2026-09-18.md incl. its late addendum. Transparent-film master cut-out.",
+ "cad_source": {
+  "file_path": "C:/Projects/CAD/astra-engine-pump/out/engine-and-pump-v9.blend",
+  "format": "blend",
+  "up_axis": "Z",
+  "unit_scale": 1.0
+ },
+ "camera": {
+  "preset": "CUSTOM",
+  "focal_length_mm": 85.0,
+  "elevation_deg": 14.0,
+  "azimuth_deg": 38.0,
+  "distance_multiplier": 5.2,
+  "target_offset": [
+   0.0,
+   0.0,
+   1.4
+  ],
+  "depth_of_field": {
+   "enabled": true,
+   "f_stop": 11.0,
+   "blades": 8
+  }
+ },
+ "geometry": {
+  "smooth_hardware": false,
+  "hide_misplaced_isolators": false
+ },
+ "livery": {
+  "preset": "preserve_existing"
+ },
+ "lighting": {
+  "preset": "studio_dark",
+  "intensity_multiplier": 1.0,
+  "analytic_lights": true,
+  "shadow_catcher": false,
+  "hdri_path": null
+ },
+ "photoreal": {
+  "enabled": true,
+  "bevel": {
+   "enabled": true,
+   "radius_m": 0.0004,
+   "samples": 4
+  },
+  "quality": {
+   "max_bounces": 8,
+   "diffuse_bounces": 3,
+   "glossy_bounces": 6,
+   "transmission_bounces": 6,
+   "transparent_bounces": 8,
+   "clamp_indirect": 10.0,
+   "blur_glossy": 1.0,
+   "light_tree": true,
+   "adaptive_sampling": true,
+   "adaptive_threshold": 0.02,
+   "caustics_reflective": false,
+   "caustics_refractive": false
+  }
+ },
+ "output": {
+  "width": 1800,
+  "height": 1250,
+  "samples": 96,
+  "engine": "CYCLES",
+  "denoiser": "OPENIMAGEDENOISE",
+  "color": {
+   "view_transform": "AgX",
+   "look": "AgX - Medium High Contrast",
+   "exposure": -0.2,
+   "gamma": 1.0
+  },
+  "passes": {
+   "beauty": true,
+   "alpha_mask": true,
+   "depth_map": true,
+   "surface_normals": false,
+   "contact_shadow": false
+  },
+  "output_dir": "./output/rl300_01_no-background"
+ },
+ "compositing": {
+  "enabled": false,
+  "background_plate": null,
+  "shadow_opacity": 0.85
+ }
+}

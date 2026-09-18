@@ -1,0 +1,2123 @@
+{
+ "input": "source/engine-and-pump.STEP",
+ "input_bytes": 194506148,
+ "lin_deflection": 0.5,
+ "ang_deflection_deg": 25.0,
+ "leaf_totals": {
+  "solids": 50,
+  "shells": 8213,
+  "faces": 15918,
+  "edges": 192986,
+  "shells_closed": 180,
+  "shells_open": 8033
+ },
+ "nodes": [
+  {
+   "depth": 0,
+   "name": "engine and pump",
+   "referred": null,
+   "is_assembly": true,
+   "parent": null,
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "depth": 1,
+   "name": "NAUO1",
+   "referred": "PP128-PP108-SKID",
+   "is_assembly": true,
+   "parent": "engine and pump",
+   "origin": [
+    -0.0,
+    -483.3914,
+    -0.0
+   ]
+  },
+  {
+   "depth": 2,
+   "name": "NAUO10",
+   "referred": "Part1^PP128-PP108-SKID",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -25.1777,
+    356.054,
+    1.9518
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 4,
+    "edges": 12,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     2279.493,
+     -137.265,
+     -990.6
+    ],
+    "max": [
+     2381.093,
+     -35.665,
+     990.6
+    ],
+    "size": [
+     101.6,
+     101.6,
+     1981.2
+    ],
+    "diag": 1986.403
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO11",
+   "referred": "PP-FBS",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    41.9304,
+    -358.6579,
+    1011.7278
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -2350.214,
+     171.91,
+     -0.0
+    ],
+    "max": [
+     -2146.119,
+     349.133,
+     9.525
+    ],
+    "size": [
+     204.095,
+     177.222,
+     9.525
+    ],
+    "diag": 270.469
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO12",
+   "referred": "PP-FBS",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    41.9304,
+    -358.6579,
+    -1021.2528
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -2350.214,
+     171.91,
+     -0.0
+    ],
+    "max": [
+     -2146.119,
+     349.133,
+     9.525
+    ],
+    "size": [
+     204.095,
+     177.222,
+     9.525
+    ],
+    "diag": 270.469
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO13",
+   "referred": "Part1^PP128-PP108-SKID",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    25.1777,
+    356.054,
+    1.9518
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 4,
+    "edges": 12,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     2279.493,
+     -137.265,
+     -990.6
+    ],
+    "max": [
+     2381.093,
+     -35.665,
+     990.6
+    ],
+    "size": [
+     101.6,
+     101.6,
+     1981.2
+    ],
+    "diag": 1986.403
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO14",
+   "referred": "PP-FBS",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -41.9304,
+    -358.6579,
+    -1011.7278
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -2350.214,
+     171.91,
+     -0.0
+    ],
+    "max": [
+     -2146.119,
+     349.133,
+     9.525
+    ],
+    "size": [
+     204.095,
+     177.222,
+     9.525
+    ],
+    "diag": 270.469
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO15",
+   "referred": "PP-FBS",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -41.9304,
+    -358.6579,
+    1021.2528
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -2350.214,
+     171.91,
+     -0.0
+    ],
+    "max": [
+     -2146.119,
+     349.133,
+     9.525
+    ],
+    "size": [
+     204.095,
+     177.222,
+     9.525
+    ],
+    "diag": 270.469
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO16",
+   "referred": "PP128S22-MFB",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    40.4656,
+    -372.0051,
+    482.685
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -2350.214,
+     171.478,
+     -0.0
+    ],
+    "max": [
+     -2222.317,
+     349.133,
+     9.525
+    ],
+    "size": [
+     127.896,
+     177.655,
+     9.525
+    ],
+    "diag": 219.111
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO17",
+   "referred": "PP-LBB",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    0.0,
+    -9.525,
+    893.2722
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 30,
+    "edges": 212,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -419.1,
+     -0.0,
+     -19.05
+    ],
+    "max": [
+     419.1,
+     190.5,
+     0.0
+    ],
+    "size": [
+     838.2,
+     190.5,
+     19.05
+    ],
+    "diag": 859.786
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO18",
+   "referred": "PP128S22-MFB",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    40.4656,
+    -372.0051,
+    -492.21
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -2350.214,
+     171.478,
+     -0.0
+    ],
+    "max": [
+     -2222.317,
+     349.133,
+     9.525
+    ],
+    "size": [
+     127.896,
+     177.655,
+     9.525
+    ],
+    "diag": 219.111
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO19",
+   "referred": "PP-LBB",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    0.0,
+    -9.525,
+    -874.2222
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 30,
+    "edges": 212,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -419.1,
+     -0.0,
+     -19.05
+    ],
+    "max": [
+     419.1,
+     190.5,
+     0.0
+    ],
+    "size": [
+     838.2,
+     190.5,
+     19.05
+    ],
+    "diag": 859.786
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO20",
+   "referred": "LBU-PP",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    0.0,
+    -0.0,
+    -861.5222
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 68,
+    "edges": 380,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -292.21,
+     -0.79,
+     -12.827
+    ],
+    "max": [
+     292.21,
+     2439.061,
+     139.7
+    ],
+    "size": [
+     584.419,
+     2439.851,
+     152.527
+    ],
+    "diag": 2513.5
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO21",
+   "referred": "LBU-PP",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    0.0,
+    -0.0,
+    861.5222
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 68,
+    "edges": 380,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -292.21,
+     -0.79,
+     -12.827
+    ],
+    "max": [
+     292.21,
+     2439.061,
+     139.7
+    ],
+    "size": [
+     584.419,
+     2439.851,
+     152.527
+    ],
+    "diag": 2513.5
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO22",
+   "referred": "LBA-CB",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -9.525,
+    -51.4606,
+    9.536
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 18,
+    "edges": 96,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -990.727,
+     2143.786,
+     -19.05
+    ],
+    "max": [
+     990.727,
+     2448.586,
+     0.0
+    ],
+    "size": [
+     1981.454,
+     304.8,
+     19.05
+    ],
+    "diag": 2004.851
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO23",
+   "referred": "LBS-LG",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -0.0,
+    452.1456,
+    -861.5222
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 12,
+    "edges": 60,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -268.568,
+     -139.7,
+     -0.0
+    ],
+    "max": [
+     268.568,
+     0.0,
+     9.525
+    ],
+    "size": [
+     537.136,
+     139.7,
+     9.525
+    ],
+    "diag": 555.087
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO24",
+   "referred": "LBS-SH",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -0.0,
+    1264.9456,
+    -861.5222
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 12,
+    "edges": 60,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -226.235,
+     -139.7,
+     -0.0
+    ],
+    "max": [
+     226.235,
+     0.0,
+     9.525
+    ],
+    "size": [
+     452.469,
+     139.7,
+     9.525
+    ],
+    "diag": 473.64
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO25",
+   "referred": "LBS-LG",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -0.0,
+    461.6706,
+    861.5222
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 12,
+    "edges": 60,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -268.568,
+     -139.7,
+     -0.0
+    ],
+    "max": [
+     268.568,
+     0.0,
+     9.525
+    ],
+    "size": [
+     537.136,
+     139.7,
+     9.525
+    ],
+    "diag": 555.087
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO26",
+   "referred": "LBS-SH",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -0.0,
+    1274.4706,
+    861.5222
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 12,
+    "edges": 60,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -226.235,
+     -139.7,
+     -0.0
+    ],
+    "max": [
+     226.235,
+     0.0,
+     9.525
+    ],
+    "size": [
+     452.469,
+     139.7,
+     9.525
+    ],
+    "diag": 473.64
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO27",
+   "referred": "PP128S22-MFB",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -40.4656,
+    -372.0051,
+    492.21
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -2350.214,
+     171.478,
+     -0.0
+    ],
+    "max": [
+     -2222.317,
+     349.133,
+     9.525
+    ],
+    "size": [
+     127.896,
+     177.655,
+     9.525
+    ],
+    "diag": 219.111
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO28",
+   "referred": "PP128S22-MFB",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -40.4656,
+    -372.0051,
+    -482.685
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -2350.214,
+     171.478,
+     -0.0
+    ],
+    "max": [
+     -2222.317,
+     349.133,
+     9.525
+    ],
+    "size": [
+     127.896,
+     177.655,
+     9.525
+    ],
+    "diag": 219.111
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO29",
+   "referred": "PP128-FTA",
+   "is_assembly": true,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    2.7928,
+    -168.275,
+    -59.2278
+   ]
+  },
+  {
+   "depth": 3,
+   "name": "NAUO39",
+   "referred": "PP-FTT",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -0.0,
+    -2127.25,
+    158.75
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 61,
+    "edges": 464,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -914.4,
+     -0.0,
+     -0.0
+    ],
+    "max": [
+     914.4,
+     4267.2,
+     9.525
+    ],
+    "size": [
+     1828.8,
+     4267.2,
+     9.525
+    ],
+    "diag": 4642.585
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO40",
+   "referred": "Copy of Copy of Part11^PP128-FTA",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    952.5,
+    2171.7,
+    152.4
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 22,
+    "edges": 88,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -1905.0,
+     -6.35,
+     -57.15
+    ],
+    "max": [
+     0.0,
+     311.15,
+     6.35
+    ],
+    "size": [
+     1905.0,
+     317.5,
+     63.5
+    ],
+    "diag": 1932.321
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO41",
+   "referred": "PP-FTS-1005",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    952.5,
+    0.0,
+    158.75
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 22,
+    "edges": 88,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -2178.05
+    ],
+    "max": [
+     63.5,
+     317.5,
+     2178.05
+    ],
+    "size": [
+     63.5,
+     317.5,
+     4356.1
+    ],
+    "diag": 4368.117
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO42",
+   "referred": "PP-FTS-1005",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -952.5,
+    -0.0,
+    158.75
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 22,
+    "edges": 88,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -2178.05
+    ],
+    "max": [
+     63.5,
+     317.5,
+     2178.05
+    ],
+    "size": [
+     63.5,
+     317.5,
+     4356.1
+    ],
+    "diag": 4368.117
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO43",
+   "referred": "Copy of Copy of Part11^PP128-FTA",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -952.5,
+    -2171.7,
+    152.4
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 22,
+    "edges": 88,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -1905.0,
+     -6.35,
+     -57.15
+    ],
+    "max": [
+     0.0,
+     311.15,
+     6.35
+    ],
+    "size": [
+     1905.0,
+     317.5,
+     63.5
+    ],
+    "diag": 1932.321
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO44",
+   "referred": "PP-FTT",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    0.0,
+    -2127.25,
+    -168.275
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 61,
+    "edges": 464,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -914.4,
+     -0.0,
+     -0.0
+    ],
+    "max": [
+     914.4,
+     4267.2,
+     9.525
+    ],
+    "size": [
+     1828.8,
+     4267.2,
+     9.525
+    ],
+    "diag": 4642.585
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO45",
+   "referred": "PP-FTS-1008",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -0.0,
+    1330.325,
+    6.35
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 130,
+    "edges": 640,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -942.975,
+     -152.4,
+     -3.175
+    ],
+    "max": [
+     942.975,
+     152.4,
+     47.625
+    ],
+    "size": [
+     1885.95,
+     304.8,
+     50.8
+    ],
+    "diag": 1911.097
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO46",
+   "referred": "PP-FTS-1008",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    0.0,
+    441.325,
+    6.35
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 130,
+    "edges": 640,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -942.975,
+     -152.4,
+     -3.175
+    ],
+    "max": [
+     942.975,
+     152.4,
+     47.625
+    ],
+    "size": [
+     1885.95,
+     304.8,
+     50.8
+    ],
+    "diag": 1911.097
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO47",
+   "referred": "PP-FTS-1008",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -0.0,
+    -1330.325,
+    6.35
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 130,
+    "edges": 640,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -942.975,
+     -152.4,
+     -3.175
+    ],
+    "max": [
+     942.975,
+     152.4,
+     47.625
+    ],
+    "size": [
+     1885.95,
+     304.8,
+     50.8
+    ],
+    "diag": 1911.097
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO48",
+   "referred": "PP-FTS-1008",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    0.0,
+    -441.325,
+    6.35
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 130,
+    "edges": 640,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -942.975,
+     -152.4,
+     -3.175
+    ],
+    "max": [
+     942.975,
+     152.4,
+     47.625
+    ],
+    "size": [
+     1885.95,
+     304.8,
+     50.8
+    ],
+    "diag": 1911.097
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO49",
+   "referred": "PP-FTS-1008",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -0.0,
+    -1330.325,
+    6.35
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 130,
+    "edges": 640,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -942.975,
+     -152.4,
+     -3.175
+    ],
+    "max": [
+     942.975,
+     152.4,
+     47.625
+    ],
+    "size": [
+     1885.95,
+     304.8,
+     50.8
+    ],
+    "diag": 1911.097
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO50",
+   "referred": "PP-FTS-1008",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    0.0,
+    -441.325,
+    6.35
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 130,
+    "edges": 640,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -942.975,
+     -152.4,
+     -3.175
+    ],
+    "max": [
+     942.975,
+     152.4,
+     47.625
+    ],
+    "size": [
+     1885.95,
+     304.8,
+     50.8
+    ],
+    "diag": 1911.097
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO51",
+   "referred": "MC6X18-SKE_MC6x18x57",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -965.2,
+    -1428.75,
+    -168.275
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 12,
+    "edges": 60,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -723.9
+    ],
+    "max": [
+     89.002,
+     152.4,
+     723.9
+    ],
+    "size": [
+     89.002,
+     152.4,
+     1447.8
+    ],
+    "diag": 1458.517
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO52",
+   "referred": "tube rectangular_ai_TR12x6x0.25x80",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -31.248,
+    -704.85,
+    -168.275
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 18,
+    "edges": 96,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -1016.0
+    ],
+    "max": [
+     152.4,
+     304.8,
+     1016.0
+    ],
+    "size": [
+     152.4,
+     304.8,
+     2032.0
+    ],
+    "diag": 2060.377
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO53",
+   "referred": "mc channel_ai_MC6x18x31.5",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -965.2,
+    -0.0,
+    -168.275
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 12,
+    "edges": 60,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -400.05
+    ],
+    "max": [
+     89.002,
+     152.4,
+     400.05
+    ],
+    "size": [
+     89.002,
+     152.4,
+     800.1
+    ],
+    "diag": 819.333
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO54",
+   "referred": "tube rectangular_ai_TR12x6x0.25x80",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -31.248,
+    704.85,
+    -168.275
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 18,
+    "edges": 96,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -1016.0
+    ],
+    "max": [
+     152.4,
+     304.8,
+     1016.0
+    ],
+    "size": [
+     152.4,
+     304.8,
+     2032.0
+    ],
+    "diag": 2060.377
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO55",
+   "referred": "MC6X18-SKE_MC6x18x57",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    965.2,
+    1428.75,
+    -168.275
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 12,
+    "edges": 60,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -723.9
+    ],
+    "max": [
+     89.002,
+     152.4,
+     723.9
+    ],
+    "size": [
+     89.002,
+     152.4,
+     1447.8
+    ],
+    "diag": 1458.517
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO56",
+   "referred": "MC6X18-SKE1_MC6x18x57",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    -965.2,
+    1428.75,
+    -168.275
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 12,
+    "edges": 60,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -723.9
+    ],
+    "max": [
+     89.002,
+     152.4,
+     723.9
+    ],
+    "size": [
+     89.002,
+     152.4,
+     1447.8
+    ],
+    "diag": 1458.517
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO57",
+   "referred": "MC6X18-SKE1_MC6x18x57",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    965.2,
+    -1428.75,
+    -168.275
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 12,
+    "edges": 60,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -723.9
+    ],
+    "max": [
+     89.002,
+     152.4,
+     723.9
+    ],
+    "size": [
+     89.002,
+     152.4,
+     1447.8
+    ],
+    "diag": 1458.517
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO58",
+   "referred": "mc channel_ai_MC6x18x31.5",
+   "is_assembly": false,
+   "parent": "PP128-FTA",
+   "origin": [
+    965.2,
+    -0.0,
+    -168.275
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 12,
+    "edges": 60,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -400.05
+    ],
+    "max": [
+     89.002,
+     152.4,
+     400.05
+    ],
+    "size": [
+     89.002,
+     152.4,
+     800.1
+    ],
+    "diag": 819.333
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO30",
+   "referred": "JD18-EMA",
+   "is_assembly": true,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    708.3123,
+    0.635,
+    -0.0
+   ]
+  },
+  {
+   "depth": 3,
+   "name": "NAUO32",
+   "referred": "PP12-EM-JD18",
+   "is_assembly": false,
+   "parent": "JD18-EMA",
+   "origin": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 62,
+    "edges": 328,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -1054.1,
+     -0.0,
+     -635.0
+    ],
+    "max": [
+     1054.1,
+     127.0,
+     635.0
+    ],
+    "size": [
+     2108.2,
+     127.0,
+     1270.0
+    ],
+    "diag": 2464.455
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO33",
+   "referred": "DOUBLER",
+   "is_assembly": false,
+   "parent": "JD18-EMA",
+   "origin": [
+    -1053.327,
+    8.89,
+    -387474.6976
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 22,
+    "edges": 120,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -91.26,
+     -9.525,
+     386763.498
+    ],
+    "max": [
+     99.24,
+     0.0,
+     388185.898
+    ],
+    "size": [
+     190.5,
+     9.525,
+     1422.4
+    ],
+    "diag": 1435.132
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO34",
+   "referred": "DOUBLER",
+   "is_assembly": false,
+   "parent": "JD18-EMA",
+   "origin": [
+    1053.327,
+    8.89,
+    387474.6976
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 22,
+    "edges": 120,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -91.26,
+     -9.525,
+     386763.498
+    ],
+    "max": [
+     99.24,
+     0.0,
+     388185.898
+    ],
+    "size": [
+     190.5,
+     9.525,
+     1422.4
+    ],
+    "diag": 1435.132
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO35",
+   "referred": "EM-SP",
+   "is_assembly": false,
+   "parent": "JD18-EMA",
+   "origin": [
+    -0.0,
+    -0.0,
+    448.1347
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -1044.575,
+     -0.0,
+     -9.525
+    ],
+    "max": [
+     1044.575,
+     117.475,
+     0.0
+    ],
+    "size": [
+     2089.15,
+     117.475,
+     9.525
+    ],
+    "diag": 2092.472
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO36",
+   "referred": "EM-SP",
+   "is_assembly": false,
+   "parent": "JD18-EMA",
+   "origin": [
+    -0.0,
+    -0.0,
+    171.5124
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -1044.575,
+     -0.0,
+     -9.525
+    ],
+    "max": [
+     1044.575,
+     117.475,
+     0.0
+    ],
+    "size": [
+     2089.15,
+     117.475,
+     9.525
+    ],
+    "diag": 2092.472
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO37",
+   "referred": "EM-SP",
+   "is_assembly": false,
+   "parent": "JD18-EMA",
+   "origin": [
+    -0.0,
+    -0.0,
+    -438.6097
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -1044.575,
+     -0.0,
+     -9.525
+    ],
+    "max": [
+     1044.575,
+     117.475,
+     0.0
+    ],
+    "size": [
+     2089.15,
+     117.475,
+     9.525
+    ],
+    "diag": 2092.472
+   }
+  },
+  {
+   "depth": 3,
+   "name": "NAUO38",
+   "referred": "EM-SP",
+   "is_assembly": false,
+   "parent": "JD18-EMA",
+   "origin": [
+    -0.0,
+    -0.0,
+    -161.9874
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 10,
+    "edges": 48,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -1044.575,
+     -0.0,
+     -9.525
+    ],
+    "max": [
+     1044.575,
+     117.475,
+     0.0
+    ],
+    "size": [
+     2089.15,
+     117.475,
+     9.525
+    ],
+    "diag": 2092.472
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO31",
+   "referred": "3336180ci510-interfaces-v5-64MB",
+   "is_assembly": false,
+   "parent": "PP128-PP108-SKID",
+   "origin": [
+    -122210.2532,
+    601.3211,
+    0.0
+   ],
+   "census": {
+    "solids": 0,
+    "shells": 4012,
+    "faces": 4023,
+    "edges": 75334,
+    "shells_closed": 0,
+    "shells_open": 4012
+   },
+   "bbox_local": {
+    "min": [
+     -819.784,
+     -473.655,
+     -349.825
+    ],
+    "max": [
+     821.819,
+     1587.795,
+     1893.2
+    ],
+    "size": [
+     1641.602,
+     2061.449,
+     2243.025
+    ],
+    "diag": 3460.577
+   }
+  },
+  {
+   "depth": 1,
+   "name": "NAUO2",
+   "referred": "3336180ci510-interfaces-v5-64MB",
+   "is_assembly": false,
+   "parent": "engine and pump",
+   "origin": [
+    -0.0,
+    127.0,
+    -159.2926
+   ],
+   "census": {
+    "solids": 0,
+    "shells": 4012,
+    "faces": 4023,
+    "edges": 75334,
+    "shells_closed": 0,
+    "shells_open": 4012
+   },
+   "bbox_local": {
+    "min": [
+     -819.784,
+     -473.655,
+     -349.825
+    ],
+    "max": [
+     821.819,
+     1587.795,
+     1893.2
+    ],
+    "size": [
+     1641.602,
+     2061.449,
+     2243.025
+    ],
+    "diag": 3460.577
+   }
+  },
+  {
+   "depth": 1,
+   "name": "NAUO3",
+   "referred": "MNT-PEA-CTF-PP12-WIDE",
+   "is_assembly": true,
+   "parent": "engine and pump",
+   "origin": [
+    0.0,
+    -466.725,
+    -1024.8057
+   ]
+  },
+  {
+   "depth": 2,
+   "name": "NAUO8",
+   "referred": "MNT-PEB-CTF-PP12-WIDE",
+   "is_assembly": false,
+   "parent": "MNT-PEA-CTF-PP12-WIDE",
+   "origin": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 49,
+    "edges": 256,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -92.075,
+     -7.62,
+     -449.986
+    ],
+    "max": [
+     92.075,
+     85.725,
+     449.986
+    ],
+    "size": [
+     184.15,
+     93.345,
+     899.973
+    ],
+    "diag": 923.35
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO9",
+   "referred": "PLT-MNT-6SL-PE-PP12",
+   "is_assembly": false,
+   "parent": "MNT-PEA-CTF-PP12-WIDE",
+   "origin": [
+    125.4125,
+    -9.525,
+    488.95
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 34,
+    "edges": 192,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -0.0,
+     -249.238
+    ],
+    "max": [
+     977.9,
+     9.525,
+     -1.587
+    ],
+    "size": [
+     977.9,
+     9.525,
+     247.65
+    ],
+    "diag": 1008.816
+   }
+  },
+  {
+   "depth": 1,
+   "name": "NAUO4",
+   "referred": "CPM-PP-JD18",
+   "is_assembly": true,
+   "parent": "engine and pump",
+   "origin": [
+    340.0321,
+    -673.7474,
+    1318.5009
+   ]
+  },
+  {
+   "depth": 2,
+   "name": "NAUO5",
+   "referred": "PP-CPM-1001",
+   "is_assembly": false,
+   "parent": "CPM-PP-JD18",
+   "origin": [
+    960.4321,
+    902.322,
+    943.7465
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 77,
+    "edges": 456,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -6.35,
+     -6.35,
+     -107.95
+    ],
+    "max": [
+     103.823,
+     213.36,
+     152.4
+    ],
+    "size": [
+     110.173,
+     219.71,
+     260.35
+    ],
+    "diag": 358.04
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO6",
+   "referred": "PP-CPM-1005",
+   "is_assembly": false,
+   "parent": "CPM-PP-JD18",
+   "origin": [
+    954.0821,
+    -0.0,
+    41.3674
+   ],
+   "census": {
+    "solids": 1,
+    "shells": 1,
+    "faces": 32,
+    "edges": 168,
+    "shells_closed": 1,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -1127.055,
+     937.266,
+     -6.35
+    ],
+    "max": [
+     -1003.979,
+     1116.25,
+     19.569
+    ],
+    "size": [
+     123.076,
+     178.985,
+     25.919
+    ],
+    "diag": 218.758
+   }
+  },
+  {
+   "depth": 2,
+   "name": "NAUO7",
+   "referred": "MSP-CP-CP750E",
+   "is_assembly": false,
+   "parent": "CPM-PP-JD18",
+   "origin": [
+    986.0751,
+    1054.879,
+    919.6323
+   ],
+   "census": {
+    "solids": 0,
+    "shells": 139,
+    "faces": 6086,
+    "edges": 32886,
+    "shells_closed": 130,
+    "shells_open": 9
+   },
+   "bbox_local": {
+    "min": [
+     -134.057,
+     -166.503,
+     -64.168
+    ],
+    "max": [
+     142.149,
+     137.193,
+     185.729
+    ],
+    "size": [
+     276.206,
+     303.695,
+     249.896
+    ],
+    "diag": 480.592
+   }
+  }
+ ],
+ "phases": [
+  {
+   "phase": "import OCP",
+   "sec": 1.58,
+   "rss_mb": 214,
+   "peak_mb": 214
+  },
+  {
+   "phase": "STEP -> XCAF read+transfer",
+   "sec": 115.31,
+   "rss_mb": 1015,
+   "peak_mb": 1075
+  },
+  {
+   "phase": "walk XCAF tree",
+   "sec": 1.28,
+   "rss_mb": 1015,
+   "peak_mb": 1075
+  }
+ ],
+ "peak_rss_mb": 1075
+}

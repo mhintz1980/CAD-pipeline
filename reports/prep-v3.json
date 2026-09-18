@@ -1,0 +1,62 @@
+{
+ "input": "out/engine-and-pump-v3.glb",
+ "steps": [
+  {
+   "step": "import",
+   "objects": 53,
+   "triangles": 1077512
+  },
+  {
+   "step": "collections",
+   "bale": 9,
+   "controller": 3,
+   "engine": 7,
+   "pump": 20,
+   "skid": 14
+  },
+  {
+   "step": "quarantine_outliers",
+   "count": 1,
+   "hidden": true,
+   "worst_m": 121.4
+  },
+  {
+   "step": "normals_weld_cleanup",
+   "verts_welded": 136324,
+   "faces_removed": 1063,
+   "sharp_edges": 483344,
+   "smooth_polys": 690377,
+   "smooth_deg": 30.0
+  },
+  {
+   "step": "after_cleanup",
+   "triangles": 690377
+  },
+  {
+   "step": "decimate",
+   "skipped": true,
+   "triangles": 690377,
+   "budget": 4000000
+  },
+  {
+   "step": "materials",
+   "assigned": 52,
+   "palette": 6
+  },
+  {
+   "step": "saved",
+   "path": "out/engine-and-pump.blend",
+   "mb": 29.5
+  }
+ ],
+ "outliers": [
+  {
+   "name": "3336180ci510-interfaces-v5-64MB",
+   "role": "engine",
+   "dist_m": 121.45
+  }
+ ],
+ "output": "out/engine-and-pump.blend",
+ "output_bytes": 29470556,
+ "triangles_final_pre_modifier": 690377
+}

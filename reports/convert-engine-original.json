@@ -1,0 +1,146 @@
+{
+ "input": "C:/Projects/Misc/3336180ci510.stp",
+ "input_bytes": 473761452,
+ "lin_deflection": 0.5,
+ "ang_deflection_deg": 20.0,
+ "leaf_totals": {
+  "solids": 2,
+  "shells": 4824,
+  "faces": 82272,
+  "edges": 483999,
+  "shells_closed": 125,
+  "shells_open": 4699
+ },
+ "nodes": [
+  {
+   "depth": 0,
+   "name": "3336180CI510",
+   "referred": null,
+   "is_assembly": true,
+   "parent": null,
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "depth": 1,
+   "name": "=>[0:1:1:2]",
+   "referred": "COMPOUND",
+   "is_assembly": false,
+   "parent": "3336180CI510",
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "census": {
+    "solids": 2,
+    "shells": 2,
+    "faces": 8,
+    "edges": 32,
+    "shells_closed": 2,
+    "shells_open": 0
+   },
+   "bbox_local": {
+    "min": [
+     -278.2,
+     271.185,
+     -101.123
+    ],
+    "max": [
+     26.15,
+     861.601,
+     655.262
+    ],
+    "size": [
+     304.35,
+     590.416,
+     756.385
+    ],
+    "diag": 1006.647
+   }
+  },
+  {
+   "depth": 1,
+   "name": "=>[0:1:1:3]",
+   "referred": "COMPOUND",
+   "is_assembly": false,
+   "parent": "3336180CI510",
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "census": {
+    "solids": 0,
+    "shells": 4822,
+    "faces": 82264,
+    "edges": 483967,
+    "shells_closed": 123,
+    "shells_open": 4699
+   },
+   "bbox_local": {
+    "min": [
+     -837.592,
+     -479.081,
+     -364.96
+    ],
+    "max": [
+     841.374,
+     1595.142,
+     1910.83
+    ],
+    "size": [
+     1678.966,
+     2074.223,
+     2275.79
+    ],
+    "diag": 3507.214
+   }
+  }
+ ],
+ "output": "out/engine-original.glb",
+ "output_bytes": 151093880,
+ "triangles": 4537176,
+ "phases": [
+  {
+   "phase": "import OCP",
+   "sec": 1.34,
+   "rss_mb": 214,
+   "peak_mb": 214
+  },
+  {
+   "phase": "STEP -> XCAF read+transfer",
+   "sec": 338.72,
+   "rss_mb": 3092,
+   "peak_mb": 3092
+  },
+  {
+   "phase": "walk XCAF tree",
+   "sec": 3.02,
+   "rss_mb": 3092,
+   "peak_mb": 3092
+  },
+  {
+   "phase": "tessellate lin=0.5 ang=20.0",
+   "sec": 29.8,
+   "rss_mb": 3442,
+   "peak_mb": 5269
+  },
+  {
+   "phase": "count triangles",
+   "sec": 0.91,
+   "rss_mb": 3442,
+   "peak_mb": 5269
+  },
+  {
+   "phase": "write GLB out/engine-original.glb",
+   "sec": 18.85,
+   "rss_mb": 3479,
+   "peak_mb": 5269
+  }
+ ],
+ "peak_rss_mb": 5269
+}

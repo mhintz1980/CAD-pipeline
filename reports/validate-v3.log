@@ -1,0 +1,85 @@
+addon_utils.disable: bl_ext.lab_blender_org.mcp not enabled
+21:16:23 | INFO: Data are loaded, start creating Blender stuff
+21:16:23 | INFO: Blender create Mesh node Part1^PP128-PP108-SKID
+21:16:23 | INFO: Blender create Mesh node PP-FBS
+21:16:23 | INFO: Blender create Mesh node PP-FBS
+21:16:23 | INFO: Blender create Mesh node Part1^PP128-PP108-SKID
+21:16:23 | INFO: Blender create Mesh node PP-FBS
+21:16:23 | INFO: Blender create Mesh node PP-FBS
+21:16:23 | INFO: Blender create Mesh node PP128S22-MFB
+21:16:23 | INFO: Blender create Mesh node PP-LBB
+21:16:23 | INFO: Blender create Mesh node PP128S22-MFB
+21:16:23 | INFO: Blender create Mesh node PP-LBB
+21:16:23 | INFO: Blender create Mesh node LBU-PP
+21:16:23 | INFO: Blender create Mesh node LBU-PP
+21:16:23 | INFO: Blender create Mesh node LBA-CB
+21:16:23 | INFO: Blender create Mesh node LBS-LG
+21:16:23 | INFO: Blender create Mesh node LBS-SH
+21:16:23 | INFO: Blender create Mesh node LBS-LG
+21:16:23 | INFO: Blender create Mesh node LBS-SH
+21:16:23 | INFO: Blender create Mesh node PP128S22-MFB
+21:16:23 | INFO: Blender create Mesh node PP128S22-MFB
+21:16:23 | INFO: Blender create Mesh node PP-FTT
+21:16:23 | INFO: Blender create Mesh node Copy of Copy of Part11^PP128-FTA
+21:16:23 | INFO: Blender create Mesh node PP-FTS-1005
+21:16:23 | INFO: Blender create Mesh node PP-FTS-1005
+21:16:23 | INFO: Blender create Mesh node Copy of Copy of Part11^PP128-FTA
+21:16:23 | INFO: Blender create Mesh node PP-FTT
+21:16:23 | INFO: Blender create Mesh node PP-FTS-1008
+21:16:23 | INFO: Blender create Mesh node PP-FTS-1008
+21:16:23 | INFO: Blender create Mesh node PP-FTS-1008
+21:16:23 | INFO: Blender create Mesh node PP-FTS-1008
+21:16:23 | INFO: Blender create Mesh node PP-FTS-1008
+21:16:23 | INFO: Blender create Mesh node PP-FTS-1008
+21:16:23 | INFO: Blender create Mesh node MC6X18-SKE_MC6x18x57
+21:16:23 | INFO: Blender create Mesh node tube rectangular_ai_TR12x6x0.25x80
+21:16:23 | INFO: Blender create Mesh node mc channel_ai_MC6x18x31.5
+21:16:23 | INFO: Blender create Mesh node tube rectangular_ai_TR12x6x0.25x80
+21:16:23 | INFO: Blender create Mesh node MC6X18-SKE_MC6x18x57
+21:16:23 | INFO: Blender create Mesh node MC6X18-SKE1_MC6x18x57
+21:16:23 | INFO: Blender create Mesh node MC6X18-SKE1_MC6x18x57
+21:16:23 | INFO: Blender create Mesh node mc channel_ai_MC6x18x31.5
+21:16:23 | INFO: Blender create Mesh node PP12-EM-JD18
+21:16:23 | INFO: Blender create Mesh node DOUBLER
+21:16:23 | INFO: Blender create Mesh node DOUBLER
+21:16:23 | INFO: Blender create Mesh node EM-SP
+21:16:23 | INFO: Blender create Mesh node EM-SP
+21:16:23 | INFO: Blender create Mesh node EM-SP
+21:16:23 | INFO: Blender create Mesh node EM-SP
+21:16:23 | INFO: Blender create Mesh node 3336180ci510-interfaces-v5-64MB
+21:16:33 | INFO: Blender create Mesh node 3336180ci510-interfaces-v5-64MB
+21:16:46 | INFO: Blender create Mesh node MNT-PEB-CTF-PP12-WIDE
+21:16:46 | INFO: Blender create Mesh node PLT-MNT-6SL-PE-PP12
+21:16:46 | INFO: Blender create Mesh node PP-CPM-1001
+21:16:46 | INFO: Blender create Mesh node PP-CPM-1005
+21:16:46 | INFO: Blender create Mesh node MSP-CP-CP750E
+21:17:01 | INFO: glTF import finished in 37.93s
+C:\Projects\CAD\astra-engine-pump\tools\blender_validate.py:226: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+00:48.750  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v3\view_00.png'
+00:51.266  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v3\view_01.png'
+00:53.657  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v3\view_02.png'
+00:56.032  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v3\view_03.png'
+00:57.735  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v3\view_ALL_with_outliers.png'
+01:00.875  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v3\isolate_engine.png'
+01:02.703  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v3\isolate_pump.png'
+01:05.000  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v3\isolate_controller.png'
+01:06.953  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v3\isolate_bale.png'
+01:08.828  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-v3\isolate_skid.png'
+
+=== VALIDATION SUMMARY ===
+objects=53 triangles=1,077,512
+core size (m) = [2.065, 4.744, 2.928]
+all  size (m) = [2.065, 124.932, 2.928]
+missing roles: none
+  bale           objects=    9 tris=11,152
+  controller     objects=    3 tris=259,148
+  engine         objects=    7 tris=773,972
+  pump           objects=   20 tris=29,200
+  skid           objects=   14 tris=4,040
+OUTLIERS (1):
+       121.4 m  engine       3336180ci510-interfaces-v5-64MB
+renders -> C:\Projects\CAD\astra-engine-pump\reports\validate-v3
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

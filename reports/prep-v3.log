@@ -1,0 +1,70 @@
+addon_utils.disable: bl_ext.lab_blender_org.mcp not enabled
+21:48:53 | INFO: Data are loaded, start creating Blender stuff
+21:48:53 | INFO: Blender create Mesh node Part1^PP128-PP108-SKID
+21:48:53 | INFO: Blender create Mesh node PP-FBS
+21:48:53 | INFO: Blender create Mesh node PP-FBS
+21:48:53 | INFO: Blender create Mesh node Part1^PP128-PP108-SKID
+21:48:53 | INFO: Blender create Mesh node PP-FBS
+21:48:53 | INFO: Blender create Mesh node PP-FBS
+21:48:53 | INFO: Blender create Mesh node PP128S22-MFB
+21:48:53 | INFO: Blender create Mesh node PP-LBB
+21:48:53 | INFO: Blender create Mesh node PP128S22-MFB
+21:48:53 | INFO: Blender create Mesh node PP-LBB
+21:48:53 | INFO: Blender create Mesh node LBU-PP
+21:48:53 | INFO: Blender create Mesh node LBU-PP
+21:48:53 | INFO: Blender create Mesh node LBA-CB
+21:48:53 | INFO: Blender create Mesh node LBS-LG
+21:48:53 | INFO: Blender create Mesh node LBS-SH
+21:48:53 | INFO: Blender create Mesh node LBS-LG
+21:48:53 | INFO: Blender create Mesh node LBS-SH
+21:48:53 | INFO: Blender create Mesh node PP128S22-MFB
+21:48:53 | INFO: Blender create Mesh node PP128S22-MFB
+21:48:53 | INFO: Blender create Mesh node PP-FTT
+21:48:53 | INFO: Blender create Mesh node Copy of Copy of Part11^PP128-FTA
+21:48:53 | INFO: Blender create Mesh node PP-FTS-1005
+21:48:53 | INFO: Blender create Mesh node PP-FTS-1005
+21:48:53 | INFO: Blender create Mesh node Copy of Copy of Part11^PP128-FTA
+21:48:53 | INFO: Blender create Mesh node PP-FTT
+21:48:53 | INFO: Blender create Mesh node PP-FTS-1008
+21:48:53 | INFO: Blender create Mesh node PP-FTS-1008
+21:48:53 | INFO: Blender create Mesh node PP-FTS-1008
+21:48:53 | INFO: Blender create Mesh node PP-FTS-1008
+21:48:53 | INFO: Blender create Mesh node PP-FTS-1008
+21:48:53 | INFO: Blender create Mesh node PP-FTS-1008
+21:48:53 | INFO: Blender create Mesh node MC6X18-SKE_MC6x18x57
+21:48:53 | INFO: Blender create Mesh node tube rectangular_ai_TR12x6x0.25x80
+21:48:53 | INFO: Blender create Mesh node mc channel_ai_MC6x18x31.5
+21:48:53 | INFO: Blender create Mesh node tube rectangular_ai_TR12x6x0.25x80
+21:48:53 | INFO: Blender create Mesh node MC6X18-SKE_MC6x18x57
+21:48:53 | INFO: Blender create Mesh node MC6X18-SKE1_MC6x18x57
+21:48:53 | INFO: Blender create Mesh node MC6X18-SKE1_MC6x18x57
+21:48:53 | INFO: Blender create Mesh node mc channel_ai_MC6x18x31.5
+21:48:53 | INFO: Blender create Mesh node PP12-EM-JD18
+21:48:53 | INFO: Blender create Mesh node DOUBLER
+21:48:53 | INFO: Blender create Mesh node DOUBLER
+21:48:53 | INFO: Blender create Mesh node EM-SP
+21:48:53 | INFO: Blender create Mesh node EM-SP
+21:48:53 | INFO: Blender create Mesh node EM-SP
+21:48:53 | INFO: Blender create Mesh node EM-SP
+21:48:53 | INFO: Blender create Mesh node 3336180ci510-interfaces-v5-64MB
+21:48:57 | INFO: Blender create Mesh node 3336180ci510-interfaces-v5-64MB
+21:49:01 | INFO: Blender create Mesh node MNT-PEB-CTF-PP12-WIDE
+21:49:01 | INFO: Blender create Mesh node PLT-MNT-6SL-PE-PP12
+21:49:01 | INFO: Blender create Mesh node PP-CPM-1001
+21:49:01 | INFO: Blender create Mesh node PP-CPM-1005
+21:49:01 | INFO: Blender create Mesh node MSP-CP-CP750E
+21:49:04 | INFO: glTF import finished in 10.77s
+C:\Projects\CAD\astra-engine-pump\tools\blender_prepare_assembly.py:262: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+[import] objects=53  triangles=1077512
+[collections] bale=9  controller=3  engine=7  pump=20  skid=14
+[quarantine_outliers] count=1  hidden=True  worst_m=121.4
+[normals_weld_cleanup] verts_welded=136324  faces_removed=1063  sharp_edges=483344  smooth_polys=690377  smooth_deg=30.0
+[after_cleanup] triangles=690377
+[decimate] skipped=True  triangles=690377  budget=4000000
+[materials] assigned=52  palette=6
+Info: Saved as "engine-and-pump.blend"
+[saved] path=out/engine-and-pump.blend  mb=29.5
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

@@ -1,0 +1,21 @@
+# ---- proprietary customer / vendor CAD ----
+# Never commit source CAD. It is the customer's data, it is large, and it is
+# copied here read-only purely as a working input.
+source/
+
+# ---- derived binaries ----
+# Blend/GLB outputs are regenerable from source/ via tools/*.py, and several
+# exceed GitHub's 100 MB per-file hard limit (the vendored engine alone is
+# 144 MB). The scene lineage is documented in ASTRA-HANDOFF-*.md instead.
+out/
+*.blend1
+
+# ---- generated renders ----
+# Regenerable with tools/render_v*.py. Kept out so the repo stays small.
+reports/views/
+reports/validate-*/
+
+# ---- local environment ----
+.venv/
+__pycache__/
+*.pyc

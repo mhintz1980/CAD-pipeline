@@ -1,0 +1,2504 @@
+{
+ "file": "source/engine-and-pump.STEP",
+ "units": "( CONVERSION_BASED_UNIT ( 'INCH', #1039249 ) LENGTH_UNIT ( ) NAMED_UNIT ( #264298 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1070533 ) LENGTH_UNIT ( ) NAMED_UNIT ( #1055116 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #11525 ) LENGTH_UNIT ( ) NAMED_UNIT ( #1377588 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #115758 ) LENGTH_UNIT ( ) NAMED_UNIT ( #914141 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1164365 ) LENGTH_UNIT ( ) NAMED_UNIT ( #1044049 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1183080 ) LENGTH_UNIT ( ) NAMED_UNIT ( #1247640 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1235196 ) LENGTH_UNIT ( ) NAMED_UNIT ( #665407 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1243774 ) LENGTH_UNIT ( ) NAMED_UNIT ( #980863 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1260275 ) LENGTH_UNIT ( ) NAMED_UNIT ( #89231 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1264630 ) LENGTH_UNIT ( ) NAMED_UNIT ( #219163 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1302251 ) LENGTH_UNIT ( ) NAMED_UNIT ( #709922 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1335349 ) LENGTH_UNIT ( ) NAMED_UNIT ( #1637545 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1464733 ) LENGTH_UNIT ( ) NAMED_UNIT ( #427662 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1571027 ) LENGTH_UNIT ( ) NAMED_UNIT ( #727826 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1608657 ) LENGTH_UNIT ( ) NAMED_UNIT ( #308795 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1616760 ) LENGTH_UNIT ( ) NAMED_UNIT ( #349079 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1616986 ) LENGTH_UNIT ( ) NAMED_UNIT ( #1388778 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #1673153 ) LENGTH_UNIT ( ) NAMED_UNIT ( #1433927 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #278455 ) LENGTH_UNIT ( ) NAMED_UNIT ( #738972 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #32261 ) LENGTH_UNIT ( ) NAMED_UNIT ( #750113 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #447227 ) LENGTH_UNIT ( ) NAMED_UNIT ( #1173973 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #455541 ) LENGTH_UNIT ( ) NAMED_UNIT ( #26701 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #455791 ) LENGTH_UNIT ( ) NAMED_UNIT ( #286559 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #480546 ) LENGTH_UNIT ( ) NAMED_UNIT ( #479096 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #599383 ) LENGTH_UNIT ( ) NAMED_UNIT ( #1304066 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #65632 ) LENGTH_UNIT ( ) NAMED_UNIT ( #880075 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #691212 ) LENGTH_UNIT ( ) NAMED_UNIT ( #795409 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #791304 ) LENGTH_UNIT ( ) NAMED_UNIT ( #925238 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #870609 ) LENGTH_UNIT ( ) NAMED_UNIT ( #1478432 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #912077 ) LENGTH_UNIT ( ) NAMED_UNIT ( #597948 ) )/( CONVERSION_BASED_UNIT ( 'INCH', #937089 ) LENGTH_UNIT ( ) NAMED_UNIT ( #609120 ) ) (conversion factor to mm = 0.0254)",
+ "entities": 477316,
+ "points": 1162065,
+ "products": [
+  {
+   "name": "3336180ci510-interfaces-v5-64MB",
+   "census": {
+    "SHELL_BASED_SURFACE_MODEL": 1,
+    "OPEN_SHELL": 4012,
+    "ADVANCED_FACE": 4023,
+    "CYLINDRICAL_SURFACE": 2700,
+    "PLANE": 1323
+   },
+   "bbox_local": {
+    "min": [
+     -53.4744,
+     -43.5245,
+     -544.9536
+    ],
+    "max": [
+     35.9736,
+     64.5982,
+     143.1144
+    ],
+    "size": [
+     89.4481,
+     108.1227,
+     688.068
+    ],
+    "diag": 702.232,
+    "robust_min": [
+     -29.7023,
+     -16.0905,
+     -9.5752
+    ],
+    "robust_max": [
+     29.8882,
+     58.1049,
+     74.0995
+    ],
+    "robust_diag": 126.718,
+    "n_points": 1069709
+   },
+   "verdict": "INTERFACE_HUSK (loose faces - NOT visually complete)"
+  },
+  {
+   "name": "Copy of Copy of Part11^PP128-FTA",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 22,
+    "PLANE": 18,
+    "CYLINDRICAL_SURFACE": 4
+   },
+   "bbox_local": {
+    "min": [
+     -75.0,
+     -0.25,
+     -2.25
+    ],
+    "max": [
+     0.0,
+     12.25,
+     0.25
+    ],
+    "size": [
+     75.0,
+     12.5,
+     2.5
+    ],
+    "diag": 76.076,
+    "robust_min": [
+     -75.0,
+     -0.25,
+     -2.25
+    ],
+    "robust_max": [
+     0.0,
+     12.25,
+     0.25
+    ],
+    "robust_diag": 76.076,
+    "n_points": 91
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "CPM-PP-JD18",
+   "census": {},
+   "bbox_local": {
+    "min": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "max": [
+     38.8219,
+     41.5307,
+     37.1554
+    ],
+    "size": [
+     38.8219,
+     41.5307,
+     37.1554
+    ],
+    "diag": 67.915,
+    "robust_min": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "robust_max": [
+     38.8219,
+     41.5307,
+     37.1554
+    ],
+    "robust_diag": 67.915,
+    "n_points": 4
+   },
+   "verdict": "NO_GEOMETRY (assembly node or empty)"
+  },
+  {
+   "name": "DOUBLER",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 22,
+    "CYLINDRICAL_SURFACE": 4,
+    "PLANE": 18
+   },
+   "bbox_local": {
+    "min": [
+     -3.5929,
+     -0.375,
+     -0.0
+    ],
+    "max": [
+     3.9071,
+     0.0,
+     15282.9094
+    ],
+    "size": [
+     7.5,
+     0.375,
+     15282.9094
+    ],
+    "diag": 15282.911,
+    "robust_min": [
+     -3.5929,
+     -0.375,
+     0.0
+    ],
+    "robust_max": [
+     3.9071,
+     0.0,
+     15282.9094
+    ],
+    "robust_diag": 15282.911,
+    "n_points": 123
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "EM-SP",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 10,
+    "PLANE": 6,
+    "CYLINDRICAL_SURFACE": 4
+   },
+   "bbox_local": {
+    "min": [
+     -41.125,
+     -0.0,
+     -0.375
+    ],
+    "max": [
+     41.125,
+     4.625,
+     0.0
+    ],
+    "size": [
+     82.25,
+     4.625,
+     0.375
+    ],
+    "diag": 82.381,
+    "robust_min": [
+     -41.125,
+     -0.0,
+     -0.375
+    ],
+    "robust_max": [
+     41.125,
+     4.625,
+     0.0
+    ],
+    "robust_diag": 82.381,
+    "n_points": 51
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "engine and pump",
+   "census": {},
+   "bbox_local": {
+    "min": [
+     -0.0,
+     -26.5255,
+     -40.3467
+    ],
+    "max": [
+     13.3871,
+     5.0,
+     51.9095
+    ],
+    "size": [
+     13.3871,
+     31.5255,
+     92.2562
+    ],
+    "diag": 98.409,
+    "robust_min": [
+     -0.0,
+     -26.5255,
+     -40.3467
+    ],
+    "robust_max": [
+     13.3871,
+     5.0,
+     51.9095
+    ],
+    "robust_diag": 98.409,
+    "n_points": 5
+   },
+   "verdict": "NO_GEOMETRY (assembly node or empty)"
+  },
+  {
+   "name": "JD18-EMA",
+   "census": {},
+   "bbox_local": {
+    "min": [
+     -41.4696,
+     0.0,
+     -15254.9094
+    ],
+    "max": [
+     41.4696,
+     0.35,
+     15254.9094
+    ],
+    "size": [
+     82.9391,
+     0.35,
+     30509.8187
+    ],
+    "diag": 30509.931,
+    "robust_min": [
+     -41.4696,
+     0.0,
+     -15254.9094
+    ],
+    "robust_max": [
+     41.4696,
+     0.35,
+     15254.9094
+    ],
+    "robust_diag": 30509.931,
+    "n_points": 8
+   },
+   "verdict": "NO_GEOMETRY (assembly node or empty)"
+  },
+  {
+   "name": "LBA-CB",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 18,
+    "CYLINDRICAL_SURFACE": 8,
+    "PLANE": 10
+   },
+   "bbox_local": {
+    "min": [
+     -39.005,
+     0.0,
+     -0.75
+    ],
+    "max": [
+     39.005,
+     96.401,
+     0.0
+    ],
+    "size": [
+     78.01,
+     96.401,
+     0.75
+    ],
+    "diag": 124.013,
+    "robust_min": [
+     -39.005,
+     0.0,
+     -0.75
+    ],
+    "robust_max": [
+     39.005,
+     96.401,
+     0.0
+    ],
+    "robust_diag": 124.013,
+    "n_points": 99
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "LBS-LG",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 12,
+    "PLANE": 10,
+    "CYLINDRICAL_SURFACE": 2
+   },
+   "bbox_local": {
+    "min": [
+     -10.5735,
+     -5.5,
+     0.0
+    ],
+    "max": [
+     10.5735,
+     0.0,
+     0.375
+    ],
+    "size": [
+     21.1471,
+     5.5,
+     0.375
+    ],
+    "diag": 21.854,
+    "robust_min": [
+     -10.5735,
+     -5.5,
+     0.0
+    ],
+    "robust_max": [
+     10.5735,
+     0.0,
+     0.375
+    ],
+    "robust_diag": 21.854,
+    "n_points": 63
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "LBS-SH",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 12,
+    "PLANE": 10,
+    "CYLINDRICAL_SURFACE": 2
+   },
+   "bbox_local": {
+    "min": [
+     -8.9069,
+     -5.5,
+     0.0
+    ],
+    "max": [
+     8.9069,
+     0.0,
+     0.375
+    ],
+    "size": [
+     17.8138,
+     5.5,
+     0.375
+    ],
+    "diag": 18.647,
+    "robust_min": [
+     -8.9069,
+     -5.5,
+     0.0
+    ],
+    "robust_max": [
+     8.9069,
+     0.0,
+     0.375
+    ],
+    "robust_diag": 18.647,
+    "n_points": 63
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "LBU-PP",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 68,
+    "PLANE": 45,
+    "CYLINDRICAL_SURFACE": 21,
+    "B_SPLINE_SURFACE_WITH_KNOTS": 2
+   },
+   "bbox_local": {
+    "min": [
+     -11.5771,
+     -1.4936,
+     -19.5
+    ],
+    "max": [
+     11.5771,
+     99.4592,
+     28.5
+    ],
+    "size": [
+     23.1542,
+     100.9528,
+     48.0
+    ],
+    "diag": 114.156,
+    "robust_min": [
+     -11.4993,
+     -1.4676,
+     -19.5
+    ],
+    "robust_max": [
+     11.4993,
+     96.026,
+     28.5
+    ],
+    "robust_diag": 111.076,
+    "n_points": 549
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "mc channel_ai_MC6x18x31.5",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 12,
+    "CYLINDRICAL_SURFACE": 4,
+    "PLANE": 8
+   },
+   "bbox_local": {
+    "min": [
+     0.0,
+     -0.0661,
+     -15.75
+    ],
+    "max": [
+     3.504,
+     6.0661,
+     15.75
+    ],
+    "size": [
+     3.504,
+     6.1322,
+     31.5
+    ],
+    "diag": 32.282,
+    "robust_min": [
+     0.0,
+     -0.0661,
+     -15.75
+    ],
+    "robust_max": [
+     3.504,
+     6.0661,
+     15.75
+    ],
+    "robust_diag": 32.282,
+    "n_points": 63
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "MC6X18-SKE1_MC6x18x57",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 12,
+    "PLANE": 8,
+    "CYLINDRICAL_SURFACE": 4
+   },
+   "bbox_local": {
+    "min": [
+     -0.0618,
+     -0.0661,
+     -28.5
+    ],
+    "max": [
+     3.504,
+     6.0661,
+     28.5
+    ],
+    "size": [
+     3.5658,
+     6.1322,
+     57.0
+    ],
+    "diag": 57.44,
+    "robust_min": [
+     -0.0618,
+     -0.0661,
+     -28.5
+    ],
+    "robust_max": [
+     3.504,
+     6.0661,
+     28.5
+    ],
+    "robust_diag": 57.44,
+    "n_points": 75
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "MC6X18-SKE_MC6x18x57",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 12,
+    "PLANE": 8,
+    "CYLINDRICAL_SURFACE": 4
+   },
+   "bbox_local": {
+    "min": [
+     -8.1149,
+     -0.0661,
+     -28.5
+    ],
+    "max": [
+     8.9388,
+     30.929,
+     28.5
+    ],
+    "size": [
+     17.0537,
+     30.9951,
+     57.0
+    ],
+    "diag": 67.086,
+    "robust_min": [
+     -8.1149,
+     -0.0661,
+     -28.5
+    ],
+    "robust_max": [
+     8.9388,
+     30.929,
+     28.5
+    ],
+    "robust_diag": 67.086,
+    "n_points": 75
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "MNT-PEA-CTF-PP12-WIDE",
+   "census": {},
+   "bbox_local": {
+    "min": [
+     0.0,
+     -0.375,
+     0.0
+    ],
+    "max": [
+     4.9375,
+     0.0,
+     19.25
+    ],
+    "size": [
+     4.9375,
+     0.375,
+     19.25
+    ],
+    "diag": 19.877,
+    "robust_min": [
+     0.0,
+     -0.375,
+     0.0
+    ],
+    "robust_max": [
+     4.9375,
+     0.0,
+     19.25
+    ],
+    "robust_diag": 19.877,
+    "n_points": 3
+   },
+   "verdict": "NO_GEOMETRY (assembly node or empty)"
+  },
+  {
+   "name": "MNT-PEB-CTF-PP12-WIDE",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 49,
+    "CYLINDRICAL_SURFACE": 23,
+    "PLANE": 22,
+    "B_SPLINE_SURFACE_WITH_KNOTS": 4
+   },
+   "bbox_local": {
+    "min": [
+     -3.625,
+     -0.3,
+     -34.9085
+    ],
+    "max": [
+     3.625,
+     3.375,
+     34.9085
+    ],
+    "size": [
+     7.25,
+     3.675,
+     69.817
+    ],
+    "diag": 70.289,
+    "robust_min": [
+     -3.625,
+     -0.3,
+     -17.716
+    ],
+    "robust_max": [
+     3.625,
+     3.375,
+     17.716
+    ],
+    "robust_diag": 36.352,
+    "n_points": 690
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "MSP-CP-CP750E",
+   "census": {
+    "SHELL_BASED_SURFACE_MODEL": 1,
+    "OPEN_SHELL": 9,
+    "ADVANCED_FACE": 6081,
+    "B_SPLINE_SURFACE_WITH_KNOTS": 651,
+    "CYLINDRICAL_SURFACE": 1464,
+    "PLANE": 3384,
+    "CONICAL_SURFACE": 368,
+    "TOROIDAL_SURFACE": 180,
+    "CLOSED_SHELL": 129,
+    "SPHERICAL_SURFACE": 34
+   },
+   "bbox_local": {
+    "min": [
+     -13101.9887,
+     -13076.3998,
+     -19679.1032
+    ],
+    "max": [
+     19647.4229,
+     13080.68,
+     19690.9755
+    ],
+    "size": [
+     32749.4115,
+     26157.0798,
+     39370.0787
+    ],
+    "diag": 57504.086,
+    "robust_min": [
+     -5.1448,
+     -6.3387,
+     -1.3044
+    ],
+    "robust_max": [
+     3.3687,
+     5.0508,
+     6.7584
+    ],
+    "robust_diag": 16.347,
+    "n_points": 86623
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "Part1^PP128-PP108-SKID",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 4,
+    "CYLINDRICAL_SURFACE": 2,
+    "PLANE": 2
+   },
+   "bbox_local": {
+    "min": [
+     0.0,
+     -3.4041,
+     -39.0
+    ],
+    "max": [
+     93.7438,
+     0.0,
+     39.0
+    ],
+    "size": [
+     93.7438,
+     3.4041,
+     78.0
+    ],
+    "diag": 121.998,
+    "robust_min": [
+     0.0,
+     -3.4041,
+     -39.0
+    ],
+    "robust_max": [
+     93.7438,
+     0.0,
+     39.0
+    ],
+    "robust_diag": 121.998,
+    "n_points": 13
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "PLT-MNT-6SL-PE-PP12",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 34,
+    "PLANE": 30,
+    "CYLINDRICAL_SURFACE": 4
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     0.0,
+     -9.8125
+    ],
+    "max": [
+     38.5,
+     0.375,
+     0.0
+    ],
+    "size": [
+     38.5,
+     0.375,
+     9.8125
+    ],
+    "diag": 39.733,
+    "robust_min": [
+     -0.0,
+     0.0,
+     -9.8125
+    ],
+    "robust_max": [
+     38.5,
+     0.375,
+     -0.0625
+    ],
+    "robust_diag": 39.717,
+    "n_points": 195
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "PP-CPM-1001",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 77,
+    "CYLINDRICAL_SURFACE": 43,
+    "B_SPLINE_SURFACE_WITH_KNOTS": 2,
+    "PLANE": 32
+   },
+   "bbox_local": {
+    "min": [
+     -0.25,
+     -0.25,
+     -8.244
+    ],
+    "max": [
+     4.0875,
+     8.4,
+     6.0
+    ],
+    "size": [
+     4.3375,
+     8.65,
+     14.244
+    ],
+    "diag": 17.22,
+    "robust_min": [
+     -0.25,
+     -0.25,
+     -4.3375
+    ],
+    "robust_max": [
+     4.0875,
+     8.4,
+     6.0
+    ],
+    "robust_diag": 14.16,
+    "n_points": 754
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "PP-CPM-1005",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 32,
+    "CYLINDRICAL_SURFACE": 12,
+    "B_SPLINE_SURFACE_WITH_KNOTS": 6,
+    "PLANE": 14
+   },
+   "bbox_local": {
+    "min": [
+     -44.3722,
+     -2.1987,
+     -41.7628
+    ],
+    "max": [
+     0.0,
+     43.9457,
+     0.7704
+    ],
+    "size": [
+     44.3722,
+     46.1444,
+     42.5332
+    ],
+    "diag": 76.859,
+    "robust_min": [
+     -44.3595,
+     -2.1745,
+     -0.25
+    ],
+    "robust_max": [
+     -39.5267,
+     43.9326,
+     0.2135
+    ],
+    "robust_diag": 46.362,
+    "n_points": 1070
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "PP-FBS",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 10,
+    "PLANE": 7,
+    "CYLINDRICAL_SURFACE": 3
+   },
+   "bbox_local": {
+    "min": [
+     -92.6189,
+     0.0,
+     0.0
+    ],
+    "max": [
+     0.0,
+     13.7454,
+     0.375
+    ],
+    "size": [
+     92.6189,
+     13.7454,
+     0.375
+    ],
+    "diag": 93.634,
+    "robust_min": [
+     -92.6189,
+     0.0,
+     0.0
+    ],
+    "robust_max": [
+     0.0,
+     13.7454,
+     0.375
+    ],
+    "robust_diag": 93.634,
+    "n_points": 51
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "PP-FTS-1005",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 22,
+    "PLANE": 18,
+    "CYLINDRICAL_SURFACE": 4
+   },
+   "bbox_local": {
+    "min": [
+     0.0,
+     0.0,
+     -85.75
+    ],
+    "max": [
+     86.0625,
+     12.5,
+     85.8125
+    ],
+    "size": [
+     86.0625,
+     12.5,
+     171.5625
+    ],
+    "diag": 192.345,
+    "robust_min": [
+     0.0,
+     0.0,
+     -85.75
+    ],
+    "robust_max": [
+     86.0625,
+     12.5,
+     85.8125
+    ],
+    "robust_diag": 192.345,
+    "n_points": 91
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "PP-FTS-1008",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 130,
+    "CYLINDRICAL_SURFACE": 36,
+    "PLANE": 94
+   },
+   "bbox_local": {
+    "min": [
+     -37.125,
+     -6.0,
+     -0.125
+    ],
+    "max": [
+     37.125,
+     6.0,
+     1.875
+    ],
+    "size": [
+     74.25,
+     12.0,
+     2.0
+    ],
+    "diag": 75.24,
+    "robust_min": [
+     -37.125,
+     -6.0,
+     -0.125
+    ],
+    "robust_max": [
+     37.125,
+     6.0,
+     1.875
+    ],
+    "robust_diag": 75.24,
+    "n_points": 643
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "PP-FTT",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 61,
+    "CYLINDRICAL_SURFACE": 55,
+    "PLANE": 6
+   },
+   "bbox_local": {
+    "min": [
+     -36.0,
+     0.0,
+     0.0
+    ],
+    "max": [
+     36.0,
+     168.0,
+     0.375
+    ],
+    "size": [
+     72.0,
+     168.0,
+     0.375
+    ],
+    "diag": 182.779,
+    "robust_min": [
+     -36.0,
+     0.0,
+     0.0
+    ],
+    "robust_max": [
+     36.0,
+     168.0,
+     0.375
+    ],
+    "robust_diag": 182.779,
+    "n_points": 302
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "PP-LBB",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 30,
+    "CYLINDRICAL_SURFACE": 24,
+    "PLANE": 6
+   },
+   "bbox_local": {
+    "min": [
+     -16.5,
+     -0.0,
+     -0.75
+    ],
+    "max": [
+     16.5,
+     7.5,
+     0.0
+    ],
+    "size": [
+     33.0,
+     7.5,
+     0.75
+    ],
+    "diag": 33.85,
+    "robust_min": [
+     -16.5,
+     -0.0,
+     -0.75
+    ],
+    "robust_max": [
+     16.5,
+     7.5,
+     0.0
+    ],
+    "robust_diag": 33.85,
+    "n_points": 149
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "PP12-EM-JD18",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 62,
+    "PLANE": 46,
+    "CYLINDRICAL_SURFACE": 16
+   },
+   "bbox_local": {
+    "min": [
+     -41.5,
+     0.0,
+     -25.0
+    ],
+    "max": [
+     41.5,
+     5.0,
+     25.0
+    ],
+    "size": [
+     83.0,
+     5.0,
+     50.0
+    ],
+    "diag": 97.026,
+    "robust_min": [
+     -41.5,
+     0.0,
+     -25.0
+    ],
+    "robust_max": [
+     41.5,
+     5.0,
+     25.0
+    ],
+    "robust_diag": 97.026,
+    "n_points": 331
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "PP128-FTA",
+   "census": {},
+   "bbox_local": {
+    "min": [
+     -38.0,
+     -85.5,
+     -6.625
+    ],
+    "max": [
+     38.0,
+     85.5,
+     6.25
+    ],
+    "size": [
+     76.0,
+     171.0,
+     12.875
+    ],
+    "diag": 187.571,
+    "robust_min": [
+     -38.0,
+     -85.5,
+     -6.625
+    ],
+    "robust_max": [
+     38.0,
+     85.5,
+     6.25
+    ],
+    "robust_diag": 187.571,
+    "n_points": 21
+   },
+   "verdict": "NO_GEOMETRY (assembly node or empty)"
+  },
+  {
+   "name": "PP128-PP108-SKID",
+   "census": {},
+   "bbox_local": {
+    "min": [
+     -4811.4273,
+     -14.6459,
+     -40.2068
+    ],
+    "max": [
+     27.8863,
+     50.176,
+     40.2068
+    ],
+    "size": [
+     4839.3136,
+     64.8219,
+     80.4136
+    ],
+    "diag": 4840.416,
+    "robust_min": [
+     -4811.4273,
+     -14.6459,
+     -40.2068
+    ],
+    "robust_max": [
+     27.8863,
+     50.176,
+     40.2068
+    ],
+    "robust_diag": 4840.416,
+    "n_points": 23
+   },
+   "verdict": "NO_GEOMETRY (assembly node or empty)"
+  },
+  {
+   "name": "PP128S22-MFB",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 10,
+    "PLANE": 7,
+    "CYLINDRICAL_SURFACE": 3
+   },
+   "bbox_local": {
+    "min": [
+     -92.6189,
+     0.0,
+     0.0
+    ],
+    "max": [
+     0.0,
+     13.7454,
+     0.375
+    ],
+    "size": [
+     92.6189,
+     13.7454,
+     0.375
+    ],
+    "diag": 93.634,
+    "robust_min": [
+     -92.6189,
+     0.0,
+     0.0
+    ],
+    "robust_max": [
+     0.0,
+     13.7454,
+     0.375
+    ],
+    "robust_diag": 93.634,
+    "n_points": 51
+   },
+   "verdict": "SOLID (renderable)"
+  },
+  {
+   "name": "tube rectangular_ai_TR12x6x0.25x80",
+   "census": {
+    "MANIFOLD_SOLID_BREP": 1,
+    "CLOSED_SHELL": 1,
+    "ADVANCED_FACE": 18,
+    "PLANE": 10,
+    "CYLINDRICAL_SURFACE": 8
+   },
+   "bbox_local": {
+    "min": [
+     -0.0,
+     0.0,
+     -40.0
+    ],
+    "max": [
+     6.0,
+     12.0,
+     40.0
+    ],
+    "size": [
+     6.0,
+     12.0,
+     80.0
+    ],
+    "diag": 81.117,
+    "robust_min": [
+     -0.0,
+     0.0,
+     -40.0
+    ],
+    "robust_max": [
+     6.0,
+     12.0,
+     40.0
+    ],
+    "robust_diag": 81.117,
+    "n_points": 99
+   },
+   "verdict": "SOLID (renderable)"
+  }
+ ],
+ "tree": [
+  {
+   "parent": "engine and pump",
+   "child": "PP128-PP108-SKID",
+   "tag": " ",
+   "origin": [
+    -1.265334925823619e-15,
+    -19.031157510542222,
+    -1.5654178256797523e-32
+   ],
+   "z_axis": [
+    -1.0000000000000002,
+    6.7257084776648e-32,
+    1.1796119636642288e-16
+   ],
+   "x_axis": [
+    1.457167719820518e-16,
+    1.925929944387236e-34,
+    1.0
+   ]
+  },
+  {
+   "parent": "engine and pump",
+   "child": "3336180ci510-interfaces-v5-64MB",
+   "tag": " ",
+   "origin": [
+    0.0,
+    5.0,
+    -6.271363190574031
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "parent": "engine and pump",
+   "child": "MNT-PEA-CTF-PP12-WIDE",
+   "tag": " ",
+   "origin": [
+    1.698057879431991e-16,
+    -18.374999999999982,
+    -40.34667949525602
+   ],
+   "z_axis": [
+    1.0,
+    5.995368991767302e-16,
+    0.0
+   ],
+   "x_axis": [
+    0.0,
+    3.347346483100979e-16,
+    -1.0
+   ]
+  },
+  {
+   "parent": "engine and pump",
+   "child": "CPM-PP-JD18",
+   "tag": " ",
+   "origin": [
+    13.387090371016539,
+    -26.525487702550077,
+    51.90948554597402
+   ],
+   "z_axis": [
+    3.10205199371706e-16,
+    3.712308238590367e-16,
+    -1.0000000000000002
+   ],
+   "x_axis": [
+    -1.0,
+    5.186400436607348e-15,
+    -3.091813691889854e-16
+   ]
+  },
+  {
+   "parent": "CPM-PP-JD18",
+   "child": "PP-CPM-1001",
+   "tag": " ",
+   "origin": [
+    37.81228849270839,
+    35.52448770254922,
+    37.15537373310559
+   ],
+   "z_axis": [
+    -1.0238301827186406e-18,
+    -3.469446951951987e-18,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    6.86749959214352e-18,
+    -1.0238301827186406e-18
+   ]
+  },
+  {
+   "parent": "CPM-PP-JD18",
+   "child": "PP-CPM-1005",
+   "tag": " ",
+   "origin": [
+    37.56228849270839,
+    -1.442415740654731e-13,
+    1.6286388104584517
+   ],
+   "z_axis": [
+    1.0,
+    8.035608651935276e-18,
+    -1.122139903629012e-16
+   ],
+   "x_axis": [
+    -1.111901601801826e-16,
+    2.3689166947504787e-14,
+    -1.0000000000000002
+   ]
+  },
+  {
+   "parent": "CPM-PP-JD18",
+   "child": "MSP-CP-CP750E",
+   "tag": " ",
+   "origin": [
+    38.82185505477209,
+    41.530668444413216,
+    36.20599662904932
+   ],
+   "z_axis": [
+    1.0,
+    -4.086582187559829e-15,
+    -4.0347967660933803e-16
+   ],
+   "x_axis": [
+    -4.0143201624390065e-16,
+    -4.2791717032656137e-16,
+    -1.0000000000000004
+   ]
+  },
+  {
+   "parent": "MNT-PEA-CTF-PP12-WIDE",
+   "child": "MNT-PEB-CTF-PP12-WIDE",
+   "tag": " ",
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "z_axis": [
+    2.006857730948494e-31,
+    9.860761315262648e-32,
+    1.0
+   ],
+   "x_axis": [
+    1.0,
+    -4.930380657631324e-32,
+    2.006857730948494e-31
+   ]
+  },
+  {
+   "parent": "MNT-PEA-CTF-PP12-WIDE",
+   "child": "PLT-MNT-6SL-PE-PP12",
+   "tag": " ",
+   "origin": [
+    4.937499999999997,
+    -0.37499999999999584,
+    19.249999999999982
+   ],
+   "z_axis": [
+    1.0,
+    2.9600575766445396e-17,
+    1.6653600675286236e-16
+   ],
+   "x_axis": [
+    1.6671961815629117e-16,
+    -5.580683274994001e-32,
+    -1.0
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "Part1^PP128-PP108-SKID",
+   "tag": " ",
+   "origin": [
+    -0.9912488833566212,
+    14.01787410523659,
+    0.07684186770888923
+   ],
+   "z_axis": [
+    0.0,
+    -1.821898188781933e-34,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    -0.9720249111835475,
+    -0.23487778106627447,
+    2.9141143431979435e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP-FBS",
+   "tag": " ",
+   "origin": [
+    1.6508018222479721,
+    -14.120388560299697,
+    39.83180187830846
+   ],
+   "z_axis": [
+    -2.775557561562894e-17,
+    5.282977023330688e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    -1.2503009530065285e-18,
+    -2.775557561562894e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP-FBS",
+   "tag": " ",
+   "origin": [
+    1.6508018222479552,
+    -14.120388560299688,
+    -40.20680187830847
+   ],
+   "z_axis": [
+    -2.775557561562894e-17,
+    5.282977023330688e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    -1.2503009530065285e-18,
+    -2.775557561562894e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "Part1^PP128-PP108-SKID",
+   "tag": " ",
+   "origin": [
+    0.9912488833566212,
+    14.017874105236585,
+    0.07684186770888912
+   ],
+   "z_axis": [
+    0.0,
+    1.821898188781933e-34,
+    -1.0000000000000004
+   ],
+   "x_axis": [
+    0.9720249111835475,
+    -0.23487778106627447,
+    -7.877530025854044e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP-FBS",
+   "tag": " ",
+   "origin": [
+    -1.6508018222479537,
+    -14.120388560299688,
+    -39.83180187830847
+   ],
+   "z_axis": [
+    2.775557561562894e-17,
+    -5.282977023330688e-17,
+    -1.0000000000000004
+   ],
+   "x_axis": [
+    -1.0,
+    1.2503009530065285e-18,
+    2.775557561562894e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP-FBS",
+   "tag": " ",
+   "origin": [
+    -1.6508018222479726,
+    -14.120388560299697,
+    40.20680187830847
+   ],
+   "z_axis": [
+    0.0,
+    1.821898188781933e-34,
+    -1.0000000000000004
+   ],
+   "x_axis": [
+    -1.0,
+    2.5006019060130585e-18,
+    5.55111512312579e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP128S22-MFB",
+   "tag": " ",
+   "origin": [
+    1.593132560317672,
+    -14.64587172771335,
+    19.003346901768406
+   ],
+   "z_axis": [
+    -3.002732458243522e-19,
+    -1.5667116863571611e-19,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    0.9999838951992033,
+    -0.005675327499702767,
+    -5.581053048104966e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP-LBB",
+   "tag": " ",
+   "origin": [
+    3.985947798128321e-14,
+    -0.3750000000000133,
+    35.168198121691674
+   ],
+   "z_axis": [
+    -2.775557561562894e-17,
+    5.282977023330688e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    -1.2503009530065285e-18,
+    -2.775557561562894e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP128S22-MFB",
+   "tag": " ",
+   "origin": [
+    1.5931325603176731,
+    -14.64587172771335,
+    -19.378346901768406
+   ],
+   "z_axis": [
+    -5.580940737166934e-17,
+    3.5626292380690154e-19,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    0.9999838951992033,
+    -0.005675327499702766,
+    -2.993792497917637e-19
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP-LBB",
+   "tag": " ",
+   "origin": [
+    4.1790888464035546e-14,
+    -0.3750000000000177,
+    -34.418198121691674
+   ],
+   "z_axis": [
+    -2.775557561562894e-17,
+    5.282977023330688e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    -1.2503009530065285e-18,
+    -2.775557561562894e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "LBU-PP",
+   "tag": " ",
+   "origin": [
+    3.704673581509616e-14,
+    -3.9338611108765394e-14,
+    -33.91819812169167
+   ],
+   "z_axis": [
+    -2.775557561562894e-17,
+    5.282977023330688e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    -1.2503009530065285e-18,
+    -2.775557561562894e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "LBU-PP",
+   "tag": " ",
+   "origin": [
+    5.483320314405387e-14,
+    -3.278217592397116e-14,
+    33.91819812169167
+   ],
+   "z_axis": [
+    2.775557561562894e-17,
+    -5.282977023330688e-17,
+    -1.0000000000000004
+   ],
+   "x_axis": [
+    -1.0,
+    1.2503009530065285e-18,
+    2.775557561562894e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "LBA-CB",
+   "tag": " ",
+   "origin": [
+    -0.37499999999995365,
+    -2.026006417094964,
+    0.37543289986333567
+   ],
+   "z_axis": [
+    -1.0,
+    -1.3028089441030503e-16,
+    -6.591949208711862e-17
+   ],
+   "x_axis": [
+    -9.367506770274753e-17,
+    -6.143574254242747e-17,
+    1.0000000000000002
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "LBS-LG",
+   "tag": " ",
+   "origin": [
+    -1.9553244311657842e-14,
+    17.801006417094946,
+    -33.918198121691674
+   ],
+   "z_axis": [
+    1.912905181044201e-16,
+    1.0,
+    2.2188503497988903e-15
+   ],
+   "x_axis": [
+    1.0,
+    -1.9254081905742441e-16,
+    -1.0644289950970323e-15
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "LBS-SH",
+   "tag": " ",
+   "origin": [
+    -3.699706184061292e-14,
+    49.801006417094946,
+    -33.91819812169159
+   ],
+   "z_axis": [
+    1.912905181044201e-16,
+    1.0,
+    2.2188503497988903e-15
+   ],
+   "x_axis": [
+    1.0,
+    -1.9254081905742441e-16,
+    -1.0644289950970323e-15
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "LBS-LG",
+   "tag": " ",
+   "origin": [
+    -3.01067310353767e-14,
+    18.176006417094946,
+    33.91819812169167
+   ],
+   "z_axis": [
+    -1.9004021715141362e-16,
+    -1.0,
+    2.166020579565584e-15
+   ],
+   "x_axis": [
+    1.0,
+    -1.925408190574243e-16,
+    1.0089178438657744e-15
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "LBS-SH",
+   "tag": " ",
+   "origin": [
+    -4.755054856433177e-14,
+    50.176006417094946,
+    33.9181981216916
+   ],
+   "z_axis": [
+    -1.9004021715141362e-16,
+    -1.0,
+    2.166020579565584e-15
+   ],
+   "x_axis": [
+    1.0,
+    -1.925408190574243e-16,
+    1.0089178438657744e-15
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP128S22-MFB",
+   "tag": " ",
+   "origin": [
+    -1.593132560317602,
+    -14.64587172771335,
+    19.37834690176841
+   ],
+   "z_axis": [
+    -2.993792497917637e-19,
+    -1.5837279448720165e-19,
+    -1.0000000000000004
+   ],
+   "x_axis": [
+    -0.9999838951992033,
+    -0.005675327499702762,
+    5.521087798543355e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP128S22-MFB",
+   "tag": " ",
+   "origin": [
+    -1.5931325603176787,
+    -14.645871727713345,
+    -19.003346901768406
+   ],
+   "z_axis": [
+    -2.982561404114611e-19,
+    -3.5626292380690144e-19,
+    -1.0000000000000004
+   ],
+   "x_axis": [
+    -0.9999838951992033,
+    -0.005675327499702764,
+    5.521087798543355e-17
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "PP128-FTA",
+   "tag": " ",
+   "origin": [
+    0.1099528770892492,
+    -6.624999999999701,
+    -2.3318018783084087
+   ],
+   "z_axis": [
+    1.6515867541602436e-16,
+    1.0,
+    6.729772630724283e-16
+   ],
+   "x_axis": [
+    -4.791104517458504e-16,
+    6.201474928391213e-16,
+    -1.0000000000000002
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "JD18-EMA",
+   "tag": " ",
+   "origin": [
+    27.886310795933916,
+    0.024999999991810882,
+    -1.0659689941835539e-12
+   ],
+   "z_axis": [
+    -8.586881206085225e-17,
+    5.350312279981267e-16,
+    -1.0000000000000002
+   ],
+   "x_axis": [
+    -1.0,
+    2.0828685521289216e-16,
+    1.136243876764813e-16
+   ]
+  },
+  {
+   "parent": "PP128-PP108-SKID",
+   "child": "3336180ci510-interfaces-v5-64MB",
+   "tag": " ",
+   "origin": [
+    -4811.427292961273,
+    23.67406082545345,
+    1.3326499147811776e-13
+   ],
+   "z_axis": [
+    0.9999999994429328,
+    -3.33786505711816e-05,
+    9.713357627842537e-17
+   ],
+   "x_axis": [
+    1.2490009027033006e-16,
+    2.748743751583382e-16,
+    -1.0000000000000002
+   ]
+  },
+  {
+   "parent": "JD18-EMA",
+   "child": "PP12-EM-JD18",
+   "tag": " ",
+   "origin": [
+    0.0,
+    0.0,
+    -7.726798636826477e-16
+   ],
+   "z_axis": [
+    -2.775557561562901e-17,
+    -5.2829770233307096e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    1.250300953006531e-18,
+    -2.775557561562899e-17
+   ]
+  },
+  {
+   "parent": "JD18-EMA",
+   "child": "DOUBLER",
+   "tag": " ",
+   "origin": [
+    -41.4695680628268,
+    0.35000000000450027,
+    -15254.90935329893
+   ],
+   "z_axis": [
+    -2.775557561562901e-17,
+    -5.2829770233307096e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    1.250300953006531e-18,
+    -2.775557561562899e-17
+   ]
+  },
+  {
+   "parent": "JD18-EMA",
+   "child": "DOUBLER",
+   "tag": " ",
+   "origin": [
+    41.4695680628268,
+    0.3500000000028874,
+    15254.90935329893
+   ],
+   "z_axis": [
+    2.775557561562901e-17,
+    5.2829770233307096e-17,
+    -1.0000000000000004
+   ],
+   "x_axis": [
+    -1.0,
+    -1.250300953006531e-18,
+    2.775557561562899e-17
+   ]
+  },
+  {
+   "parent": "JD18-EMA",
+   "child": "EM-SP",
+   "tag": " ",
+   "origin": [
+    0.0,
+    0.0,
+    17.643099423391735
+   ],
+   "z_axis": [
+    -2.775557561562901e-17,
+    -5.2829770233307096e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    1.250300953006531e-18,
+    -2.775557561562899e-17
+   ]
+  },
+  {
+   "parent": "JD18-EMA",
+   "child": "EM-SP",
+   "tag": " ",
+   "origin": [
+    0.0,
+    0.0,
+    6.752455219589542
+   ],
+   "z_axis": [
+    -2.775557561562901e-17,
+    -5.2829770233307096e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    1.250300953006531e-18,
+    -2.775557561562899e-17
+   ]
+  },
+  {
+   "parent": "JD18-EMA",
+   "child": "EM-SP",
+   "tag": " ",
+   "origin": [
+    0.0,
+    0.0,
+    -17.26809942339174
+   ],
+   "z_axis": [
+    -2.775557561562901e-17,
+    -5.2829770233307096e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    1.250300953006531e-18,
+    -2.775557561562899e-17
+   ]
+  },
+  {
+   "parent": "JD18-EMA",
+   "child": "EM-SP",
+   "tag": " ",
+   "origin": [
+    0.0,
+    0.0,
+    -6.377455219589544
+   ],
+   "z_axis": [
+    -2.775557561562901e-17,
+    -5.2829770233307096e-17,
+    1.0000000000000004
+   ],
+   "x_axis": [
+    1.0,
+    1.250300953006531e-18,
+    -2.775557561562899e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "PP-FTT",
+   "tag": " ",
+   "origin": [
+    -3.0050327930306897e-14,
+    -83.74999999999999,
+    6.249999999999711
+   ],
+   "z_axis": [
+    -5.2829770233307146e-17,
+    1.2503009530065803e-18,
+    1.0
+   ],
+   "x_axis": [
+    1.0000000000000004,
+    -2.775557561562901e-17,
+    -5.282977023330725e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "Copy of Copy of Part11^PP128-FTA",
+   "tag": " ",
+   "origin": [
+    37.50000000000002,
+    85.5,
+    5.999999999999709
+   ],
+   "z_axis": [
+    -2.775557561562911e-17,
+    1.0,
+    1.1227260341552223e-16
+   ],
+   "x_axis": [
+    1.0000000000000004,
+    -2.775557561562901e-17,
+    -5.282977023330725e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "PP-FTS-1005",
+   "tag": " ",
+   "origin": [
+    37.500000000000014,
+    1.34884994687173e-15,
+    6.249999999999708
+   ],
+   "z_axis": [
+    -5.551115123125773e-17,
+    -1.0000000000000002,
+    -2.916123950700494e-17
+   ],
+   "x_axis": [
+    -1.0000000000000007,
+    2.775557561562901e-17,
+    -6.2125250976677755e-18
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "PP-FTS-1005",
+   "tag": " ",
+   "origin": [
+    -37.500000000000014,
+    -4.25143844014001e-15,
+    6.250000000000003
+   ],
+   "z_axis": [
+    -2.775557561562911e-17,
+    1.0,
+    6.280974771158573e-18
+   ],
+   "x_axis": [
+    1.0000000000000004,
+    -2.775557561562901e-17,
+    -1.1187206556428227e-16
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "Copy of Copy of Part11^PP128-FTA",
+   "tag": " ",
+   "origin": [
+    -37.500000000000036,
+    -85.50000000000001,
+    5.999999999999707
+   ],
+   "z_axis": [
+    -1.3877787807814437e-16,
+    -1.0,
+    5.3950124401512354e-17
+   ],
+   "x_axis": [
+    -1.0000000000000004,
+    1.942890293094024e-16,
+    5.282977023330722e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "PP-FTT",
+   "tag": " ",
+   "origin": [
+    1.3659239968321316e-15,
+    -83.75,
+    -6.625000000000969
+   ],
+   "z_axis": [
+    -5.2829770233307146e-17,
+    1.2503009530065803e-18,
+    1.0
+   ],
+   "x_axis": [
+    1.0000000000000004,
+    -2.775557561562901e-17,
+    -5.282977023330725e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "PP-FTS-1008",
+   "tag": " ",
+   "origin": [
+    -1.3659239968321316e-15,
+    52.37499999999862,
+    0.2500000000000162
+   ],
+   "z_axis": [
+    -5.970716481122733e-16,
+    -1.0,
+    1.639083744630179e-16
+   ],
+   "x_axis": [
+    1.0000000000000004,
+    -6.525827993435313e-16,
+    -7.258070333057352e-16
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "PP-FTS-1008",
+   "tag": " ",
+   "origin": [
+    7.291302295089919e-13,
+    17.375000000000004,
+    0.24999999991345812
+   ],
+   "z_axis": [
+    -5.970716481122733e-16,
+    -1.0,
+    1.639083744630179e-16
+   ],
+   "x_axis": [
+    1.0000000000000004,
+    -6.525827993435313e-16,
+    -7.258070333057352e-16
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "PP-FTS-1008",
+   "tag": " ",
+   "origin": [
+    -2.731847993664263e-16,
+    -52.37499999999862,
+    0.24999999999999434
+   ],
+   "z_axis": [
+    -2.775557561562852e-17,
+    1.0,
+    -3.886973523491351e-15
+   ],
+   "x_axis": [
+    -1.0000000000000004,
+    2.775557561562901e-17,
+    -2.9713271554987175e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "PP-FTS-1008",
+   "tag": " ",
+   "origin": [
+    7.304961535058239e-13,
+    -17.375000000000004,
+    0.24999999991351496
+   ],
+   "z_axis": [
+    -2.775557561562852e-17,
+    1.0,
+    -3.886973523491351e-15
+   ],
+   "x_axis": [
+    -1.0000000000000004,
+    2.775557561562901e-17,
+    -2.9713271554987175e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "PP-FTS-1008",
+   "tag": " ",
+   "origin": [
+    -7.102804783527085e-15,
+    -52.37499999999862,
+    0.2500000000000118
+   ],
+   "z_axis": [
+    1.3877787807814496e-16,
+    1.0,
+    -3.8311516463833556e-15
+   ],
+   "x_axis": [
+    -1.0000000000000004,
+    1.942890293094024e-16,
+    -2.9713271554987206e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "PP-FTS-1008",
+   "tag": " ",
+   "origin": [
+    7.263983815153276e-13,
+    -17.374999999999996,
+    0.24999999991351496
+   ],
+   "z_axis": [
+    1.3877787807814496e-16,
+    1.0,
+    -3.8311516463833556e-15
+   ],
+   "x_axis": [
+    -1.0000000000000004,
+    1.942890293094024e-16,
+    -2.9713271554987206e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "MC6X18-SKE_MC6x18x57",
+   "tag": " ",
+   "origin": [
+    -38.000000000000014,
+    -56.25000000000011,
+    -6.625000000000973
+   ],
+   "z_axis": [
+    -2.7105054312137808e-17,
+    1.0000000000000002,
+    2.416807819696473e-16
+   ],
+   "x_axis": [
+    1.0000000000000007,
+    -2.8406096919120413e-17,
+    -4.38557756949416e-16
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "tube rectangular_ai_TR12x6x0.25x80",
+   "tag": " ",
+   "origin": [
+    -1.2302356327346018,
+    -27.75000000000011,
+    -6.625000000000969
+   ],
+   "z_axis": [
+    1.0000000000000004,
+    -3.8429084400167407e-17,
+    -1.9208994514590144e-16
+   ],
+   "x_axis": [
+    -8.643040467928726e-17,
+    3.1785329439480837e-16,
+    -1.0
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "mc channel_ai_MC6x18x31.5",
+   "tag": " ",
+   "origin": [
+    -38.000000000000014,
+    -9.614397532702166e-14,
+    -6.62500000000096
+   ],
+   "z_axis": [
+    -2.7105054312137808e-17,
+    1.0000000000000002,
+    2.416807819696473e-16
+   ],
+   "x_axis": [
+    1.0000000000000007,
+    -2.8406096919120413e-17,
+    -4.38557756949416e-16
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "tube rectangular_ai_TR12x6x0.25x80",
+   "tag": " ",
+   "origin": [
+    -1.2302356327346031,
+    27.749999999999904,
+    -6.62500000000096
+   ],
+   "z_axis": [
+    -1.0000000000000004,
+    1.836155205248641e-16,
+    1.9208994514590142e-16
+   ],
+   "x_axis": [
+    -8.643040467928721e-17,
+    -2.645320191928248e-16,
+    -1.0
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "MC6X18-SKE_MC6x18x57",
+   "tag": " ",
+   "origin": [
+    38.00000000000002,
+    56.2499999999999,
+    -6.625000000000781
+   ],
+   "z_axis": [
+    -2.7755575615633154e-17,
+    -1.0000000000000002,
+    -3.4788754034843957e-15
+   ],
+   "x_axis": [
+    -1.0000000000000004,
+    -2.7755575615628322e-17,
+    7.776336687655061e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "MC6X18-SKE1_MC6x18x57",
+   "tag": " ",
+   "origin": [
+    -38.000000000000014,
+    56.249999999999915,
+    -6.625000000000956
+   ],
+   "z_axis": [
+    -2.7105054312137808e-17,
+    1.0000000000000002,
+    2.416807819696473e-16
+   ],
+   "x_axis": [
+    1.0000000000000007,
+    -2.8406096919120413e-17,
+    -4.38557756949416e-16
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "MC6X18-SKE1_MC6x18x57",
+   "tag": " ",
+   "origin": [
+    38.00000000000002,
+    -56.25000000000011,
+    -6.625000000001156
+   ],
+   "z_axis": [
+    1.1102230246251743e-16,
+    -1.0,
+    -3.5076029629328286e-15
+   ],
+   "x_axis": [
+    -1.0000000000000007,
+    -1.3877787807814358e-17,
+    7.673813107387122e-17
+   ]
+  },
+  {
+   "parent": "PP128-FTA",
+   "child": "mc channel_ai_MC6x18x31.5",
+   "tag": " ",
+   "origin": [
+    38.00000000000002,
+    -1.0807873624934242e-13,
+    -6.625000000000973
+   ],
+   "z_axis": [
+    1.026876456058952e-16,
+    -1.0,
+    -3.533147298041786e-15
+   ],
+   "x_axis": [
+    -1.0000000000000004,
+    -4.480822855329049e-17,
+    2.7069735728674593e-17
+   ]
+  }
+ ],
+ "entity_counts": {
+  "ORIENTED_EDGE": 110421,
+  "EDGE_LOOP": 19403,
+  "FACE_BOUND": 7996,
+  "EDGE_CURVE": 92879,
+  "B_SPLINE_CURVE_WITH_KNOTS": 77472,
+  "PLANE": 5142,
+  "LINE": 10376,
+  "FACE_OUTER_BOUND": 11407,
+  "VECTOR": 10376,
+  "VERTEX_POINT": 87408,
+  "ADVANCED_FACE": 10843,
+  "AXIS2_PLACEMENT_3D": 14282,
+  "CYLINDRICAL_SURFACE": 4454,
+  "CIRCLE": 4037,
+  "OPEN_SHELL": 4021,
+  "REPRESENTATION_RELATIONSHIP|REPRESENTATION_RELATIONSHIP_WITH_TRANSFORMATION|SHAPE_REPRESENTATION_RELATIONSHIP": 58,
+  "B_SPLINE_SURFACE_WITH_KNOTS": 587,
+  "CC_DESIGN_SECURITY_CLASSIFICATION": 89,
+  "APPROVAL_DATE_TIME": 151,
+  "CALENDAR_DATE": 271,
+  "APPLICATION_PROTOCOL_DEFINITION": 62,
+  "BOUNDED_CURVE|B_SPLINE_CURVE|B_SPLINE_CURVE_WITH_KNOTS|CURVE|GEOMETRIC_REPRESENTATION_ITEM|RATIONAL_B_SPLINE_CURVE|REPRESENTATION_ITEM": 994,
+  "APPROVAL_ROLE": 151,
+  "PERSON_AND_ORGANIZATION": 306,
+  "LOCAL_TIME": 271,
+  "CLOSED_SHELL": 152,
+  "CONICAL_SURFACE": 368,
+  "CC_DESIGN_DATE_AND_TIME_ASSIGNMENT": 120,
+  "NAMED_UNIT|PLANE_ANGLE_UNIT|SI_UNIT": 31,
+  "DATE_AND_TIME": 271,
+  "SECURITY_CLASSIFICATION": 89,
+  "TOROIDAL_SURFACE": 180,
+  "SECURITY_CLASSIFICATION_LEVEL": 89,
+  "CC_DESIGN_PERSON_AND_ORGANIZATION_ASSIGNMENT": 213,
+  "ORGANIZATION": 59,
+  "PERSON_AND_ORGANIZATION_ROLE": 213,
+  "PRODUCT_DEFINITION_SHAPE": 89,
+  "APPROVAL": 151,
+  "PERSON": 59,
+  "BOUNDED_SURFACE|B_SPLINE_SURFACE|B_SPLINE_SURFACE_WITH_KNOTS|GEOMETRIC_REPRESENTATION_ITEM|RATIONAL_B_SPLINE_SURFACE|REPRESENTATION_ITEM|SURFACE": 78,
+  "DESIGN_CONTEXT": 31,
+  "APPLICATION_CONTEXT": 62,
+  "LENGTH_MEASURE_WITH_UNIT": 31,
+  "APPROVAL_PERSON_ORGANIZATION": 151,
+  "COORDINATED_UNIVERSAL_TIME_OFFSET": 271,
+  "LENGTH_UNIT|NAMED_UNIT|SI_UNIT": 31,
+  "ORIENTED_CLOSED_SHELL": 43,
+  "PRODUCT": 31,
+  "CONVERSION_BASED_UNIT|LENGTH_UNIT|NAMED_UNIT": 31,
+  "GEOMETRIC_REPRESENTATION_CONTEXT|GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT|GLOBAL_UNIT_ASSIGNED_CONTEXT|REPRESENTATION_CONTEXT": 31,
+  "DATE_TIME_ROLE": 120,
+  "CONTEXT_DEPENDENT_SHAPE_REPRESENTATION": 58,
+  "DIMENSIONAL_EXPONENTS": 31,
+  "MANIFOLD_SOLID_BREP": 23,
+  "UNCERTAINTY_MEASURE_WITH_UNIT": 31,
+  "PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE": 31,
+  "MECHANICAL_CONTEXT": 31,
+  "NAMED_UNIT|SI_UNIT|SOLID_ANGLE_UNIT": 31,
+  "PRODUCT_RELATED_PRODUCT_CATEGORY": 31,
+  "SHAPE_DEFINITION_REPRESENTATION": 31,
+  "ITEM_DEFINED_TRANSFORMATION": 58,
+  "PRODUCT_DEFINITION": 31,
+  "MANIFOLD_SURFACE_SHAPE_REPRESENTATION": 2,
+  "APPROVAL_STATUS": 151,
+  "CC_DESIGN_APPROVAL": 151,
+  "SHAPE_REPRESENTATION_RELATIONSHIP": 25,
+  "SHAPE_REPRESENTATION": 31,
+  "ADVANCED_BREP_SHAPE_REPRESENTATION": 23,
+  "SPHERICAL_SURFACE": 34,
+  "SHELL_BASED_SURFACE_MODEL": 2,
+  "NEXT_ASSEMBLY_USAGE_OCCURRENCE": 58
+ },
+ "header": [
+  "ISO-10303-21;",
+  "HEADER;",
+  "FILE_DESCRIPTION (( 'STEP AP203' ),",
+  "'1' );",
+  "FILE_NAME ('engine and pump.STEP',",
+  "'2026-09-17T21:23:27',",
+  "( '' ),",
+  "( '' ),",
+  "'SwSTEP 2.0',",
+  "'SolidWorks 2026',",
+  "'' );",
+  "FILE_SCHEMA (( 'CONFIG_CONTROL_DESIGN' ));",
+  "ENDSEC;",
+  "",
+  "DATA;"
+ ]
+}

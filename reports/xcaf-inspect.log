@@ -1,0 +1,19 @@
+[ ] import OCP ...
+[x] import OCP: 1.6s  rss=214MB peak=214MB
+[ ] STEP -> XCAF read+transfer ...
+[x] STEP -> XCAF read+transfer: 115.3s  rss=1015MB peak=1075MB
+[ ] walk XCAF tree ...
+[x] walk XCAF tree: 1.3s  rss=1015MB peak=1075MB
+
+== XCAF LEAF TOTALS ==
+{
+ "solids": 50,
+ "shells": 8213,
+ "faces": 15918,
+ "edges": 192986,
+ "shells_closed": 180,
+ "shells_open": 8033
+}
+manifest -> reports/xcaf-inspect.json
+
+DONE  in=194.5MB peak_rss=1075MB

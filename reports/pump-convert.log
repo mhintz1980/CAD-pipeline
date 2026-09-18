@@ -1,0 +1,26 @@
+[ ] import OCP ...
+[x] import OCP: 0.6s  rss=214MB peak=214MB
+[ ] STEP -> XCAF read+transfer ...
+[x] STEP -> XCAF read+transfer: 17.3s  rss=528MB peak=566MB
+[ ] walk XCAF tree ...
+[x] walk XCAF tree: 0.3s  rss=529MB peak=566MB
+
+== XCAF LEAF TOTALS ==
+{
+ "solids": 262,
+ "shells": 435,
+ "faces": 14314,
+ "edges": 72030,
+ "shells_closed": 270,
+ "shells_open": 165
+}
+[ ] tessellate lin=0.5 ang=20.0 ...
+[x] tessellate lin=0.5 ang=20.0: 2.8s  rss=620MB peak=862MB
+[ ] count triangles ...
+    triangles=807,046
+[x] count triangles: 0.1s  rss=620MB peak=862MB
+[ ] write GLB out/pump-pp108c24.glb ...
+[x] write GLB out/pump-pp108c24.glb: 1.0s  rss=626MB peak=862MB
+manifest -> reports/pump-convert.json
+
+DONE  in=53.1MB out=27.7MB tri=807,046 peak_rss=862MB

@@ -1,0 +1,21 @@
+00:03.594  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump.blend"
+C:\Projects\CAD\astra-engine-pump\tools\blender_validate.py:226: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+00:07.625  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-blend\view_00.png'
+00:10.344  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\validate-blend\view_01.png'
+addon_utils.disable: bl_ext.lab_blender_org.mcp not enabled
+
+=== VALIDATION SUMMARY ===
+objects=53 triangles=1,076,449
+core size (m) = [2.065, 4.744, 2.928]
+all  size (m) = [2.065, 4.744, 2.928]
+missing roles: none
+  bale           objects=    9 tris=11,152
+  controller     objects=    3 tris=258,777
+  engine         objects=    7 tris=773,280
+  pump           objects=   20 tris=29,200
+  skid           objects=   14 tris=4,040
+renders -> C:\Projects\CAD\astra-engine-pump\reports\validate-blend
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

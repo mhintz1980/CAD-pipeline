@@ -1,0 +1,9 @@
+IMPORTING out/engine-original-coarse.glb 98.762356 MB
+21:49:56 | INFO: Data are loaded, start creating Blender stuff
+21:49:56 | INFO: Blender create Mesh node COMPOUND
+21:49:56 | INFO: Blender create Mesh node COMPOUND
+21:55:50 | INFO: glTF import finished in 354.19s
+IMPORT OK objects=3 tris=2,275,086 in 358.8s
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit
