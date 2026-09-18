@@ -1,0 +1,68 @@
+{
+  "run_id": "wide-20260918T143014",
+  "source_sha256": "5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f",
+  "stages": {
+    "producer": {
+      "rc": 0,
+      "elapsed": 24.816684007644653
+    },
+    "verifier": {
+      "rc": 0,
+      "elapsed": 5.728516101837158
+    },
+    "render": {
+      "rc": 0,
+      "elapsed": 14.29194951057434
+    }
+  },
+  "outputs": [
+    {
+      "path": "/out/wide-20260918T143014/producer-stderr.log",
+      "size": 0
+    },
+    {
+      "path": "/out/wide-20260918T143014/producer-stdout.log",
+      "size": 27685
+    },
+    {
+      "path": "/out/wide-20260918T143014/render-stderr.log",
+      "size": 447
+    },
+    {
+      "path": "/out/wide-20260918T143014/render-stdout.log",
+      "size": 2590
+    },
+    {
+      "path": "/out/wide-20260918T143014/verifier-stderr.log",
+      "size": 0
+    },
+    {
+      "path": "/out/wide-20260918T143014/verifier-stdout.log",
+      "size": 2226
+    },
+    {
+      "path": "/out/wide-20260918T143014/blends/engine-and-pump-v11-wide.blend",
+      "size": 248713216
+    },
+    {
+      "path": "/out/wide-20260918T143014/lookdev/astra-render-execution.json",
+      "size": 114803
+    },
+    {
+      "path": "/out/wide-20260918T143014/lookdev/astra-wide-preview-engine-side.png",
+      "size": 2102019
+    },
+    {
+      "path": "/out/wide-20260918T143014/lookdev/astra-wide-preview-lookdev.blend",
+      "size": 102660632
+    },
+    {
+      "path": "/out/wide-20260918T143014/lookdev/astra-wide-preview-slot-inventory.json",
+      "size": 111300
+    },
+    {
+      "path": "/out/wide-20260918T143014/lookdev/astra-wide-preview-threequarter.png",
+      "size": 2054822
+    }
+  ]
+}

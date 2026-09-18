@@ -1,0 +1,101 @@
+{
+  "tool": "astra_verify_engine_export.py",
+  "weld_eps_mm": 0.001,
+  "files": [
+    {
+      "path": "reports\\astra-modal-engine\\run-20260918T141702\\engine-light.stl",
+      "ok": true,
+      "errors": [],
+      "bytes": 17500084,
+      "header_ascii": "Astra engine mesh export mm (not watertight)",
+      "declared_triangles": 350000,
+      "expected_bytes": 17500084,
+      "size_consistent": true,
+      "looks_ascii": false,
+      "triangles": 350000,
+      "vertices_total": 1050000,
+      "nonfinite_vertices": 0,
+      "bbox_min": [
+        -835.7177,
+        -1762.4126,
+        -482.7564
+      ],
+      "bbox_max": [
+        838.0617,
+        521.7784,
+        1715.771
+      ],
+      "bbox_size": [
+        1673.7794,
+        2284.191,
+        2198.5274
+      ],
+      "bbox_center": [
+        1.172,
+        -620.3171,
+        616.5073
+      ],
+      "units_hint": "coordinates look like millimetres",
+      "degenerate_triangles": 91,
+      "zero_length_edges": 218,
+      "weld_eps": 0.001,
+      "welded_vertices": 249113,
+      "welded_faces_for_topology": 349996,
+      "unique_edges": 609531,
+      "boundary_edges": 174095,
+      "nonmanifold_edges": 4112,
+      "manifold_edges": 431324,
+      "euler_characteristic": -10422,
+      "shells": 4342,
+      "watertight": false
+    },
+    {
+      "path": "reports\\astra-modal-engine\\run-20260918T141702\\engine-detailed.stl",
+      "ok": true,
+      "errors": [],
+      "bytes": 24999984,
+      "header_ascii": "Astra engine mesh export mm (not watertight)",
+      "declared_triangles": 499998,
+      "expected_bytes": 24999984,
+      "size_consistent": true,
+      "looks_ascii": false,
+      "triangles": 499998,
+      "vertices_total": 1499994,
+      "nonfinite_vertices": 0,
+      "bbox_min": [
+        -835.7169,
+        -1762.4126,
+        -482.7564
+      ],
+      "bbox_max": [
+        838.1544,
+        521.7784,
+        1715.771
+      ],
+      "bbox_size": [
+        1673.8713,
+        2284.191,
+        2198.5274
+      ],
+      "bbox_center": [
+        1.2187,
+        -620.3171,
+        616.5073
+      ],
+      "units_hint": "coordinates look like millimetres",
+      "degenerate_triangles": 173,
+      "zero_length_edges": 490,
+      "weld_eps": 0.001,
+      "welded_vertices": 338540,
+      "welded_faces_for_topology": 499994,
+      "unique_edges": 849072,
+      "boundary_edges": 203241,
+      "nonmanifold_edges": 4147,
+      "manifold_edges": 641684,
+      "euler_characteristic": -10538,
+      "shells": 4275,
+      "watertight": false
+    }
+  ],
+  "all_ok": true
+}

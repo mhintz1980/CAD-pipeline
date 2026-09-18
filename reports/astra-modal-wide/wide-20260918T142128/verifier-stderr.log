@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/work/tools/astra_verify_wide.py", line 305, in <module>
+    ra = A["objects"][ref]["world"][:, :3] - A["objects"][n]["world"][:, :3]
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (492,3) (127317,3) 
+
+Error: script failed, file: '/work/tools/astra_verify_wide.py', exiting.

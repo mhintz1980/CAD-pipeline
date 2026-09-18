@@ -1,0 +1,80 @@
+C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages\modal\_utils\async_utils.py:43: DeprecationWarning: 'asyncio.WindowsSelectorEventLoopPolicy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages\modal\_utils\async_utils.py:43: DeprecationWarning: 'asyncio.set_event_loop_policy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+✓ Initialized. View run at 
+https://modal.com/apps/mhintz1980/main/ap-aqCVnGGemBbsuW8VJk5yoh
+✓ Created objects.
+├── 🔨 Created mount 
+│   C:\Projects\CAD\astra-engine-pump\tools\astra_modal_engine.py
+└── 🔨 Created function run_export.
+[local] source SHA verified: 5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f
+[local] uploaded blend to volume as run-20260918T135557/engine-and-pump-v10.blend
+[BLENDER STDOUT]
+00:00.112  system.path      | WARNING Could not get a list of mounted file-systems
+00:01.986  blend            | Read blend: "/input/run-20260918T135557/engine-and-pump-v10.blend"
+STUB: blender 5.1.2
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 02:18:37)
+
+Blender quit
+
+Fri Sep 18 17:57:02 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L4                      On  |   00000000:9F:00.0 Off |                    0 |
+| N/A   47C    P8             16W /   72W |       3MiB /  23034MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+['MemTotal:       763007392 kB', 'MemFree:        762953240 kB', 'MemAvailable:   762953240 kB']
+[remote result] {
+  "run_id": "run-20260918T135557",
+  "returncode": 0,
+  "elapsed_sec": 3.3137121200561523,
+  "blend_sha256": "5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f",
+  "outputs": [
+    {
+      "path": "/output/blender-stderr.log",
+      "size": 0
+    },
+    {
+      "path": "/output/blender-stdout.log",
+      "size": 274
+    },
+    {
+      "path": "/output/meminfo.txt",
+      "size": 591
+    },
+    {
+      "path": "/output/nvidia-smi.txt",
+      "size": 1689
+    },
+    {
+      "path": "/output/stub.txt",
+      "size": 8
+    }
+  ]
+}
+Stopping app - uncaught exception raised locally: TypeError("'generator' object does not support the context manager protocol (missed __exit__ method)").
+┌───────────────────── Traceback (most recent call last) ─────────────────────┐
+│ C:\Projects\CAD\astra-engine-pump\tools/astra_modal_engine.py:139 in main   │
+│                                                                             │
+│   138 │   │   os.makedirs(os.path.dirname(dst), exist_ok=True)              │
+│ > 139 │   │   with vol_out.read_file(o["path"]) as data:                    │
+│   140 │   │   │   with open(dst, "wb") as f:                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+TypeError: 'generator' object does not support the context manager protocol 
+(missed __exit__ method)

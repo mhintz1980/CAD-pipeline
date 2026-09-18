@@ -1,0 +1,227 @@
+00:00.080  system.path      | WARNING Could not get a list of mounted file-systems
+00:01.563  blend            | Read blend: "/work/out/engine-and-pump-v10.blend"
+[widen    0.1s] source sha256 5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f
+[widen    0.1s]   OK total mesh objects == 468                      got 468
+[widen    0.1s]   OK collection CAD_pump_new == 415                 got 415
+[widen    0.1s]   OK collection CAD_engine == 7                     got 7
+[widen    0.1s]   OK collection CAD_pump == 20                      got 20
+[widen    0.1s]   OK collection CAD_skid == 14                      got 14
+[widen    0.1s]   OK collection CAD_bale == 9                       got 9
+[widen    0.1s]   OK collection CAD_controller == 3                 got 3
+[widen    0.1s]   OK all planned parts present                      missing []
+[widen    0.1s]   OK 17 lengthened                                  17 unique
+[widen    0.1s]   OK 23 rigid                                       23 unique
+[widen    0.1s]   OK rigid/lengthened disjoint                      
+[widen    0.1s]   OK 428 entirely fixed                             got 428
+[widen    0.1s]   OK fixed includes all CAD_pump_new + CAD_engine   
+[widen    0.1s]   OK central mount MNT-PEB-CTF-PP12-WIDE fixed      
+[widen    0.1s]   OK central mount PLT-MNT-6SL-PE-PP12 fixed        
+[widen    0.1s]   OK central mount PP128S22-MFB fixed               
+[widen    0.1s]   OK central mount PP128S22-MFB.001 fixed           
+[widen    0.1s]   OK central mount PP128S22-MFB.002 fixed           
+[widen    0.1s]   OK central mount PP128S22-MFB.003 fixed           
+[widen    0.1s]   OK controller root CPM-PP-JD18 is an EMPTY        
+[widen    0.1s]   OK controller root children == 3 meshes           ['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005']
+[widen    0.1s]   OK rigid side split is 10 minus / 10 plus         minus=10 plus=10
+[widen    0.1s]   OK side of PP-FBS                                 -76.2
+[widen    0.1s]   OK side of PP-FBS.001                             +76.2
+[widen    0.1s]   OK side of PP-FBS.002                             +76.2
+[widen    0.1s]   OK side of PP-FBS.003                             -76.2
+[widen    0.1s]   OK side of LBU-PP                                 +76.2
+[widen    0.1s]   OK side of LBU-PP.001                             -76.2
+[widen    0.1s]   OK side of mc channel_ai_MC6x18x31.5              -76.2
+[widen    0.1s]   OK side of MC6X18-SKE_MC6x18x57.001               +76.2
+[widen    0.1s]   plane safety Copy of Copy of Part11^PP128-FTA         moved=88   runs=[[-892.27, 1011.73]]
+[widen    0.1s]   plane safety Copy of Copy of Part11^PP128-FTA.001     moved=88   runs=[[-892.27, 1011.73]]
+[widen    0.1s]   plane safety Part1^PP128-PP108-SKID                   moved=144  runs=[[-991.55, 988.45]]
+[widen    0.1s]   plane safety Part1^PP128-PP108-SKID.001               moved=144  runs=[[-991.55, 988.45]]
+[widen    0.1s]   plane safety PP-FTS-1008                              moved=256  runs=[[-882.75, -828.75], [-821.75, -474.75], [-460.75, -436.75]]
+[widen    0.2s]   plane safety PP-FTS-1008.001                          moved=256  runs=[[-882.75, -828.75], [-821.75, -474.75], [-460.75, -436.75]]
+[widen    0.2s]   plane safety PP-FTS-1008.002                          moved=256  runs=[[-882.75, -828.75], [-821.75, -474.75], [-460.75, -436.75]]
+[widen    0.2s]   plane safety PP-FTS-1008.003                          moved=256  runs=[[-882.75, -828.75], [-821.75, -474.75], [-460.75, -436.75]]
+[widen    0.2s]   plane safety PP-FTS-1008.004                          moved=256  runs=[[-882.75, -828.75], [-821.75, -474.75], [-460.75, -436.75]]
+[widen    0.2s]   plane safety PP-FTS-1008.005                          moved=256  runs=[[-882.75, -828.75], [-821.75, -474.75], [-460.75, -436.75]]
+[widen    0.2s]   plane safety PP-FTT                                   moved=1448 runs=[[-854.17, -824.17], [-810.17, -605.17], [-591.17, -386.17]]
+[widen    0.2s]   plane safety PP-FTT.001                               moved=1448 runs=[[-854.17, -824.17], [-810.17, -605.17], [-591.17, -386.17]]
+[widen    0.2s]   plane safety tube rectangular_ai_TR12x6x0.25x80       moved=160  runs=[[-987.02, 1043.98]]
+[widen    0.2s]   plane safety tube rectangular_ai_TR12x6x0.25x80.001   moved=160  runs=[[-987.02, 1043.98]]
+[widen    0.2s]   plane safety LBA-CB                                   moved=82   runs=[[-915.26, -205.26], [-102.26, 201.74], [303.74, 1014.74]]
+[widen    0.2s]   plane safety DOUBLER                                  moved=80   runs=[[-698.23, -636.23], [-635.23, -484.23], [-483.23, -76.23]]
+[widen    0.2s]   plane safety DOUBLER.001                              moved=80   runs=[[-698.17, -636.17], [-635.17, -484.17], [-483.17, -77.17]]
+[widen    0.2s]   OK all 17 lengthened parts have safe cut planes   17 checked
+[widen    0.2s] capturing baseline ...
+[widen    6.4s] capturing 29 mating separations ...
+[widen    7.0s]   tightest baseline mates: [(0.0, 'DOUBLER | PP-FTT'), (0.0, 'DOUBLER.001 | LBU-PP.001'), (0.0, 'DOUBLER.001 | PP-FTT'), (0.0, 'LBU-PP | LBS-LG'), (0.0, 'LBU-PP | PP-FTT'), (0.0, 'LBU-PP | PP-LBB.001')]
+[widen    7.0s] applying 20 rigid translations ...
+[widen    7.0s] translating controller root CPM-PP-JD18 by -76.2 mm
+[widen    7.0s] lengthening 17 members ...
+[widen    7.0s] edit applied; verifying ...
+[widen   12.7s]   OK 428 fixed meshes geometry bit-identical        changed: []
+[widen   12.7s]   OK 428 fixed meshes matrices unchanged            changed: []
+[widen   12.7s]   OK 23 rigid meshes local geometry bit-identical   changed: []
+[widen   12.7s]   OK 23 rigid world matrices moved exactly +/-76.2 mm on X worst deviation 0.0001 mm
+[widen   12.7s]   OK 23 rigid bboxes shifted exactly +/-76.2 mm on X, 0 on Y/Z worst deviation 0.0010 mm
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA: geometry changed 
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA: topology unchanged {'verts': 88, 'edges': 258, 'polys': 172, 'loops': 516, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 88, 'edges': 258, 'polys': 172, 'loops': 516, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA: X shift rule exact, Y/Z preserved dx err 0.00002 mm, yz err 0.00000 mm
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA: moved vertex count matches plan 88 vs 88
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA: X span +152.4 mm 1905.000 -> 2057.400
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA: X bbox centre unchanged 59.228 -> 59.228
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA: Y/Z extents unchanged ([2111.757, -810.416], [2175.257, -492.916]) -> ([2111.7571121900173, -810.4164367959455], [2175.2574221831587, -492.9163776732564])
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA: curved transverse feature lengths preserved 0 edges, max |d| 0.00000 mm
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA.001: geometry changed 
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA.001: topology unchanged {'verts': 88, 'edges': 258, 'polys': 172, 'loops': 516, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 88, 'edges': 258, 'polys': 172, 'loops': 516, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA.001: X shift rule exact, Y/Z preserved dx err 0.00004 mm, yz err 0.00000 mm
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA.001: moved vertex count matches plan 88 vs 88
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA.001: X span +152.4 mm 1905.001 -> 2057.401
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA.001: X bbox centre unchanged 59.227 -> 59.228
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA.001: Y/Z extents unchanged ([-2180.843, -810.416], [-2117.343, -492.916]) -> ([-2180.8431336069925, -810.4164367959455], [-2117.342823613795, -492.9163776732566])
+[widen   12.7s]   OK lengthen Copy of Copy of Part11^PP128-FTA.001: curved transverse feature lengths preserved 0 edges, max |d| 0.00000 mm
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID: geometry changed 
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID: topology unchanged {'verts': 144, 'edges': 432, 'polys': 288, 'loops': 864, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 144, 'edges': 432, 'polys': 288, 'loops': 864, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID: X shift rule exact, Y/Z preserved dx err 0.00002 mm, yz err 0.00001 mm
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID: moved vertex count matches plan 144 vs 144
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID: X span +152.4 mm 1981.201 -> 2133.600
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID: X bbox centre unchanged -1.952 -> -1.951
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID: Y/Z extents unchanged ([2259.889, -641.326], [2361.291, -539.925]) -> ([2259.889238659084, -641.3261128837166], [2361.2909685510285, -539.9248980454585])
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID: curved transverse feature lengths preserved 0 edges, max |d| 0.00000 mm
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID.001: geometry changed 
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID.001: topology unchanged {'verts': 144, 'edges': 432, 'polys': 288, 'loops': 864, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 144, 'edges': 432, 'polys': 288, 'loops': 864, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID.001: X shift rule exact, Y/Z preserved dx err 0.00002 mm, yz err 0.00001 mm
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID.001: moved vertex count matches plan 144 vs 144
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID.001: X span +152.4 mm 1981.200 -> 2133.600
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID.001: X bbox centre unchanged -1.952 -> -1.952
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID.001: Y/Z extents unchanged ([-2361.291, -641.326], [-2259.889, -539.925]) -> ([-2361.290826672797, -641.3261128837166], [-2259.8891027446934, -539.9248980454585])
+[widen   12.7s]   OK lengthen Part1^PP128-PP108-SKID.001: curved transverse feature lengths preserved 0 edges, max |d| 0.00000 mm
+[widen   12.7s]   OK lengthen PP-FTS-1008: geometry changed         
+[widen   12.7s]   OK lengthen PP-FTS-1008: topology unchanged       {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.7s]   OK lengthen PP-FTS-1008: X shift rule exact, Y/Z preserved dx err 0.00004 mm, yz err 0.00000 mm
+[widen   12.7s]   OK lengthen PP-FTS-1008: moved vertex count matches plan 256 vs 256
+[widen   12.7s]   OK lengthen PP-FTS-1008: X span +152.4 mm         1885.950 -> 2038.350
+[widen   12.7s]   OK lengthen PP-FTS-1008: X bbox centre unchanged  59.228 -> 59.228
+[widen   12.7s]   OK lengthen PP-FTS-1008: Y/Z extents unchanged    ([1279.907, -797.716], [1330.707, -492.916]) -> ([1279.9071405769084, -797.7164484354705], [1330.7074384447037, -492.9164027878016])
+[widen   12.7s]   OK lengthen PP-FTS-1008: curved transverse feature lengths preserved 280 edges, max |d| 0.00000 mm
+[widen   12.7s]   OK lengthen PP-FTS-1008.001: geometry changed     
+[widen   12.7s]   OK lengthen PP-FTS-1008.001: topology unchanged   {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.7s]   OK lengthen PP-FTS-1008.001: X shift rule exact, Y/Z preserved dx err 0.00004 mm, yz err 0.00000 mm
+[widen   12.7s]   OK lengthen PP-FTS-1008.001: moved vertex count matches plan 256 vs 256
+[widen   12.7s]   OK lengthen PP-FTS-1008.001: X span +152.4 mm     1885.950 -> 2038.350
+[widen   12.7s]   OK lengthen PP-FTS-1008.001: X bbox centre unchanged 59.228 -> 59.228
+[widen   12.7s]   OK lengthen PP-FTS-1008.001: Y/Z extents unchanged ([390.907, -797.716], [441.707, -492.916]) -> ([390.90711220509746, -797.7164484354705], [441.7074100728928, -492.9164027878016])
+[widen   12.7s]   OK lengthen PP-FTS-1008.001: curved transverse feature lengths preserved 280 edges, max |d| 0.00000 mm
+[widen   12.7s]   OK lengthen PP-FTS-1008.002: geometry changed     
+[widen   12.8s]   OK lengthen PP-FTS-1008.002: topology unchanged   {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.8s]   OK lengthen PP-FTS-1008.002: X shift rule exact, Y/Z preserved dx err 0.00002 mm, yz err 0.00000 mm
+[widen   12.8s]   OK lengthen PP-FTS-1008.002: moved vertex count matches plan 256 vs 256
+[widen   12.8s]   OK lengthen PP-FTS-1008.002: X span +152.4 mm     1885.951 -> 2038.351
+[widen   12.8s]   OK lengthen PP-FTS-1008.002: X bbox centre unchanged 59.227 -> 59.228
+[widen   12.8s]   OK lengthen PP-FTS-1008.002: Y/Z extents unchanged ([-1336.293, -797.716], [-1285.493, -492.916]) -> ([-1336.293108915924, -797.7164484354712], [-1285.4928110480805, -492.9164027878009])
+[widen   12.8s]   OK lengthen PP-FTS-1008.002: curved transverse feature lengths preserved 280 edges, max |d| 0.00000 mm
+[widen   12.8s]   OK lengthen PP-FTS-1008.003: geometry changed     
+[widen   12.8s]   OK lengthen PP-FTS-1008.003: topology unchanged   {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.8s]   OK lengthen PP-FTS-1008.003: X shift rule exact, Y/Z preserved dx err 0.00002 mm, yz err 0.00000 mm
+[widen   12.8s]   OK lengthen PP-FTS-1008.003: moved vertex count matches plan 256 vs 256
+[widen   12.8s]   OK lengthen PP-FTS-1008.003: X span +152.4 mm     1885.951 -> 2038.351
+[widen   12.8s]   OK lengthen PP-FTS-1008.003: X bbox centre unchanged 59.227 -> 59.228
+[widen   12.8s]   OK lengthen PP-FTS-1008.003: Y/Z extents unchanged ([-447.293, -797.716], [-396.493, -492.916]) -> ([-447.2930209394684, -797.7164484354712], [-396.4927230716249, -492.9164027878009])
+[widen   12.8s]   OK lengthen PP-FTS-1008.003: curved transverse feature lengths preserved 280 edges, max |d| 0.00000 mm
+[widen   12.8s]   OK lengthen PP-FTS-1008.004: geometry changed     
+[widen   12.8s]   OK lengthen PP-FTS-1008.004: topology unchanged   {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.8s]   OK lengthen PP-FTS-1008.004: X shift rule exact, Y/Z preserved dx err 0.00002 mm, yz err 0.00000 mm
+[widen   12.8s]   OK lengthen PP-FTS-1008.004: moved vertex count matches plan 256 vs 256
+[widen   12.8s]   OK lengthen PP-FTS-1008.004: X span +152.4 mm     1885.951 -> 2038.351
+[widen   12.8s]   OK lengthen PP-FTS-1008.004: X bbox centre unchanged 59.227 -> 59.228
+[widen   12.8s]   OK lengthen PP-FTS-1008.004: Y/Z extents unchanged ([-1336.293, -797.716], [-1285.493, -492.916]) -> ([-1336.293108915924, -797.7164484354712], [-1285.4928110480805, -492.9164027878009])
+[widen   12.8s]   OK lengthen PP-FTS-1008.004: curved transverse feature lengths preserved 280 edges, max |d| 0.00000 mm
+[widen   12.8s]   OK lengthen PP-FTS-1008.005: geometry changed     
+[widen   12.8s]   OK lengthen PP-FTS-1008.005: topology unchanged   {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 914, 'edges': 2748, 'polys': 1832, 'loops': 5496, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.8s]   OK lengthen PP-FTS-1008.005: X shift rule exact, Y/Z preserved dx err 0.00002 mm, yz err 0.00000 mm
+[widen   12.8s]   OK lengthen PP-FTS-1008.005: moved vertex count matches plan 256 vs 256
+[widen   12.8s]   OK lengthen PP-FTS-1008.005: X span +152.4 mm     1885.951 -> 2038.351
+[widen   12.8s]   OK lengthen PP-FTS-1008.005: X bbox centre unchanged 59.227 -> 59.228
+[widen   12.8s]   OK lengthen PP-FTS-1008.005: Y/Z extents unchanged ([-447.293, -797.716], [-396.493, -492.916]) -> ([-447.2930209394684, -797.7164484354712], [-396.4927230716249, -492.9164027878009])
+[widen   12.8s]   OK lengthen PP-FTS-1008.005: curved transverse feature lengths preserved 280 edges, max |d| 0.00000 mm
+[widen   12.8s]   OK lengthen PP-FTT: geometry changed              
+[widen   12.9s]   OK lengthen PP-FTT: topology unchanged            {'verts': 3968, 'edges': 12228, 'polys': 8152, 'loops': 24456, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 3968, 'edges': 12228, 'polys': 8152, 'loops': 24456, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   12.9s]   OK lengthen PP-FTT: X shift rule exact, Y/Z preserved dx err 0.00002 mm, yz err 0.00001 mm
+[widen   12.9s]   OK lengthen PP-FTT: moved vertex count matches plan 1448 vs 1448
+[widen   12.9s]   OK lengthen PP-FTT: X span +152.4 mm              1828.801 -> 1981.201
+[widen   12.9s]   OK lengthen PP-FTT: X bbox centre unchanged       59.228 -> 59.228
+[widen   12.9s]   OK lengthen PP-FTT: Y/Z extents unchanged         ([-2130.043, -492.916], [2137.158, -483.391]) -> ([-2130.043152642894, -492.9164052009592], [2137.15760513415, -483.391405083239])
+[widen   12.9s]   OK lengthen PP-FTT: curved transverse feature lengths preserved 1980 edges, max |d| 0.00000 mm
+[widen   12.9s]   OK lengthen PP-FTT.001: geometry changed          
+[widen   13.0s]   OK lengthen PP-FTT.001: topology unchanged        {'verts': 3968, 'edges': 12228, 'polys': 8152, 'loops': 24456, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 3968, 'edges': 12228, 'polys': 8152, 'loops': 24456, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   13.0s]   OK lengthen PP-FTT.001: X shift rule exact, Y/Z preserved dx err 0.00002 mm, yz err 0.00001 mm
+[widen   13.0s]   OK lengthen PP-FTT.001: moved vertex count matches plan 1448 vs 1448
+[widen   13.0s]   OK lengthen PP-FTT.001: X span +152.4 mm          1828.801 -> 1981.201
+[widen   13.0s]   OK lengthen PP-FTT.001: X bbox centre unchanged   59.228 -> 59.228
+[widen   13.0s]   OK lengthen PP-FTT.001: Y/Z extents unchanged     ([-2130.043, -819.941], [2137.158, -810.416]) -> ([-2130.043152642894, -819.9414014816294], [2137.15760513415, -810.4164013639092])
+[widen   13.0s]   OK lengthen PP-FTT.001: curved transverse feature lengths preserved 1980 edges, max |d| 0.00000 mm
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80: geometry changed 
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80: topology unchanged {'verts': 160, 'edges': 480, 'polys': 320, 'loops': 960, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 160, 'edges': 480, 'polys': 320, 'loops': 960, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80: X shift rule exact, Y/Z preserved dx err 0.00003 mm, yz err 0.00001 mm
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80: moved vertex count matches plan 160 vs 160
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80: X span +152.4 mm 2032.001 -> 2184.401
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80: X bbox centre unchanged 27.980 -> 27.980
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80: Y/Z extents unchanged ([-707.643, -972.342], [-402.843, -819.941]) -> ([-707.6430493733058, -972.3415533782168], [-402.842726015913, -819.9412649730222])
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80: curved transverse feature lengths preserved 0 edges, max |d| 0.00000 mm
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80.001: geometry changed 
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80.001: topology unchanged {'verts': 160, 'edges': 480, 'polys': 320, 'loops': 960, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 160, 'edges': 480, 'polys': 320, 'loops': 960, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80.001: X shift rule exact, Y/Z preserved dx err 0.00003 mm, yz err 0.00001 mm
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80.001: moved vertex count matches plan 160 vs 160
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80.001: X span +152.4 mm 2032.000 -> 2184.401
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80.001: X bbox centre unchanged 27.980 -> 27.980
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80.001: Y/Z extents unchanged ([397.257, -972.342], [702.057, -819.941]) -> ([397.2569828747405, -972.3415533782168], [702.0573789021164, -819.941264973022])
+[widen   13.0s]   OK lengthen tube rectangular_ai_TR12x6x0.25x80.001: curved transverse feature lengths preserved 0 edges, max |d| 0.00000 mm
+[widen   13.0s]   OK lengthen LBA-CB: geometry changed              
+[widen   13.0s]   OK lengthen LBA-CB: topology unchanged            {'verts': 234, 'edges': 708, 'polys': 472, 'loops': 1416, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 234, 'edges': 708, 'polys': 472, 'loops': 1416, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   13.0s]   OK lengthen LBA-CB: X shift rule exact, Y/Z preserved dx err 0.00004 mm, yz err 0.00000 mm
+[widen   13.0s]   OK lengthen LBA-CB: moved vertex count matches plan 82 vs 82
+[widen   13.0s]   OK lengthen LBA-CB: X span +152.4 mm              1981.454 -> 2133.854
+[widen   13.0s]   OK lengthen LBA-CB: X bbox centre unchanged       49.464 -> 49.464
+[widen   13.0s]   OK lengthen LBA-CB: Y/Z extents unchanged         ([-9.525, 1608.934], [9.525, 1913.734]) -> ([-9.525266739113546, 1608.9335083961487], [9.52526820627676, 1913.7335419654846])
+[widen   13.0s]   OK lengthen LBA-CB: curved transverse feature lengths preserved 117 edges, max |d| 0.00000 mm
+[widen   13.0s]   OK lengthen DOUBLER: geometry changed             
+[widen   13.0s]   OK lengthen DOUBLER: topology unchanged           {'verts': 104, 'edges': 324, 'polys': 216, 'loops': 648, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 104, 'edges': 324, 'polys': 216, 'loops': 648, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   13.0s]   OK lengthen DOUBLER: X shift rule exact, Y/Z preserved dx err 0.00240 mm, yz err 0.00000 mm
+[widen   13.0s]   OK lengthen DOUBLER: moved vertex count matches plan 80 vs 80
+[widen   13.0s]   OK lengthen DOUBLER: X span +152.4 mm             1422.394 -> 1574.799
+[widen   13.0s]   OK lengthen DOUBLER: X bbox centre unchanged      -0.030 -> -0.030
+[widen   13.0s]   OK lengthen DOUBLER: Y/Z extents unchanged        ([-1852.9, -483.391], [-1662.4, -473.866]) -> ([-1852.900019985378, -483.3914032204075], [-1662.399805371397, -473.8664031026875])
+[widen   13.0s]   OK lengthen DOUBLER: curved transverse feature lengths preserved 40 edges, max |d| 0.00000 mm
+[widen   13.0s]   OK lengthen DOUBLER.001: geometry changed         
+[widen   13.0s]   OK lengthen DOUBLER.001: topology unchanged       {'verts': 104, 'edges': 324, 'polys': 216, 'loops': 648, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1} vs {'verts': 104, 'edges': 324, 'polys': 216, 'loops': 648, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'wire_edges': 0, 'components': 1}
+[widen   13.0s]   OK lengthen DOUBLER.001: X shift rule exact, Y/Z preserved dx err 0.00240 mm, yz err 0.00000 mm
+[widen   13.0s]   OK lengthen DOUBLER.001: moved vertex count matches plan 80 vs 80
+[widen   13.0s]   OK lengthen DOUBLER.001: X span +152.4 mm         1422.394 -> 1574.799
+[widen   13.0s]   OK lengthen DOUBLER.001: X bbox centre unchanged  0.030 -> 0.030
+[widen   13.0s]   OK lengthen DOUBLER.001: Y/Z extents unchanged    ([245.775, -483.391], [436.275, -473.866]) -> ([245.7751997157266, -483.39140322078117], [436.2754143297079, -473.86640310306115])
+[widen   13.0s]   OK lengthen DOUBLER.001: curved transverse feature lengths preserved 40 edges, max |d| 0.00000 mm
+[widen   13.2s]   OK assembly outside width +152.4 mm               152.400 mm
+[widen   13.2s]   OK assembly bbox centre X unchanged               11.3630 -> 11.3630
+[widen   13.2s]   OK Y/Z scene extents unchanged                    Y -2361.29..2361.29  Z -972.34..1955.67
+[widen   13.2s]   OK upright inner spacing +152.4 mm                1443.645 -> 1596.045
+[widen   13.2s]   OK upright inner faces moved -76.2 / +76.2        -739.022 857.022
+[widen   13.2s]   OK controller follows minus upright rigidly       gap -48.842 -> -48.842 mm
+[widen   13.2s] measuring 29 mating separations after edit ...
+[widen   13.8s]   OK no mating interface opens by more than 0.5 mm  offenders []
+Info: Saved as "engine-and-pump-v11-wide.blend"
+[widen   13.9s]   OK v11 blend written                              /work/out/engine-and-pump-v11-wide.blend (248.7 MB)
+[widen   14.2s] saved v11: 92c4b271661d0914889b0f8fb42c440d884209f99dc589f3597b441be5638ced
+00:16.313  blend            | Read blend: "/work/out/engine-and-pump-v11-wide.blend"
+[widen   14.3s]   OK reload: 468 mesh objects                       468
+[widen   14.4s]   OK reload: collections unchanged                  {'CAD_pump_new': 415, 'CAD_engine': 7, 'CAD_pump': 20, 'CAD_skid': 14, 'CAD_bale': 9, 'CAD_controller': 3}
+[widen   14.6s]   OK reload: width/centre preserved                 
+[widen   20.0s]   OK reload: fixed parts still identical to v10     []
+[widen   20.0s]   OK reload: edited parts preserved exactly         []
+[widen   20.3s]   OK reload: rigid meshes still local-identical     []
+[widen   20.3s] measuring engine/upright clearance on the reloaded v11 ...
+[widen   22.3s]   OK clearance LBU-PP.001: no engine/upright triangle intersection 0
+[widen   22.3s]   OK clearance LBU-PP: no engine/upright triangle intersection 0
+[widen   22.3s]   LBU-PP.001: intersections=0 min_dist=89.403 mm tight_slab=-1526.017 mm inner_face=-739.022
+[widen   22.3s]   LBU-PP: intersections=0 min_dist=97.92 mm tight_slab=-1662.784 mm inner_face=857.022
+[widen   22.3s] WROTE /work/reports/astra-widening-v11.json
+[widen   22.3s] DONE  ok=True  checks=188  failures=0
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 02:18:37)
+
+Blender quit

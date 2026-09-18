@@ -1,0 +1,10 @@
+00:00.137  system.path      | WARNING Could not get a list of mounted file-systems
+00:02.507  blend            | Read blend: "/input/run-20260918T140853/engine-and-pump-v10.blend"
+01:20.264  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+Info: Saved copy as "engine-cleaned.blend"
+Error: Cannot render, no camera
+[astra-export] DONE rev3 in 77.0 s
+[astra-export] detailed STL: 499996 tris; light STL: 199998 tris; preview=FAILED
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 02:18:37)
+
+Blender quit

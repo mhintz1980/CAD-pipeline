@@ -1,0 +1,9 @@
+# Final quality pass (DeepSeek owns exporter)
+Actualrun14:12produced499996tris25MB detailed,199998tris10MB light. Detailedcasting sampledmax1.548mmmean0.0625mm goodreference; lightmax33.886mm NOT acceptableforfit/clearance. Do notcalllightfitready. Sourceopenmesh notwatertight; don'tdeclareallopenedgesintentional or introducednonmanifoldexpectedbenignwithoutproof.
+
+Own tools/astra_engine_export.py, reports/astra-engine-export-code.md ONLY. Make smallchanges rapidly, nofullrewrite:
+1. Camera fixalreadyappearslocal source.scene.camera=cam; ensurepreview staginghascorrectcamera and sceneviewlayer evaluated. Inputmaycontainsequencer/compositor scenes! Explicitdisableuse_sequencer/use_compositing (sourcecompositorcouldinvokeanotherScene withnocamera) ifappropriateforisolatedpreview. Need GPUrenderproof, notGPUallocatedclaim. Reuse newstage afterisolation.
+2. Defaultlighttarget350000 (~17.5MB), detailed500000. Preserve tinyCOMPOUND 360tris: DECIMATE_NAMES onlyCOMPOUND.001; protectother6bodies allcoordinateexact. Clearreportprotectedlist. Small extra3KB negligible.
+3. README: recommend25MBdetailedforreference. Compact17.5MB onlyif measuredsampledmax<=3mm else explicitlyvisual-only withactualdeviation. ReportSTLfilesnotanalyticSolidWatertight. CorrectSWinstructions File>Open chooseSTL Optionsunitsmillimetres ImportasGraphicsBody or meshBREP ifavailable. Do notchooseconventionalfacetperfaceSolidBody default. NativeSWimportnotyettested.
+4. sourcecleanup introduced~4075nonmanifoldedges, decim4076. Reporthonestly openmeshdefects remain, don'tclaimhealedsolid. meshdiagnosticsunderapprovedscope.
+5. UpdateREADYrev4 withscriptSHA. Aftercompile, create astra-engine-export-ready-rev4.md signal. Cloudworkerthenreruns once(~77secondsprioractualruntime) witholdrunsimmutable. No localBlender.

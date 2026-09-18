@@ -1,0 +1,15 @@
+C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages\modal\_utils\async_utils.py:43: DeprecationWarning: 'asyncio.WindowsSelectorEventLoopPolicy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages\modal\_utils\async_utils.py:43: DeprecationWarning: 'asyncio.set_event_loop_policy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+✓ Initialized. View run at 
+https://modal.com/apps/mhintz1980/main/ap-Ii35Ph8dJVT3zj0EIpAv9y
+✓ Created objects.
+├── 🔨 Created mount 
+│   C:\Projects\CAD\astra-engine-pump\tools\modal_beauty_20260918.py
+└── 🔨 Created function render.
+BEAUTY_SUBMIT preview-01
+BEAUTY_DOWNLOADED {"run_id": "preview-01", "returncode": 0, "seconds": 21.700875759124756, "files": [{"name": "01-pump-hero.png", "bytes": 1063427, "sha256": "77a0babc73d4f413a616623a95bb961971e750d01e94cb2e081c678230341acb"}, {"name": "02-side-hero.png", "bytes": 1094135, "sha256": "4d49d2d63a98d4b941a9974217723902f538a3428e89ec11c17023d484867061"}, {"name": "beauty-report.json", "bytes": 151546, "sha256": "4dc269d441df4122264877c758b17126684322c4a57b079fedd4daba81f1697f"}, {"name": "blender.log", "bytes": 1380, "sha256": "818456ca894c272f97a0711f9346d65849553deb25456f74f307494d804665a9"}, {"name": "nvidia-smi.txt", "bytes": 1689, "sha256": "7419401a6d0e171e0c7938b1acdfe313d87957664d591dcf9df50a960d35acc7"}], "function_call_id": "fc-01M2TTTXK9MM740NVZ24BWCJKR", "source_unchanged": true, "app_id": "ap-Ii35Ph8dJVT3zj0EIpAv9y", "local_directory": "C:\\Projects\\CAD\\astra-engine-pump\\reports\\reference-beauty-20260918\\preview-01"}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/mhintz1980/main/ap-Ii35Ph8dJVT3zj0EIpAv9y

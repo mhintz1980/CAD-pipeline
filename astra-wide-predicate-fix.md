@@ -1,0 +1,4 @@
+# Stop inventory exploration; fix inverted predicate
+Failure14:17 "fixed includes all CAD_pump_new + CAD_engine" is the CHECK LOGIC itself, not an unknown offending sourcepart. Current assertion uses name IN changed LEN|RIGID OR collection not engine/pump; this fails precisely for all correct fixed engine/pump objects.
+Correct implication: for every mesh, if collection in CAD_pump_new/CAD_engine then object.name must be IN fixed set (or NOT IN set(LEN)|set(RIGID)). Others don't constrain this assertion. Prove zerointersection between changedset and all415+7engine/pumpnames from inspection. No broader sourceinvestigationneeded. Do not remove/weaken the guard or moveobjects. Reruncloud afterthissmallfix; deadline14:44 now14:22. Keep all subsequent before/after geometryguards.
+Also ensureMMdefaultdefinitionfix uses sceneunits not assumedfixedarbitrary. Downloaderstreamiteratorfixed. If secondnew distinctruntimebug arises, diagnoseconciselywithparentnot10shellpolls.

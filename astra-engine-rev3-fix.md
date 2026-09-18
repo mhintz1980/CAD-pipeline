@@ -1,0 +1,8 @@
+# Rev2 remains blocked — exact fixes required
+DeepSeek reviewer now owns tools/astra_engine_export.py and readinessreport; GLMproducer is finished. Escalation within userrequestedmodels. Fix mechanically and dispatchreadiness asap.
+1. Line109 Matrix.Scale(mm / 1000.0,4) STILLWRONG. mm=scale_length*1000 already. Use Matrix.Scale(mm,4) @ capturedworld. Actualworld source ismeters. Hardbboxcheckwillprove.
+2. Lines433-437 delete EVERY originalobject, then line442 working[o.name] for src_objs invalidRNA and laterprotectedrefs invalid. Move destructiveisolation/deletion/saveengineblend to END AFTER ALLmetrics/STL/README/report operations. Or freeze src_names/protected_names and replaceALLlaterreferences. Simpler moveblocktoend andkeepbaselinesavailable throughmetrics. Delete generatedlightcopieswhenfinalblenddetail onlysave. Exports should write BEFOREpreview to recoverartifactsifrendererror.
+3. stage_scene mustunhide working objectsandparentcollections, excludedlayervisibility inheritedfromsource mayhideclones. Validate rendersactualengine.
+4. Savingmm-baked .blend should unit_settings.scale_length=0.001 torepresentmmcorrectly. Allworldcoordsmm geometry, stencilrenderlargerbutcameraappropriatelyframed. STLmm validwith1e3scaling.
+5. mount_preserved_exact cannotprovebytricount only. Compare trianglecoordinates array_equal vsimmutablebaseline, finitevalidated. Recorddeviationinmm [3] and postdecimationtopology forbothvariants.
+6. Codeinspection verify beforeREADY; markrev3notrev2. Report READY onlyafteractualfixes. No neednewstrategyorfullrewrite, smallpatches. No localBlender. Deadline14:44now14:04.

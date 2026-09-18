@@ -1,0 +1,56 @@
+{
+  "run_id": "final-01",
+  "returncode": 0,
+  "seconds": 130.87066268920898,
+  "files": [
+    {
+      "name": "01-pump-hero.png",
+      "bytes": 6048708,
+      "sha256": "193eac8d2442383dfa6e209fc74a328eca80f713353b4dc10fb7f83b6872a952"
+    },
+    {
+      "name": "02-side-hero.png",
+      "bytes": 6121897,
+      "sha256": "cb75a559f05fcc41973980396e0bccd221a30995de04a1b0dd62b9814de3ac9d"
+    },
+    {
+      "name": "03-drive-side.png",
+      "bytes": 6048298,
+      "sha256": "4fbe5d8e138c1bb637b329e0725febaa2935608eabdff528d704d135fcfdfeef"
+    },
+    {
+      "name": "04-light-studio.png",
+      "bytes": 6043383,
+      "sha256": "b87807233b046ac683985fbab3555b424a492cb19a3dc27ffa7298c2ebc546f4"
+    },
+    {
+      "name": "05-pump-detail.png",
+      "bytes": 6557382,
+      "sha256": "fb371fb55ab0bd78208e13c89a3b8dadec8d7762cd3985fe7419a693e87fae93"
+    },
+    {
+      "name": "beauty-report.json",
+      "bytes": 153964,
+      "sha256": "5bd2fb58dc5db55d601003e9252d5e82cda269576e85487b1bc491d53700fd52"
+    },
+    {
+      "name": "blender.log",
+      "bytes": 2529,
+      "sha256": "7d52a1f4ab04c6209e6fc5d6d4cd9f2be64a73487796ab45cc409f414960ca68"
+    },
+    {
+      "name": "engine-pump-reference-look.blend",
+      "bytes": 102657024,
+      "sha256": "098f7e765b3b6c7662764ab5fd4f354e582c4a81b294e3d1541732a4c653e9c1"
+    },
+    {
+      "name": "nvidia-smi.txt",
+      "bytes": 1689,
+      "sha256": "841b3e7d8d3914a7256ca95fe4943c0ef6a0daabfb75ebbd06dc28bc9dcfea3f"
+    }
+  ],
+  "function_call_id": "fc-01M2TVD77ETEMVETB414G3NT1W",
+  "source_unchanged": true,
+  "app_id": "ap-7jri7jBJfhY9geJUMNtpMt",
+  "local_directory": "C:\\Projects\\CAD\\astra-engine-pump\\reports\\reference-beauty-20260918\\final-01"
+}

@@ -1,0 +1,25 @@
+00:00.086  system.path      | WARNING Could not get a list of mounted file-systems
+00:01.837  blend            | Read blend: "/data/input/engine-and-pump-v10.blend"
+00:03.419  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:08.554  render           | Saved: '/data/preview-04/01-pump-hero.png'
+[astra] visibility fix: {'scope': 'collection:CAD_pump_new', 'before[hide_render,hide_viewport]': [True, False], 'after[hide_render,hide_viewport]': [False, False]}
+[astra] visibility fix: 1 change(s)
+[astra] floor GroundFloor size 180.0 m at z=-0.9743, in scene=True, hide_render=False
+[astra] camera REF_01-pump-hero: dist 11.83 m, lens 58 mm
+[astra] camera REF_02-side-hero: dist 10.21 m, lens 58 mm
+[astra] camera REF_03-drive-side: dist 11.33 m, lens 58 mm
+[astra] pump render check: 415/415 meshes renderable, all_in_view_layer=True, all_non_empty_eval=True
+[astra] pump camera-ray hits from REF_01-pump-hero: 24/24 sample rays hit CAD_pump_new
+[astra] pump render check: 415/415 meshes renderable, all_in_view_layer=True, all_non_empty_eval=True
+[astra] pump camera-ray hits from REF_02-side-hero: 24/24 sample rays hit CAD_pump_new
+[astra] pump render check: 415/415 meshes renderable, all_in_view_layer=True, all_non_empty_eval=True
+[astra] pump camera-ray hits from REF_03-drive-side: 24/24 sample rays hit CAD_pump_new
+BEAUTY_IMAGE 01-pump-hero
+00:11.483  render           | Saved: '/data/preview-04/02-side-hero.png'
+BEAUTY_IMAGE 02-side-hero
+00:14.334  render           | Saved: '/data/preview-04/03-drive-side.png'
+BEAUTY_IMAGE 03-drive-side
+BEAUTY_COMPLETE {"images": 3, "seconds": 13.666456699371338}
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 02:18:37)
+
+Blender quit

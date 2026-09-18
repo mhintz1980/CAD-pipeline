@@ -1,0 +1,55 @@
+C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages\modal\_utils\async_utils.py:43: DeprecationWarning: 'asyncio.WindowsSelectorEventLoopPolicy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages\modal\_utils\async_utils.py:43: DeprecationWarning: 'asyncio.set_event_loop_policy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+✓ Initialized. View run at 
+https://modal.com/apps/mhintz1980/main/ap-e5DJqbTRlVaq9nQ1hDDeW0
+✓ Created objects.
+├── 🔨 Created mount 
+│   C:\Projects\CAD\astra-engine-pump\tools\modal_beauty_20260918.py
+└── 🔨 Created function render.
+BEAUTY_SUBMIT preview-03
+Stopping app - user stopped from CLI.
+┌───────────────────── Traceback (most recent call last) ─────────────────────┐
+│ C:\Projects\CAD\astra-engine-pump\tools/modal_beauty_20260918.py:72 in main │
+│                                                                             │
+│   71 │   local=ROOT/'reports/reference-beauty-20260918'/run_id              │
+│ > 72 │   local.mkdir(parents=True,exist_ok=False)                           │
+│   73 │   for name, value in scripts.items():                                │
+│                                                                             │
+│ C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages │
+│ \modal\_object.py:46 in wrapped                                             │
+│                                                                             │
+│    45 │   │   await self.hydrate()                                          │
+│ >  46 │   │   return await method(self, *args, **kwargs)                    │
+│    47                                                                       │
+│                                                                             │
+│ C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages │
+│ \modal\_functions.py:1893 in remote                                         │
+│                                                                             │
+│   1892 │   │                                                                │
+│ > 1893 │   │   return await self._call_function(args, kwargs)               │
+│   1894                                                                      │
+│                                                                             │
+│ C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages │
+│ \modal\_functions.py:1830 in _call_function                                 │
+│                                                                             │
+│   1829 │   │                                                                │
+│ > 1830 │   │   return await invocation.run_function()                       │
+│   1831                                                                      │
+│                                                                             │
+│ C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages │
+│ \modal\_functions.py:484 in run_function                                    │
+│                                                                             │
+│    483 │   │   │   if await_response.output.result.status in TERMINAL_STATU │
+│ >  484 │   │   │   │   return await _process_result(                        │
+│    485 │   │   │   │   │   await_response.output.result, await_response.out │
+│                                                                             │
+│ C:\Users\Markimus\AppData\Local\Programs\Python\Python314\Lib\site-packages │
+│ \modal\_utils\function_utils.py:574 in _process_result                      │
+│                                                                             │
+│   573 │   │                                                                 │
+│ > 574 │   │   raise RemoteError(result.exception)                           │
+│   575                                                                       │
+└─────────────────────────────────────────────────────────────────────────────┘
+RemoteError

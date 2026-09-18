@@ -34,6 +34,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SAVE_ABS = SAVE_BLEND if os.path.isabs(SAVE_BLEND) else os.path.join(ROOT, SAVE_BLEND)
 
 DX = 76.2                       # mm added per side
+MM = 1000.0                     # mm per scene unit (Blender default: metres)
 DATUM_X = 59.0                  # bale / sidewall datum (mm)
 CUT = (-680.0, 798.0)           # nominal world-X cut planes for the 15 members
 CUT_DOUB = (-665.0, 665.0)      # DOUBLER pair (engine footprint |X| <= 635 stays)
@@ -528,7 +529,8 @@ def main():
                    "total": len(meshes)}
     chk("428 entirely fixed", len(fixed) == 428, "got %d" % len(fixed))
     chk("fixed includes all CAD_pump_new + CAD_engine",
-        all(o.name in set(LEN) | set(RIGID) or coll_of(o) not in ("CAD_pump_new", "CAD_engine")
+        all(coll_of(o) not in ("CAD_pump_new", "CAD_engine")
+            or o.name not in set(LEN) | set(RIGID)
             for o in meshes), "")
     for n in FIXED_GUARD:
         chk("central mount %s fixed" % n, bpy.data.objects[n].name not in (set(LEN) | set(RIGID)), "")

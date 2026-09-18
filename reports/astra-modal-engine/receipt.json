@@ -1,0 +1,67 @@
+{
+  "run_id": "run-20260918T141702",
+  "source_sha256": "5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f",
+  "source_bytes": 102843862,
+  "script": "tools/astra_engine_export.py",
+  "app_name": "astra-engine-export",
+  "function_name": "run_export",
+  "resources": {
+    "cpu": "16/16",
+    "memory_mib": "65536/65536",
+    "gpu": "L4",
+    "timeout_s": 2400
+  },
+  "started_utc": "2026-09-18T18:17:04Z",
+  "remote": {
+    "run_id": "run-20260918T141702",
+    "returncode": 0,
+    "error": null,
+    "elapsed_sec": 88.51279258728027,
+    "blend_sha256": "5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f",
+    "outputs": [
+      {
+        "path": "/output/run-20260918T141702/README.md",
+        "size": 2011
+      },
+      {
+        "path": "/output/run-20260918T141702/astra-engine-export.json",
+        "size": 9720
+      },
+      {
+        "path": "/output/run-20260918T141702/blender-stderr.log",
+        "size": 141
+      },
+      {
+        "path": "/output/run-20260918T141702/blender-stdout.log",
+        "size": 666
+      },
+      {
+        "path": "/output/run-20260918T141702/engine-cleaned.blend",
+        "size": 17085339
+      },
+      {
+        "path": "/output/run-20260918T141702/engine-detailed.stl",
+        "size": 24999984
+      },
+      {
+        "path": "/output/run-20260918T141702/engine-light.stl",
+        "size": 17500084
+      },
+      {
+        "path": "/output/run-20260918T141702/engine-preview.png",
+        "size": 1020672
+      },
+      {
+        "path": "/output/run-20260918T141702/meminfo.txt",
+        "size": 588
+      },
+      {
+        "path": "/output/run-20260918T141702/nvidia-smi.txt",
+        "size": 1689
+      }
+    ]
+  },
+  "finished_utc": "2026-09-18T18:18:43Z",
+  "wall_sec": 98.7776460647583,
+  "download_dir": "reports/astra-modal-engine/run-20260918T141702"
+}

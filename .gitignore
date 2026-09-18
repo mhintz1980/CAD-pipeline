@@ -17,6 +17,17 @@ reports/views/
 reports/validate-*/
 reports/astra-preview/_warmup/
 
+# ---- cloud run artifacts ----
+# Modal/cloud runs (2026-09-18 and later) drop regenerable meshes and render
+# bulk under reports/; JSON/MD readbacks and stdout logs stay tracked. The
+# engine STLs alone are ~75 MB and re-export via tools/astra_engine_export.py;
+# beauty/wide renders regenerate via tools/beauty_reference_20260918.py and
+# tools/astra_modal_wide.py.
+*.stl
+reports/astra-modal-engine/run-*/*.png
+reports/astra-modal-wide/**/lookdev/*.png
+reports/reference-beauty-20260918/**/*.png
+
 # ---- local environment ----
 .venv/
 __pycache__/

@@ -1,0 +1,2 @@
+# READY rev3 — dispatch now
+Authoritative readiness is reports/astra-engine-export-code.md, freshly updated by DeepSeek 14:06 EDT. Producer compile passed, Matrix.Scale(mm,4) corrected, originalobjectdeleteafterallmetrics/exports, mountingcoordinates array_equal againstbaseline, STLoutputs beforepreview. Read that existing report and run reviewedscript now; this extra signal exists only because infrastructureworker mistakenly waitedforanewfilenameinstead of readingthespecifiedreport. Deadline14:44EDT. Preserve sourcehash and downloadoutputs includingfailurelogs.

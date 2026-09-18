@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Engine + pump — green & grey</title>
+<style>
+  :root{color-scheme:dark;font-family:Segoe UI,Arial,sans-serif;background:#101719;color:#edf2ef}
+  *{box-sizing:border-box}body{margin:0}main{max-width:1500px;margin:auto;padding:48px 4vw 72px}
+  .eyebrow{font-size:12px;letter-spacing:.2em;color:#9eaaa6;text-transform:uppercase}
+  h1{font-size:clamp(32px,4vw,58px);font-weight:500;letter-spacing:-.05em;margin:12px 0}
+  .intro{color:#aebbb6;line-height:1.65;max-width:620px;margin:0}
+  .top{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:32px}
+  .actions{display:flex;gap:10px;flex-wrap:wrap}a{color:inherit}.button{padding:13px 18px;border:1px solid #4b5a54;border-radius:7px;text-decoration:none;font-size:14px;white-space:nowrap}.button:hover{background:#243c31}
+  figure{margin:0;background:#192228;border:1px solid #2a353a;border-radius:10px;overflow:hidden}
+  img{display:block;width:100%;height:auto}figure>a{display:block}figcaption{padding:17px 22px;font-size:14px;display:flex;justify-content:space-between;color:#b2bfba;gap:12px}figcaption strong{color:#eef4f0;font-weight:500}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+  .swatches{display:flex;flex-wrap:wrap;gap:24px;margin:26px 0 36px;font-size:13px;color:#afbbb6}.swatch{display:inline-block;width:13px;height:13px;border-radius:50%;margin-right:8px;vertical-align:-2px;border:1px solid #ffffff25}
+  footer{margin-top:32px;color:#8e9f98;font-size:13px;line-height:1.7}
+  a:focus-visible{outline:3px solid #9dceaf;outline-offset:4px}
+  @media(max-width:760px){main{padding-top:30px}.top{align-items:start;flex-direction:column}.grid{grid-template-columns:1fr}figcaption{font-size:12px;padding:14px} .actions{margin-top:8px}}
+</style>
+<main>
+  <div class="top"><div><div class="eyebrow">Blender / Modal · 18 September 2026</div><h1>Engine + pump.</h1><p class="intro">Deep green castings. Light grey steelwork. A complete studio treatment based on your reference photographs.</p></div>
+  <div class="actions"><a class="button" href="final-01/engine-pump-reference-look.blend" download>Blender scene ↓</a><a class="button" href="RESULT.md">Render notes</a></div></div>
+  <figure><a href="final-01/01-pump-hero.png"><img src="final-01/01-pump-hero.png" alt="Engine and pump on a grey skid, with deep green pump and lifting frame in a dark studio"></a><figcaption><strong>01 / Pump hero</strong><span>2800 × 2000 · Click for original</span></figcaption></figure>
+  <div class="swatches"><span><i class="swatch" style="background:#075D46"></i>Pump green</span><span><i class="swatch" style="background:#104E3E"></i>Frame green</span><span><i class="swatch" style="background:#AEB5B8"></i>Skid grey</span><span><i class="swatch" style="background:#454B4D"></i>Cast iron</span></div>
+  <div class="grid">
+    <figure><a href="final-01/02-side-hero.png"><img loading="lazy" src="final-01/02-side-hero.png" alt="Side view of the full engine and pump assembly"></a><figcaption><strong>02 / Side view</strong><span>2800 × 2000</span></figcaption></figure>
+    <figure><a href="final-01/03-drive-side.png"><img loading="lazy" src="final-01/03-drive-side.png" alt="Opposite side showing the pump, drive connection and engine"></a><figcaption><strong>03 / Drive side</strong><span>2800 × 2000</span></figcaption></figure>
+    <figure><a href="final-01/04-light-studio.png"><img loading="lazy" src="final-01/04-light-studio.png" alt="Full assembly photographed on a light studio floor"></a><figcaption><strong>04 / Light studio</strong><span>2800 × 2000</span></figcaption></figure>
+    <figure><a href="final-01/05-pump-detail.png"><img loading="lazy" src="final-01/05-pump-detail.png" alt="Close-up of the green pump castings, flanges and hardware"></a><figcaption><strong>05 / Pump detail</strong><span>2800 × 2000</span></figcaption></figure>
+  </div>
+  <footer>Colours are appearance approximations from the supplied photos. The source CAD geometry and placement are preserved. The Blender file contains the materials, lighting and cameras.</footer>
+</main>
+</html>

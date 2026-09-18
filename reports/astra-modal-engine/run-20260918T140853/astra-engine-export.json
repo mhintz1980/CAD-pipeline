@@ -1,0 +1,355 @@
+{
+  "script_rev": 3,
+  "started": "2026-09-18T18:09:05",
+  "output_unit": "mm (world metres -> mm via scale_length*1000; origin/orientation preserved)",
+  "cleanup_eps_mm": 0.001,
+  "bodies": {
+    "PP12-EM-JD18": {
+      "protected": true,
+      "src_tris": 1204,
+      "src_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "clean_tris": 1204,
+      "clean_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "detailed_tris": 1204,
+      "detailed_ratio": 1.0,
+      "detailed_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "light_ratio": 1.0,
+      "light_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "mount_preserved_exact": true,
+      "mount_tris": 3612,
+      "mount_dev_mm": 0.0
+    },
+    "EM-SP": {
+      "protected": true,
+      "src_tris": 156,
+      "src_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "clean_tris": 156,
+      "clean_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "detailed_tris": 156,
+      "detailed_ratio": 1.0,
+      "detailed_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "light_ratio": 1.0,
+      "light_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "mount_preserved_exact": true,
+      "mount_tris": 468,
+      "mount_dev_mm": 0.0
+    },
+    "EM-SP.001": {
+      "protected": true,
+      "src_tris": 156,
+      "src_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "clean_tris": 156,
+      "clean_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "detailed_tris": 156,
+      "detailed_ratio": 1.0,
+      "detailed_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "light_ratio": 1.0,
+      "light_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "mount_preserved_exact": true,
+      "mount_tris": 468,
+      "mount_dev_mm": 0.0
+    },
+    "EM-SP.002": {
+      "protected": true,
+      "src_tris": 156,
+      "src_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "clean_tris": 156,
+      "clean_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "detailed_tris": 156,
+      "detailed_ratio": 1.0,
+      "detailed_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "light_ratio": 1.0,
+      "light_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "mount_preserved_exact": true,
+      "mount_tris": 468,
+      "mount_dev_mm": 0.0
+    },
+    "EM-SP.003": {
+      "protected": true,
+      "src_tris": 156,
+      "src_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "clean_tris": 156,
+      "clean_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "detailed_tris": 156,
+      "detailed_ratio": 1.0,
+      "detailed_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "light_ratio": 1.0,
+      "light_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "mount_preserved_exact": true,
+      "mount_tris": 468,
+      "mount_dev_mm": 0.0
+    },
+    "COMPOUND": {
+      "protected": false,
+      "src_tris": 360,
+      "src_stats": {
+        "boundary_edges": 192,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 8
+      },
+      "clean_tris": 356,
+      "clean_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "detailed_ratio": 0.21910112359550563,
+      "detailed_tris": 78,
+      "detailed_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "deviation_detailed": {
+        "samples": 438,
+        "misses": 0,
+        "max_dev_mm": 1.1000745296478271,
+        "mean_dev_mm": 0.034565568897242015,
+        "note": "estimate from deterministic BVH nearest samples; NOT certified Hausdorff"
+      },
+      "light_ratio": 0.3978015448603684,
+      "light_tris": 30,
+      "light_stats": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 0
+      },
+      "deviation_light": {
+        "samples": 390,
+        "misses": 0,
+        "max_dev_mm": 4.497381210327148,
+        "mean_dev_mm": 0.4975900082185921,
+        "note": "estimate from deterministic BVH nearest samples; NOT certified Hausdorff"
+      }
+    },
+    "COMPOUND.001": {
+      "protected": false,
+      "src_tris": 2274714,
+      "src_stats": {
+        "boundary_edges": 1517118,
+        "nonmanifold_edges": 0,
+        "degenerate_elems": 11429
+      },
+      "clean_tris": 2263239,
+      "clean_stats": {
+        "boundary_edges": 422099,
+        "nonmanifold_edges": 4075,
+        "degenerate_elems": 21
+      },
+      "detailed_ratio": 0.22007971760825967,
+      "detailed_tris": 498090,
+      "detailed_stats": {
+        "boundary_edges": 203329,
+        "nonmanifold_edges": 4076,
+        "degenerate_elems": 7
+      },
+      "deviation_detailed": {
+        "samples": 8000,
+        "misses": 0,
+        "max_dev_mm": 1.5479358434677124,
+        "mean_dev_mm": 0.0625068613951024,
+        "note": "estimate from deterministic BVH nearest samples; NOT certified Hausdorff"
+      },
+      "light_ratio": 0.3978015448603684,
+      "light_tris": 198140,
+      "light_stats": {
+        "boundary_edges": 105707,
+        "nonmanifold_edges": 4076,
+        "degenerate_elems": 7
+      },
+      "deviation_light": {
+        "samples": 8000,
+        "misses": 0,
+        "max_dev_mm": 33.88565444946289,
+        "mean_dev_mm": 0.3933170036988297,
+        "note": "estimate from deterministic BVH nearest samples; NOT certified Hausdorff"
+      }
+    }
+  },
+  "errors": [
+    "preview failed: Error: Cannot render, no camera\n"
+  ],
+  "scene_units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "mm_factor": 1000.0
+  },
+  "engine_object_count": 7,
+  "engine_object_names": [
+    "PP12-EM-JD18",
+    "EM-SP",
+    "EM-SP.001",
+    "EM-SP.002",
+    "EM-SP.003",
+    "COMPOUND",
+    "COMPOUND.001"
+  ],
+  "protected_bodies": [
+    "PP12-EM-JD18",
+    "EM-SP",
+    "EM-SP.001",
+    "EM-SP.002",
+    "EM-SP.003"
+  ],
+  "decimated_bodies": [
+    "COMPOUND",
+    "COMPOUND.001"
+  ],
+  "src_bbox_mm": {
+    "min": [
+      -835.717,
+      -1762.413,
+      -482.756
+    ],
+    "max": [
+      837.721,
+      521.778,
+      1715.809
+    ]
+  },
+  "bbox_close_to_expected": true,
+  "units_verified": "mm conversion asserted against expected engine bounds",
+  "detailed_global_factor": 0.22008000547801174,
+  "stl_detailed": {
+    "path": "engine-detailed.stl",
+    "triangles": 499996,
+    "bytes": 24999884,
+    "validation": {
+      "count": 499996,
+      "count_matches_written": true,
+      "size_ok": true,
+      "nonempty": true,
+      "approx_mb": 25.0
+    }
+  },
+  "light_global_factor_over_detailed": 0.3978015448603684,
+  "stl_light": {
+    "path": "engine-light.stl",
+    "triangles": 199998,
+    "bytes": 9999984,
+    "validation": {
+      "count": 199998,
+      "count_matches_written": true,
+      "size_ok": true,
+      "nonempty": true,
+      "approx_mb": 10.0
+    }
+  },
+  "nonfinite_triangle_coords": 0,
+  "cleaned_bbox_mm": {
+    "min": [
+      -835.717,
+      -1762.413,
+      -482.756
+    ],
+    "max": [
+      835.754,
+      521.441,
+      1715.258
+    ]
+  },
+  "stl_targets": {
+    "detailed_target": 500000,
+    "light_target": 200000,
+    "detailed_actual": 499996,
+    "light_actual": 199998
+  },
+  "engine_cleaned_blend": "engine-cleaned.blend",
+  "warnings": [
+    "Meshes may retain intentional boundaries (open bores/ports NOT filled; no voxel fill of assembly clearances).",
+    "Output is a SW graphics/mesh reference: NOT an analytic solid, NOT watertight.",
+    "Deviation values are sampled BVH estimates, not certified Hausdorff distances.",
+    "Protected mounts bypass cleanup/decimation; preservation proven by exact coord compare."
+  ],
+  "seconds_elapsed": 77.0,
+  "render_gpu": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA L4"
+    ]
+  },
+  "preview": {
+    "error": "RuntimeError: Error: Cannot render, no camera\n",
+    "backend": "FAILED"
+  }
+}

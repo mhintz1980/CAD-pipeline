@@ -1,0 +1,7172 @@
+{
+  "phase": "preview",
+  "blender": "5.1.2",
+  "source_sha256": "5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f",
+  "source_unchanged": true,
+  "geometry_digest_before": "235b40f27f96840d3bfb53b075e043a53ad93e7b0a7b3c3ed6a8f2fa2bfafc54",
+  "geometry_digest_after": "235b40f27f96840d3bfb53b075e043a53ad93e7b0a7b3c3ed6a8f2fa2bfafc54",
+  "reopened_geometry_digest": null,
+  "geometry_unchanged": true,
+  "cad_meshes": 468,
+  "visibility_changes": [
+    {
+      "scope": "collection:CAD_pump_new",
+      "before[hide_render,hide_viewport]": [
+        true,
+        false
+      ],
+      "after[hide_render,hide_viewport]": [
+        false,
+        false
+      ]
+    }
+  ],
+  "pump_checks": {
+    "01-pump-hero": {
+      "collection": "CAD_pump_new",
+      "pump_mesh_count": 415,
+      "renderable": 415,
+      "not_renderable": [],
+      "not_in_view_layer": [],
+      "empty_evaluated_mesh": [],
+      "camera_ray_probe_camera": "REF_01-pump-hero",
+      "camera_ray_sample": 24,
+      "camera_ray_pump_hits": 24,
+      "camera_ray_hits_detail": {
+        "OBS_1100410251": 5,
+        "11701131_SOLID_1": 4,
+        "3131722708_SOLID_1": 3,
+        "33617310_SOLID_1": 2,
+        "32200106": 1,
+        "33617320": 1,
+        "339003578_339153578RX11_25": 1,
+        "31638104": 1,
+        "12315811": 1,
+        "44605K422": 1,
+        "32216132_QUILT_1": 1,
+        "33601312_SOLID_1": 1,
+        "33617309_SOLID_1": 1,
+        "33601311_SOLID_1": 1
+      },
+      "pump_participates_in_camera_rays": true
+    },
+    "02-side-hero": {
+      "collection": "CAD_pump_new",
+      "pump_mesh_count": 415,
+      "renderable": 415,
+      "not_renderable": [],
+      "not_in_view_layer": [],
+      "empty_evaluated_mesh": [],
+      "camera_ray_probe_camera": "REF_02-side-hero",
+      "camera_ray_sample": 24,
+      "camera_ray_pump_hits": 24,
+      "camera_ray_hits_detail": {
+        "OBS_1100410251": 5,
+        "11701131_SOLID_1": 3,
+        "33617310_SOLID_1": 2,
+        "33601311_SOLID_1": 2,
+        "3131722708_SOLID_1": 2,
+        "31638104": 1,
+        "11601408_QUILT_1": 1,
+        "33617320": 1,
+        "30638312": 1,
+        "31621103_SOLID_1-484598": 1,
+        "12315812": 1,
+        "44605K422": 1,
+        "32216132_QUILT_1": 1,
+        "33601312_SOLID_1": 1,
+        "33617309_SOLID_1": 1
+      },
+      "pump_participates_in_camera_rays": true
+    },
+    "03-drive-side": {
+      "collection": "CAD_pump_new",
+      "pump_mesh_count": 415,
+      "renderable": 415,
+      "not_renderable": [],
+      "not_in_view_layer": [],
+      "empty_evaluated_mesh": [],
+      "camera_ray_probe_camera": "REF_03-drive-side",
+      "camera_ray_sample": 24,
+      "camera_ray_pump_hits": 24,
+      "camera_ray_hits_detail": {
+        "32200106": 12,
+        "OBS_1100410251": 4,
+        "33617310_SOLID_1": 3,
+        "33617320": 1,
+        "30838133": 1,
+        "31621103_SOLID_2-489828": 1,
+        "33617318_SOLID_1": 1,
+        "30837127": 1
+      },
+      "pump_participates_in_camera_rays": true
+    }
+  },
+  "gpu": [
+    {
+      "name": "NVIDIA L40S",
+      "type": "CUDA",
+      "use": false
+    },
+    {
+      "name": "Intel Xeon Platinum 8480+",
+      "type": "CPU",
+      "use": false
+    },
+    {
+      "name": "NVIDIA L40S",
+      "type": "OPTIX",
+      "use": true
+    }
+  ],
+  "palette": {
+    "pump_green": "#075D46",
+    "frame_green": "#104E3E",
+    "engine_green": "#285E43",
+    "skid_grey": "#AEB5B8",
+    "engine_iron": "#454B4D",
+    "rubber": "#171C20",
+    "hardware": "#BCC5CA",
+    "exhaust": "#646969",
+    "control": "#252D33"
+  },
+  "palette_basis": "Approximate appearance from user photographs, not calibrated RAL values",
+  "material_slots": [
+    {
+      "object": "Part1^PP128-PP108-SKID",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "Part1^PP128-PP108-SKID.001",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "MC6X18-SKE_MC6x18x57",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "tube rectangular_ai_TR12x6x0.25x80",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "mc channel_ai_MC6x18x31.5",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "tube rectangular_ai_TR12x6x0.25x80.001",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "MC6X18-SKE_MC6x18x57.001",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "MC6X18-SKE1_MC6x18x57",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "MC6X18-SKE1_MC6x18x57.001",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "mc channel_ai_MC6x18x31.001",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "DOUBLER",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "DOUBLER.001",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "MNT-PEB-CTF-PP12-WIDE",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PLT-MNT-6SL-PE-PP12",
+      "slot": 0,
+      "vendor": "MSP_skid",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FBS",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FBS.001",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FBS.002",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FBS.003",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP128S22-MFB",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP128S22-MFB.001",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP128S22-MFB.002",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP128S22-MFB.003",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FTT",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "Copy of Copy of Part11^PP128-FTA",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FTS-1005",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FTS-1005.001",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "Copy of Copy of Part11^PP128-FTA.001",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FTT.001",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FTS-1008",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FTS-1008.001",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FTS-1008.002",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FTS-1008.003",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FTS-1008.004",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-FTS-1008.005",
+      "slot": 0,
+      "vendor": "MSP_pump",
+      "original_rgb": [
+        0.5199999809265137,
+        0.10000000149011612,
+        0.09000000357627869
+      ],
+      "role": "skid_grey"
+    },
+    {
+      "object": "PP-LBB",
+      "slot": 0,
+      "vendor": "MSP_bale",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "frame_green"
+    },
+    {
+      "object": "PP-LBB.001",
+      "slot": 0,
+      "vendor": "MSP_bale",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "frame_green"
+    },
+    {
+      "object": "LBU-PP",
+      "slot": 0,
+      "vendor": "MSP_bale",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "frame_green"
+    },
+    {
+      "object": "LBU-PP.001",
+      "slot": 0,
+      "vendor": "MSP_bale",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "frame_green"
+    },
+    {
+      "object": "LBA-CB",
+      "slot": 0,
+      "vendor": "MSP_bale",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "frame_green"
+    },
+    {
+      "object": "LBS-LG",
+      "slot": 0,
+      "vendor": "MSP_bale",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "frame_green"
+    },
+    {
+      "object": "LBS-SH",
+      "slot": 0,
+      "vendor": "MSP_bale",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "frame_green"
+    },
+    {
+      "object": "LBS-LG.001",
+      "slot": 0,
+      "vendor": "MSP_bale",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "frame_green"
+    },
+    {
+      "object": "LBS-SH.001",
+      "slot": 0,
+      "vendor": "MSP_bale",
+      "original_rgb": [
+        0.47999998927116394,
+        0.36000001430511475,
+        0.03999999910593033
+      ],
+      "role": "frame_green"
+    },
+    {
+      "object": "PP12-EM-JD18",
+      "slot": 0,
+      "vendor": "MSP_engine",
+      "original_rgb": [
+        0.054999999701976776,
+        0.07500000298023224,
+        0.09000000357627869
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "EM-SP",
+      "slot": 0,
+      "vendor": "MSP_engine",
+      "original_rgb": [
+        0.054999999701976776,
+        0.07500000298023224,
+        0.09000000357627869
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "EM-SP.001",
+      "slot": 0,
+      "vendor": "MSP_engine",
+      "original_rgb": [
+        0.054999999701976776,
+        0.07500000298023224,
+        0.09000000357627869
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "EM-SP.002",
+      "slot": 0,
+      "vendor": "MSP_engine",
+      "original_rgb": [
+        0.054999999701976776,
+        0.07500000298023224,
+        0.09000000357627869
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "EM-SP.003",
+      "slot": 0,
+      "vendor": "MSP_engine",
+      "original_rgb": [
+        0.054999999701976776,
+        0.07500000298023224,
+        0.09000000357627869
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND",
+      "slot": 0,
+      "vendor": "mat_0.001",
+      "original_rgb": [
+        0.0,
+        0.3324515223503113,
+        0.0
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND",
+      "slot": 1,
+      "vendor": "mat_1.001",
+      "original_rgb": [
+        0.03820427879691124,
+        0.03820427879691124,
+        0.04518616199493408
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 0,
+      "vendor": "mat_2.001",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 1,
+      "vendor": "mat_3.001",
+      "original_rgb": [
+        0.1873166710138321,
+        0.1873166710138321,
+        0.1873166710138321
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 2,
+      "vendor": "mat_4.001",
+      "original_rgb": [
+        0.0030352941248565912,
+        0.22322803735733032,
+        0.00477700075134635
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 3,
+      "vendor": "mat_5.001",
+      "original_rgb": [
+        0.6382831931114197,
+        0.4064483046531677,
+        0.16264718770980835
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 4,
+      "vendor": null,
+      "original_rgb": null,
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 5,
+      "vendor": "mat_6.001",
+      "original_rgb": [
+        0.22246615588665009,
+        0.0,
+        0.22246615588665009
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 6,
+      "vendor": "mat_7.001",
+      "original_rgb": [
+        0.2529500722885132,
+        0.2529500722885132,
+        0.2529500722885132
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 7,
+      "vendor": "mat_8.001",
+      "original_rgb": [
+        0.21586069464683533,
+        0.21586069464683533,
+        0.21586069464683533
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 8,
+      "vendor": "mat_9.001",
+      "original_rgb": [
+        0.9559730291366577,
+        0.9559730291366577,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 9,
+      "vendor": "mat_10.001",
+      "original_rgb": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 10,
+      "vendor": "mat_11.001",
+      "original_rgb": [
+        0.9130979776382446,
+        0.42869117856025696,
+        0.0030352941248565912
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 11,
+      "vendor": "mat_12.001",
+      "original_rgb": [
+        0.42869117856025696,
+        0.36130663752555847,
+        0.262251079082489
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 12,
+      "vendor": "mat_13.001",
+      "original_rgb": [
+        0.3277779221534729,
+        0.20507866144180298,
+        0.1274377703666687
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 13,
+      "vendor": "mat_14.001",
+      "original_rgb": [
+        0.1274377703666687,
+        0.0742136761546135,
+        0.06124614179134369
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 14,
+      "vendor": "mat_15.001",
+      "original_rgb": [
+        0.0,
+        0.21586069464683533,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 15,
+      "vendor": "mat_16.001",
+      "original_rgb": [
+        0.22696539759635925,
+        0.18782056868076324,
+        0.11193214356899261
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 16,
+      "vendor": "mat_17.001",
+      "original_rgb": [
+        0.0,
+        0.07828831672668457,
+        0.0
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 17,
+      "vendor": "mat_18.001",
+      "original_rgb": [
+        0.1119517832994461,
+        0.19118845462799072,
+        0.014596708118915558
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 18,
+      "vendor": "mat_19.001",
+      "original_rgb": [
+        0.03310476616024971,
+        0.31854677200317383,
+        0.6038273572921753
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 19,
+      "vendor": "mat_20.001",
+      "original_rgb": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 20,
+      "vendor": "mat_21.001",
+      "original_rgb": [
+        0.0,
+        0.6038273572921753,
+        0.0
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 21,
+      "vendor": "mat_22.001",
+      "original_rgb": [
+        0.021219071000814438,
+        0.021219071000814438,
+        0.021219071000814438
+      ],
+      "role": "rubber"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 22,
+      "vendor": "mat_23.001",
+      "original_rgb": [
+        0.9551045894622803,
+        0.2529500722885132,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 23,
+      "vendor": "mat_24.001",
+      "original_rgb": [
+        0.07323895394802094,
+        0.6209158897399902,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 24,
+      "vendor": "mat_25.001",
+      "original_rgb": [
+        0.31854677200317383,
+        0.07323895394802094,
+        0.015325203537940979
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 25,
+      "vendor": "mat_26.001",
+      "original_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "rubber"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 26,
+      "vendor": "mat_27.001",
+      "original_rgb": [
+        0.7854149341583252,
+        0.7326589226722717,
+        0.7326589226722717
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 27,
+      "vendor": "mat_28.001",
+      "original_rgb": [
+        0.000851393211632967,
+        0.0009287925786338747,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 28,
+      "vendor": "mat_29.001",
+      "original_rgb": [
+        0.002428250852972269,
+        0.07227174192667007,
+        0.3419146239757538
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 29,
+      "vendor": "mat_1.001",
+      "original_rgb": [
+        0.03820427879691124,
+        0.03820427879691124,
+        0.04518616199493408
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 30,
+      "vendor": "mat_30.001",
+      "original_rgb": [
+        0.6920710802078247,
+        0.4200332760810852,
+        0.17886750400066376
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 31,
+      "vendor": "mat_31.001",
+      "original_rgb": [
+        0.02723613940179348,
+        0.3735346496105194,
+        0.5586290955543518
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 32,
+      "vendor": "mat_32.001",
+      "original_rgb": [
+        0.38005632162094116,
+        0.14915992319583893,
+        0.31569433212280273
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 33,
+      "vendor": "mat_33.001",
+      "original_rgb": [
+        0.36625298857688904,
+        0.13286831974983215,
+        0.03560126945376396
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 34,
+      "vendor": "mat_34.001",
+      "original_rgb": [
+        0.1873166710138321,
+        0.07323895394802094,
+        0.015325203537940979
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 35,
+      "vendor": "mat_35.001",
+      "original_rgb": [
+        0.5775808691978455,
+        0.5775808691978455,
+        0.5775808691978455
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 36,
+      "vendor": "mat_36.001",
+      "original_rgb": [
+        1.0,
+        0.9301108717918396,
+        0.48514994978904724
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 37,
+      "vendor": "mat_37.001",
+      "original_rgb": [
+        0.07036009430885315,
+        0.07036009430885315,
+        0.07036009430885315
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 38,
+      "vendor": "mat_38.001",
+      "original_rgb": [
+        0.21586069464683533,
+        0.0,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 39,
+      "vendor": "mat_39.001",
+      "original_rgb": [
+        1.0,
+        1.0,
+        0.8878815174102783
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 40,
+      "vendor": "mat_40.001",
+      "original_rgb": [
+        0.2637472152709961,
+        0.03144269436597824,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 41,
+      "vendor": "mat_41",
+      "original_rgb": [
+        0.7835373878479004,
+        0.8227856159210205,
+        0.8468737006187439
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 42,
+      "vendor": "mat_42",
+      "original_rgb": [
+        0.06372379511594772,
+        0.06372379511594772,
+        0.06372379511594772
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 43,
+      "vendor": "mat_43",
+      "original_rgb": [
+        1.0,
+        0.4735313951969147,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 44,
+      "vendor": "mat_44",
+      "original_rgb": [
+        0.3762623369693756,
+        0.3419146239757538,
+        0.30498698353767395
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 45,
+      "vendor": "mat_45",
+      "original_rgb": [
+        0.7874122858047485,
+        0.7874122858047485,
+        0.7874122858047485
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 46,
+      "vendor": "mat_46",
+      "original_rgb": [
+        1.0,
+        0.024663807824254036,
+        0.01990051567554474
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 47,
+      "vendor": "mat_47",
+      "original_rgb": [
+        0.021900365129113197,
+        1.0,
+        0.3683703541755676
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 48,
+      "vendor": "mat_48",
+      "original_rgb": [
+        0.0030352941248565912,
+        0.0030352941248565912,
+        0.0030352941248565912
+      ],
+      "role": "rubber"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 49,
+      "vendor": "mat_49",
+      "original_rgb": [
+        0.03310476616024971,
+        0.03310476616024971,
+        0.03310476616024971
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 50,
+      "vendor": "mat_50",
+      "original_rgb": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 51,
+      "vendor": "mat_51",
+      "original_rgb": [
+        0.8713670969009399,
+        0.4125426113605499,
+        0.012983032502233982
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 52,
+      "vendor": "mat_52",
+      "original_rgb": [
+        0.9551045894622803,
+        0.7887204885482788,
+        0.06699959933757782
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 53,
+      "vendor": "mat_53",
+      "original_rgb": [
+        0.22246615588665009,
+        0.21776217222213745,
+        0.21776217222213745
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 54,
+      "vendor": "mat_54",
+      "original_rgb": [
+        0.009721217676997185,
+        0.05448027700185776,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 55,
+      "vendor": "mat_55",
+      "original_rgb": [
+        0.05087608844041824,
+        0.21404114365577698,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 56,
+      "vendor": "mat_56",
+      "original_rgb": [
+        1.0,
+        0.520995557308197,
+        0.2158605009317398
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 57,
+      "vendor": "mat_57",
+      "original_rgb": [
+        0.21586069464683533,
+        1.0,
+        0.65837562084198
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 58,
+      "vendor": "mat_58",
+      "original_rgb": [
+        0.9671902060508728,
+        0.497634619474411,
+        0.007619757670909166
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 59,
+      "vendor": "mat_59",
+      "original_rgb": [
+        1.0,
+        0.848088264465332,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 60,
+      "vendor": "mat_60",
+      "original_rgb": [
+        0.7874122858047485,
+        0.7874122858047485,
+        0.7775543332099915
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 61,
+      "vendor": "mat_61",
+      "original_rgb": [
+        1.0,
+        0.21404114365577698,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 62,
+      "vendor": "mat_62",
+      "original_rgb": [
+        0.0,
+        0.2622506618499756,
+        0.14702726900577545
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 63,
+      "vendor": "mat_63",
+      "original_rgb": [
+        0.0030352699104696512,
+        0.10702310502529144,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 64,
+      "vendor": "mat_64",
+      "original_rgb": [
+        0.05448027700185776,
+        0.05951123684644699,
+        0.15592646598815918
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 65,
+      "vendor": "mat_65",
+      "original_rgb": [
+        0.21223075687885284,
+        0.5972017645835876,
+        0.34670406579971313
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 66,
+      "vendor": "mat_66",
+      "original_rgb": [
+        1.0,
+        0.9774019122123718,
+        0.4479884207248688
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 67,
+      "vendor": "mat_67",
+      "original_rgb": [
+        0.8879231214523315,
+        0.533276379108429,
+        0.026241222396492958
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 68,
+      "vendor": "mat_68",
+      "original_rgb": [
+        0.6307571530342102,
+        0.5520114302635193,
+        0.0018211619462817907
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 69,
+      "vendor": "mat_69",
+      "original_rgb": [
+        0.06480326503515244,
+        0.13286831974983215,
+        0.2961382567882538
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 70,
+      "vendor": "mat_70",
+      "original_rgb": [
+        0.24228112399578094,
+        0.4910208582878113,
+        0.6038273572921753
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 71,
+      "vendor": "mat_71",
+      "original_rgb": [
+        0.03560131415724754,
+        0.4677838087081909,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 72,
+      "vendor": "mat_72",
+      "original_rgb": [
+        1.0,
+        0.5225215554237366,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 73,
+      "vendor": "mat_73",
+      "original_rgb": [
+        0.21404114365577698,
+        0.21404114365577698,
+        0.21404114365577698
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 74,
+      "vendor": "mat_74",
+      "original_rgb": [
+        0.9006693959236145,
+        0.4623613655567169,
+        0.019836973398923874
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 75,
+      "vendor": "mat_75",
+      "original_rgb": [
+        0.21404114365577698,
+        1.0,
+        0.0
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 76,
+      "vendor": "mat_76",
+      "original_rgb": [
+        0.009563541039824486,
+        0.05455382913351059,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 77,
+      "vendor": "mat_77",
+      "original_rgb": [
+        0.5225215554237366,
+        0.05087608844041824,
+        0.21404114365577698
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 78,
+      "vendor": "mat_78",
+      "original_rgb": [
+        0.6038273572921753,
+        0.34239163994789124,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 79,
+      "vendor": "mat_79",
+      "original_rgb": [
+        1.0,
+        0.2589433491230011,
+        0.3798101842403412
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 80,
+      "vendor": "mat_80",
+      "original_rgb": [
+        0.04696419835090637,
+        1.0,
+        0.36724644899368286
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 81,
+      "vendor": "mat_81",
+      "original_rgb": [
+        0.09065467864274979,
+        0.09065467864274979,
+        0.09065467864274979
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 82,
+      "vendor": "mat_82",
+      "original_rgb": [
+        0.06418127566576004,
+        0.13357023894786835,
+        0.295699805021286
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 83,
+      "vendor": "mat_83",
+      "original_rgb": [
+        0.5070785284042358,
+        0.0,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 84,
+      "vendor": "mat_84",
+      "original_rgb": [
+        0.0862332433462143,
+        0.0,
+        0.0
+      ],
+      "role": "rubber"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 85,
+      "vendor": "mat_85",
+      "original_rgb": [
+        0.6724437475204468,
+        0.168269544839859,
+        0.1247716173529625
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 86,
+      "vendor": "mat_86",
+      "original_rgb": [
+        1.0,
+        0.19070732593536377,
+        0.029419345781207085
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 87,
+      "vendor": "mat_87",
+      "original_rgb": [
+        0.911407470703125,
+        0.911407470703125,
+        0.911407470703125
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 88,
+      "vendor": "mat_88",
+      "original_rgb": [
+        1.0,
+        0.21586069464683533,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 89,
+      "vendor": "mat_89",
+      "original_rgb": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 90,
+      "vendor": "mat_90",
+      "original_rgb": [
+        0.04373519495129585,
+        0.039546288549900055,
+        0.03433994576334953
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 91,
+      "vendor": "mat_91",
+      "original_rgb": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 92,
+      "vendor": "mat_92",
+      "original_rgb": [
+        0.2632734179496765,
+        0.0889815241098404,
+        0.868899405002594
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 93,
+      "vendor": "mat_93",
+      "original_rgb": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 94,
+      "vendor": "mat_94",
+      "original_rgb": [
+        0.38132601976394653,
+        0.34191441535949707,
+        0.3049873113632202
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 95,
+      "vendor": "mat_95",
+      "original_rgb": [
+        0.6038273572921753,
+        0.03310476616024971,
+        0.6038273572921753
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 96,
+      "vendor": "mat_96",
+      "original_rgb": [
+        0.4338795244693756,
+        0.1399848908185959,
+        0.017389101907610893
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 97,
+      "vendor": "mat_97",
+      "original_rgb": [
+        0.31854677200317383,
+        0.21404114365577698,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 98,
+      "vendor": "mat_98",
+      "original_rgb": [
+        0.015483244322240353,
+        0.2719745934009552,
+        0.033307865262031555
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 99,
+      "vendor": "mat_99",
+      "original_rgb": [
+        0.13286831974983215,
+        0.31854677200317383,
+        0.6038273572921753
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 100,
+      "vendor": "mat_100",
+      "original_rgb": [
+        0.47353148460388184,
+        0.6239603757858276,
+        0.5457244515419006
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 101,
+      "vendor": "mat_101",
+      "original_rgb": [
+        0.7378813624382019,
+        0.7378813624382019,
+        0.7378813624382019
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 102,
+      "vendor": "mat_102",
+      "original_rgb": [
+        0.1621697098016739,
+        0.1621697098016739,
+        0.1621697098016739
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 103,
+      "vendor": "mat_103",
+      "original_rgb": [
+        0.0802198201417923,
+        0.0802198201417923,
+        0.0802198201417923
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 104,
+      "vendor": "mat_104",
+      "original_rgb": [
+        0.009334876202046871,
+        0.009262829087674618,
+        0.009407248347997665
+      ],
+      "role": "rubber"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 105,
+      "vendor": "mat_105",
+      "original_rgb": [
+        0.6038273572921753,
+        1.0,
+        0.6038273572921753
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 106,
+      "vendor": "mat_106",
+      "original_rgb": [
+        0.03310476616024971,
+        0.31854677200317383,
+        0.03310476616024971
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 107,
+      "vendor": "mat_107",
+      "original_rgb": [
+        0.9324449896812439,
+        0.6312140226364136,
+        0.0504189059138298
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 108,
+      "vendor": "mat_108",
+      "original_rgb": [
+        0.8676298260688782,
+        0.22407792508602142,
+        0.022678250446915627
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 109,
+      "vendor": "mat_109",
+      "original_rgb": [
+        0.9324449300765991,
+        0.9324449300765991,
+        0.9324449300765991
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 110,
+      "vendor": "mat_110",
+      "original_rgb": [
+        0.12733040750026703,
+        0.0009287925786338747,
+        0.0009287925786338747
+      ],
+      "role": "rubber"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 111,
+      "vendor": "mat_111",
+      "original_rgb": [
+        0.0,
+        0.31854677200317383,
+        0.0
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 112,
+      "vendor": "mat_112",
+      "original_rgb": [
+        0.1266757696866989,
+        1.0,
+        0.09482178092002869
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 113,
+      "vendor": "mat_113",
+      "original_rgb": [
+        0.013711838982999325,
+        0.018102219328284264,
+        0.8055219054222107
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 114,
+      "vendor": "mat_114",
+      "original_rgb": [
+        0.21227522194385529,
+        0.17865680158138275,
+        0.7365328669548035
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 115,
+      "vendor": "mat_115",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 116,
+      "vendor": "mat_116",
+      "original_rgb": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 117,
+      "vendor": "mat_117",
+      "original_rgb": [
+        0.24228112399578094,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 118,
+      "vendor": "mat_118",
+      "original_rgb": [
+        0.6514056324958801,
+        0.4019777774810791,
+        0.015208514407277107
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 119,
+      "vendor": "mat_119",
+      "original_rgb": [
+        0.15292614698410034,
+        0.177888423204422,
+        0.20863686501979828
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 120,
+      "vendor": "mat_120",
+      "original_rgb": [
+        0.3762621283531189,
+        0.34191441535949707,
+        0.30054378509521484
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 121,
+      "vendor": "mat_121",
+      "original_rgb": [
+        0.6382831931114197,
+        0.36724644899368286,
+        0.09462963044643402
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 122,
+      "vendor": "mat_122",
+      "original_rgb": [
+        0.011645430698990822,
+        0.011645430698990822,
+        0.011645430698990822
+      ],
+      "role": "rubber"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 123,
+      "vendor": "mat_123",
+      "original_rgb": [
+        0.39157310128211975,
+        0.39157310128211975,
+        0.39157310128211975
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 124,
+      "vendor": "mat_124",
+      "original_rgb": [
+        0.009458929300308228,
+        0.5856201648712158,
+        0.954657256603241
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 125,
+      "vendor": "mat_125",
+      "original_rgb": [
+        0.9911020994186401,
+        0.6653872728347778,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 126,
+      "vendor": "mat_126",
+      "original_rgb": [
+        0.26635560393333435,
+        0.26635560393333435,
+        0.2788942754268646
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 127,
+      "vendor": "mat_127",
+      "original_rgb": [
+        0.8879231214523315,
+        0.838798999786377,
+        0.8549926280975342
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 128,
+      "vendor": "mat_128",
+      "original_rgb": [
+        0.04615223780274391,
+        0.04615223780274391,
+        0.04615223780274391
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 129,
+      "vendor": "mat_129",
+      "original_rgb": [
+        0.14126349985599518,
+        0.11697093397378922,
+        0.0742136761546135
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 130,
+      "vendor": "mat_130",
+      "original_rgb": [
+        1.0,
+        0.13286831974983215,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 131,
+      "vendor": "mat_131",
+      "original_rgb": [
+        1.0,
+        0.6172065734863281,
+        0.21223075687885284
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 132,
+      "vendor": "mat_132",
+      "original_rgb": [
+        0.7453441023826599,
+        0.8878815174102783,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 133,
+      "vendor": "mat_133",
+      "original_rgb": [
+        0.09758734703063965,
+        0.09758734703063965,
+        0.09758734703063965
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 134,
+      "vendor": "mat_134",
+      "original_rgb": [
+        0.12733040750026703,
+        0.07030320167541504,
+        0.03187212720513344
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 135,
+      "vendor": "mat_135",
+      "original_rgb": [
+        0.24187162518501282,
+        0.0450764074921608,
+        0.3509753346443176
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 136,
+      "vendor": "mat_136",
+      "original_rgb": [
+        0.03187212720513344,
+        1.0,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 137,
+      "vendor": "mat_137",
+      "original_rgb": [
+        0.0021671827416867018,
+        0.2498999685049057,
+        0.0028637771029025316
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 138,
+      "vendor": "mat_138",
+      "original_rgb": [
+        1.0,
+        0.24187162518501282,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 139,
+      "vendor": "mat_139",
+      "original_rgb": [
+        0.12733040750026703,
+        0.12733040750026703,
+        0.12733040750026703
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 140,
+      "vendor": "mat_140",
+      "original_rgb": [
+        0.4705214500427246,
+        0.12214772403240204,
+        0.0570262186229229
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 141,
+      "vendor": "mat_141",
+      "original_rgb": [
+        0.0015479875728487968,
+        0.0,
+        0.0007739937864243984
+      ],
+      "role": "rubber"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 142,
+      "vendor": "mat_142",
+      "original_rgb": [
+        0.30498698353767395,
+        0.28314825892448425,
+        0.262251079082489
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 143,
+      "vendor": "mat_143",
+      "original_rgb": [
+        0.5283824801445007,
+        0.534401535987854,
+        0.5224016308784485
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 144,
+      "vendor": "mat_144",
+      "original_rgb": [
+        0.6104962825775146,
+        0.30498698353767395,
+        0.03189590200781822
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 145,
+      "vendor": "mat_145",
+      "original_rgb": [
+        0.0,
+        0.21776217222213745,
+        1.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 146,
+      "vendor": "mat_146",
+      "original_rgb": [
+        1.0,
+        1.0,
+        0.22246615588665009
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 147,
+      "vendor": "mat_147",
+      "original_rgb": [
+        1.0,
+        1.0,
+        0.24228112399578094
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 148,
+      "vendor": "mat_148",
+      "original_rgb": [
+        0.07421357184648514,
+        0.08650045841932297,
+        0.09758734703063965
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 149,
+      "vendor": "mat_0.001",
+      "original_rgb": [
+        0.0,
+        0.3324515223503113,
+        0.0
+      ],
+      "role": "engine_green"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 150,
+      "vendor": "mat_149",
+      "original_rgb": [
+        0.10310264676809311,
+        0.03228580206632614,
+        0.019710907712578773
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 151,
+      "vendor": "mat_150",
+      "original_rgb": [
+        0.30498698353767395,
+        0.30498698353767395,
+        0.30498698353767395
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "COMPOUND.001",
+      "slot": 152,
+      "vendor": "mat_151",
+      "original_rgb": [
+        0.21586069464683533,
+        0.21586069464683533,
+        0.0
+      ],
+      "role": "engine_iron"
+    },
+    {
+      "object": "PP-CPM-1001",
+      "slot": 0,
+      "vendor": "MSP_controller",
+      "original_rgb": [
+        0.029999999329447746,
+        0.03500000014901161,
+        0.03999999910593033
+      ],
+      "role": "control"
+    },
+    {
+      "object": "PP-CPM-1005",
+      "slot": 0,
+      "vendor": "MSP_controller",
+      "original_rgb": [
+        0.029999999329447746,
+        0.03500000014901161,
+        0.03999999910593033
+      ],
+      "role": "control"
+    },
+    {
+      "object": "MSP-CP-CP750E",
+      "slot": 0,
+      "vendor": "MSP_controller",
+      "original_rgb": [
+        0.029999999329447746,
+        0.03500000014901161,
+        0.03999999910593033
+      ],
+      "role": "control"
+    },
+    {
+      "object": "103156969_QUILT_10",
+      "slot": 0,
+      "vendor": "mat_10",
+      "original_rgb": [
+        1.0,
+        0.2158605009317398,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "103156969_QUILT_11",
+      "slot": 0,
+      "vendor": "mat_10",
+      "original_rgb": [
+        1.0,
+        0.2158605009317398,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "103156969_QUILT_12",
+      "slot": 0,
+      "vendor": "mat_10",
+      "original_rgb": [
+        1.0,
+        0.2158605009317398,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "103156969_QUILT_14",
+      "slot": 0,
+      "vendor": "mat_10",
+      "original_rgb": [
+        1.0,
+        0.2158605009317398,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "103156969_QUILT_6",
+      "slot": 0,
+      "vendor": "mat_10",
+      "original_rgb": [
+        1.0,
+        0.2158605009317398,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "103156969_QUILT_7",
+      "slot": 0,
+      "vendor": "mat_10",
+      "original_rgb": [
+        1.0,
+        0.2158605009317398,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "103156969_QUILT_8",
+      "slot": 0,
+      "vendor": "mat_10",
+      "original_rgb": [
+        1.0,
+        0.2158605009317398,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "103156969_QUILT_9",
+      "slot": 0,
+      "vendor": "mat_10",
+      "original_rgb": [
+        1.0,
+        0.2158605009317398,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "104157207_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "104157207_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "104157207_QUILT_3",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "104157207_QUILT_4",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "104157207_QUILT_5",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "104157207_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_21",
+      "original_rgb": [
+        0.9559733271598816,
+        0.4677838087081909,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "106042033_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_2",
+      "original_rgb": [
+        0.33716362714767456,
+        0.6239603757858276,
+        0.8468732237815857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "106042033_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "1150410253",
+      "slot": 0,
+      "vendor": "mat_25",
+      "original_rgb": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11601408_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_35",
+      "original_rgb": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11601408_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "1160412921_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_21",
+      "original_rgb": [
+        0.9559733271598816,
+        0.4677838087081909,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "1160412921_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "1160412921_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_5",
+      "original_rgb": [
+        1.0,
+        0.3915724754333496,
+        0.017641954123973846
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_10",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_11",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_12",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "11701131_QUILT_13",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_14",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_15",
+      "slot": 0,
+      "vendor": "mat_2",
+      "original_rgb": [
+        0.33716362714767456,
+        0.6239603757858276,
+        0.8468732237815857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_16",
+      "slot": 0,
+      "vendor": "mat_21",
+      "original_rgb": [
+        0.9559733271598816,
+        0.4677838087081909,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_17",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_18",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_19",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_20",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "11701131_QUILT_21",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_22",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_23",
+      "slot": 0,
+      "vendor": "mat_2",
+      "original_rgb": [
+        0.33716362714767456,
+        0.6239603757858276,
+        0.8468732237815857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_24",
+      "slot": 0,
+      "vendor": "mat_21",
+      "original_rgb": [
+        0.9559733271598816,
+        0.4677838087081909,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_25",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_26",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_27",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_28",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "11701131_QUILT_29",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_3",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_4",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "11701131_QUILT_5",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_6",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_7",
+      "slot": 0,
+      "vendor": "mat_2",
+      "original_rgb": [
+        0.33716362714767456,
+        0.6239603757858276,
+        0.8468732237815857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_8",
+      "slot": 0,
+      "vendor": "mat_21",
+      "original_rgb": [
+        0.9559733271598816,
+        0.4677838087081909,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_QUILT_9",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "11701131_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_18",
+      "original_rgb": [
+        0.09084171056747437,
+        0.09084171056747437,
+        0.09084171056747437
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "11904141",
+      "slot": 0,
+      "vendor": "mat_32",
+      "original_rgb": [
+        0.0,
+        0.12743768095970154,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "1207517913",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "12211989_SOLID_1_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_31",
+      "original_rgb": [
+        0.41788506507873535,
+        0.6239603757858276,
+        1.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "12222103",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "12315810",
+      "slot": 0,
+      "vendor": "mat_27",
+      "original_rgb": [
+        0.5972017645835876,
+        0.6444796919822693,
+        0.8631572127342224
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "12315811",
+      "slot": 0,
+      "vendor": "mat_27",
+      "original_rgb": [
+        0.5972017645835876,
+        0.6444796919822693,
+        0.8631572127342224
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "12315812",
+      "slot": 0,
+      "vendor": "mat_27",
+      "original_rgb": [
+        0.5972017645835876,
+        0.6444796919822693,
+        0.8631572127342224
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "12646171-710150",
+      "slot": 0,
+      "vendor": "mat_18",
+      "original_rgb": [
+        0.09084171056747437,
+        0.09084171056747437,
+        0.09084171056747437
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "12721104",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "12721105",
+      "slot": 0,
+      "vendor": "mat_27",
+      "original_rgb": [
+        0.5972017645835876,
+        0.6444796919822693,
+        0.8631572127342224
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "12721106",
+      "slot": 0,
+      "vendor": "mat_27",
+      "original_rgb": [
+        0.5972017645835876,
+        0.6444796919822693,
+        0.8631572127342224
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "1290410255",
+      "slot": 0,
+      "vendor": "mat_27",
+      "original_rgb": [
+        0.5972017645835876,
+        0.6444796919822693,
+        0.8631572127342224
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30148165",
+      "slot": 0,
+      "vendor": "mat_22",
+      "original_rgb": [
+        0.07227185368537903,
+        0.07227185368537903,
+        0.07227185368537903
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "30500176_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_19",
+      "original_rgb": [
+        0.7681511640548706,
+        0.6239603757858276,
+        0.09530746936798096
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30500176_SOLID_2",
+      "slot": 0,
+      "vendor": "mat_19",
+      "original_rgb": [
+        0.7681511640548706,
+        0.6239603757858276,
+        0.09530746936798096
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30500176_SOLID_3",
+      "slot": 0,
+      "vendor": "mat_19",
+      "original_rgb": [
+        0.7681511640548706,
+        0.6239603757858276,
+        0.09530746936798096
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30500185_QUILT_4",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30600311-465232",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30600311-469250",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30638312",
+      "slot": 0,
+      "vendor": "mat_26",
+      "original_rgb": [
+        0.6444796919822693,
+        0.7304607629776001,
+        0.9559733271598816
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30638339",
+      "slot": 0,
+      "vendor": "mat_36",
+      "original_rgb": [
+        0.9046611785888672,
+        0.9046611785888672,
+        0.9046611785888672
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "30638364",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30837127",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30838110",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30838133",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30938101_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30938101_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "30938101_QUILT_3",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "311322573",
+      "slot": 0,
+      "vendor": "mat_25",
+      "original_rgb": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31138102",
+      "slot": 0,
+      "vendor": "mat_13",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "31138103-473120",
+      "slot": 0,
+      "vendor": "mat_13",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "31138103-473553",
+      "slot": 0,
+      "vendor": "mat_13",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "31138107",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31138115-209118",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31138115-209375",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31138115-741388",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31138115-741645",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31138116-314096",
+      "slot": 0,
+      "vendor": "mat_13",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "31138116-314583",
+      "slot": 0,
+      "vendor": "mat_13",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "31138922",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31237131",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31300109",
+      "slot": 0,
+      "vendor": "mat_40",
+      "original_rgb": [
+        0.8069522380828857,
+        0.16513219475746155,
+        0.002428215928375721
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31300109",
+      "slot": 1,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "3131722708_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "3131722708_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "3131722708_QUILT_3",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "3131722708_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31339102_SOLID_1-505621_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_34",
+      "original_rgb": [
+        0.06301001459360123,
+        0.06301001459360123,
+        0.06301001459360123
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "31339102_SOLID_1-505621_SOLID_1",
+      "slot": 1,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31339102_SOLID_1-507756_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_34",
+      "original_rgb": [
+        0.06301001459360123,
+        0.06301001459360123,
+        0.06301001459360123
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "31339102_SOLID_1-507756_SOLID_1",
+      "slot": 1,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31339102_SOLID_2-507253",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31339102_SOLID_2-509388",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31339103_SOLID_1_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_34",
+      "original_rgb": [
+        0.06301001459360123,
+        0.06301001459360123,
+        0.06301001459360123
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "31339103_SOLID_1_SOLID_1",
+      "slot": 1,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31339103_SOLID_2",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31439102-829987",
+      "slot": 0,
+      "vendor": "mat_13",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "31439102-872859",
+      "slot": 0,
+      "vendor": "mat_13",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "31516102_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31516102_SOLID_2",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31516109",
+      "slot": 0,
+      "vendor": "mat_20",
+      "original_rgb": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31621103_SOLID_1-484598",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31621103_SOLID_2-489828",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31638104",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "318136974",
+      "slot": 0,
+      "vendor": "mat_2",
+      "original_rgb": [
+        0.33716362714767456,
+        0.6239603757858276,
+        0.8468732237815857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "31871103",
+      "slot": 0,
+      "vendor": "mat_22",
+      "original_rgb": [
+        0.07227185368537903,
+        0.07227185368537903,
+        0.07227185368537903
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "31871104",
+      "slot": 0,
+      "vendor": "mat_22",
+      "original_rgb": [
+        0.07227185368537903,
+        0.07227185368537903,
+        0.07227185368537903
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "31900404",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32200102",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32200106",
+      "slot": 0,
+      "vendor": "mat_25",
+      "original_rgb": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32216132_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_36",
+      "original_rgb": [
+        0.9046611785888672,
+        0.9046611785888672,
+        0.9046611785888672
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "32216132_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "323360H100",
+      "slot": 0,
+      "vendor": "mat_18",
+      "original_rgb": [
+        0.09084171056747437,
+        0.09084171056747437,
+        0.09084171056747437
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "32400102",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32400386",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32500101",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632031C100-840077",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "32632031C100-840278",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632038C150-721720",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "32632038C150-722227",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632038C150-722734",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632038C150-723241",
+      "slot": 0,
+      "vendor": "mat_2",
+      "original_rgb": [
+        0.33716362714767456,
+        0.6239603757858276,
+        0.8468732237815857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632038C150-723748",
+      "slot": 0,
+      "vendor": "mat_21",
+      "original_rgb": [
+        0.9559733271598816,
+        0.4677838087081909,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632038C150-724255",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632038C150-724762",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632038C150-725269",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632050C100-473986",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632050C100-474187",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632050C100-474388",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632050C100-474589",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "32632050C100-474790",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632050C100-474991",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632050C125",
+      "slot": 0,
+      "vendor": "mat_39",
+      "original_rgb": [
+        0.4793201684951782,
+        0.47353148460388184,
+        0.672443151473999
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C175-212254",
+      "slot": 0,
+      "vendor": "mat_21",
+      "original_rgb": [
+        0.9559733271598816,
+        0.4677838087081909,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C175-212455",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C175-212656",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C175-212857",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C175-213058",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "32632062C175-213259",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C175-213460",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C175-213661",
+      "slot": 0,
+      "vendor": "mat_2",
+      "original_rgb": [
+        0.33716362714767456,
+        0.6239603757858276,
+        0.8468732237815857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C175-316433",
+      "slot": 0,
+      "vendor": "mat_2",
+      "original_rgb": [
+        0.33716362714767456,
+        0.6239603757858276,
+        0.8468732237815857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C175-316634",
+      "slot": 0,
+      "vendor": "mat_21",
+      "original_rgb": [
+        0.9559733271598816,
+        0.4677838087081909,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C225-215913",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C225-216140",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C225-216367",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C225-216594",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C225-216821",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C225-217048",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C225-217275",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632062C225-217502",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-316835",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-317062",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-317289",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-317516",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-317743",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-317970",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-318197",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-318424",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-318651",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-318878",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-319105",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-319332",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-319559",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-319786",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-320013",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32632075C175-320240",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_QUILT_1-712745",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_QUILT_1-713106",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_QUILT_1-713467",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_QUILT_1-713828",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_QUILT_1-714189",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_QUILT_1-714550",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_QUILT_1-714911",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_QUILT_1-715272",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_SOLID_1-712500",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_SOLID_1-712861",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_SOLID_1-713222",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_SOLID_1-713583",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_SOLID_1-713944",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_SOLID_1-714305",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_SOLID_1-714666",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32639025SC075_SOLID_1-715027",
+      "slot": 0,
+      "vendor": "mat_14",
+      "original_rgb": [
+        0.3049873113632202,
+        0.28314873576164246,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-717097",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-718066",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-719035",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-720004",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-729065",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-730034",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-731003",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-731972",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-732941",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-733910",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-734879",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-735848",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-737637",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-738606",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-739575",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-740544",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-743611",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-744580",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-745549",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-746518",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-749071",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-750040",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-751009",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_QUILT_1-751978",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-716208",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-717177",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-718146",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-719115",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-728176",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-729145",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-730114",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-731083",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-732052",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-733021",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-733990",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-734959",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-736748",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-737717",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-738686",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-739655",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-742722",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-743691",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-744660",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-745629",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-748182",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-749151",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-750120",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739201_SOLID_1-751089",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739207-838191",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739207-839134",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739207-840697",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32739207-841640",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-720084",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-720275",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-720466",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-720657",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-726648",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-726839",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-727030",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-727221",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-727412",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-727603",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-727794",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-727985",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-740624",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-740815",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-741006",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-741197",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-746598",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-746789",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-746980",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-747171",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-752058",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-752249",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-752440",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839201-752631",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-720848",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-720957",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-721066",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-721175",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-721284",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-721393",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-721502",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-721611",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-725776",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-725885",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-725994",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-726103",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-726212",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-726321",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-726430",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839202-726539",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839206-836815",
+      "slot": 0,
+      "vendor": "mat_6",
+      "original_rgb": [
+        0.24228112399578094,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839206-836924",
+      "slot": 0,
+      "vendor": "mat_6",
+      "original_rgb": [
+        0.24228112399578094,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839206-837033",
+      "slot": 0,
+      "vendor": "mat_6",
+      "original_rgb": [
+        0.24228112399578094,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839206-837142",
+      "slot": 0,
+      "vendor": "mat_6",
+      "original_rgb": [
+        0.24228112399578094,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839206-840479",
+      "slot": 0,
+      "vendor": "mat_6",
+      "original_rgb": [
+        0.24228112399578094,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "32839206-840588",
+      "slot": 0,
+      "vendor": "mat_6",
+      "original_rgb": [
+        0.24228112399578094,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33021103",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039102_QUILT_1-742027",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039102_QUILT_1-742232",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039102_QUILT_1-742437",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039102_QUILT_1-742642",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039102_SOLID_1-741902",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039102_SOLID_1-742107",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039102_SOLID_1-742312",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039102_SOLID_1-742517",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-715513",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-715718",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-715923",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-716128",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-736053",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-736258",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-736463",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-736668",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-747487",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-747692",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-747897",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_QUILT_1-748102",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-715388",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-715593",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-715798",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-716003",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-735928",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-736133",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-736338",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-736543",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-747362",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-747567",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-747772",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33039107_SOLID_1-747977",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33100103_SOLID_1_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_37",
+      "original_rgb": [
+        0.2158605009317398,
+        0.2158605009317398,
+        1.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33100103_SOLID_1_SOLID_1",
+      "slot": 1,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33100103_SOLID_1_SOLID_1",
+      "slot": 2,
+      "vendor": "mat_35",
+      "original_rgb": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33100103_SOLID_1_SOLID_1",
+      "slot": 3,
+      "vendor": "mat_38",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33100103_SOLID_1_SOLID_1",
+      "slot": 4,
+      "vendor": "mat_13",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "33100103_SOLID_2",
+      "slot": 0,
+      "vendor": "mat_24",
+      "original_rgb": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "33100103_SOLID_3",
+      "slot": 0,
+      "vendor": "mat_24",
+      "original_rgb": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "33200332-834933",
+      "slot": 0,
+      "vendor": "mat_13",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "33200332-835874",
+      "slot": 0,
+      "vendor": "mat_13",
+      "original_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "33601311_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_10",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_11",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_12",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_13",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_14",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_15",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_16",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_3",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_4",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_5",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_6",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_7",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_8",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_QUILT_9",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601311_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_18",
+      "original_rgb": [
+        0.09084171056747437,
+        0.09084171056747437,
+        0.09084171056747437
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "33601311_SOLID_1",
+      "slot": 1,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601312_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601312_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_15",
+      "original_rgb": [
+        0.20507873594760895,
+        0.20507873594760895,
+        0.20507873594760895
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33601312_SOLID_1",
+      "slot": 1,
+      "vendor": "mat_18",
+      "original_rgb": [
+        0.09084171056747437,
+        0.09084171056747437,
+        0.09084171056747437
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "33602172-646085",
+      "slot": 0,
+      "vendor": "mat_18",
+      "original_rgb": [
+        0.09084171056747437,
+        0.09084171056747437,
+        0.09084171056747437
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "33602172-693717",
+      "slot": 0,
+      "vendor": "mat_18",
+      "original_rgb": [
+        0.09084171056747437,
+        0.09084171056747437,
+        0.09084171056747437
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "33602316",
+      "slot": 0,
+      "vendor": "mat_33",
+      "original_rgb": [
+        0.23074005544185638,
+        0.23074005544185638,
+        0.23074005544185638
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33602317",
+      "slot": 0,
+      "vendor": "mat_18",
+      "original_rgb": [
+        0.09084171056747437,
+        0.09084171056747437,
+        0.09084171056747437
+      ],
+      "role": "exhaust"
+    },
+    {
+      "object": "33602317",
+      "slot": 1,
+      "vendor": "mat_33",
+      "original_rgb": [
+        0.23074005544185638,
+        0.23074005544185638,
+        0.23074005544185638
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33603314_SOLID_3",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33611103_SOLID_1_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33614323_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_23",
+      "original_rgb": [
+        0.5583403706550598,
+        0.5583403706550598,
+        0.5583403706550598
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "33614323_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_23",
+      "original_rgb": [
+        0.5583403706550598,
+        0.5583403706550598,
+        0.5583403706550598
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "33614323_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_23",
+      "original_rgb": [
+        0.5583403706550598,
+        0.5583403706550598,
+        0.5583403706550598
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "33617309_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_QUILT_10",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_QUILT_3",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_QUILT_4",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_QUILT_5",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_QUILT_6",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_QUILT_7",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_QUILT_8",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_QUILT_9",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_30",
+      "original_rgb": [
+        0.14126329123973846,
+        0.16513219475746155,
+        0.2015562504529953
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617309_SOLID_1",
+      "slot": 1,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617310_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617310_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617310_QUILT_3",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617310_QUILT_4",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617310_QUILT_5",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617310_QUILT_6",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617310_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_30",
+      "original_rgb": [
+        0.14126329123973846,
+        0.16513219475746155,
+        0.2015562504529953
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617310_SOLID_1",
+      "slot": 1,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617315_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617315_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617318_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617318_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617318_SOLID_1",
+      "slot": 1,
+      "vendor": "mat_30",
+      "original_rgb": [
+        0.14126329123973846,
+        0.16513219475746155,
+        0.2015562504529953
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617320",
+      "slot": 0,
+      "vendor": "mat_8",
+      "original_rgb": [
+        0.2622506618499756,
+        0.2622506618499756,
+        0.2622506618499756
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33617320",
+      "slot": 1,
+      "vendor": "mat_30",
+      "original_rgb": [
+        0.14126329123973846,
+        0.16513219475746155,
+        0.2015562504529953
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33621321_QUILT_1-710042",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "33621321_QUILT_1-711953",
+      "slot": 0,
+      "vendor": "mat_2",
+      "original_rgb": [
+        0.33716362714767456,
+        0.6239603757858276,
+        0.8468732237815857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "33621321_SOLID_1-709491",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "339003578_339153578RX11_25",
+      "slot": 0,
+      "vendor": "mat_29",
+      "original_rgb": [
+        0.16202937066555023,
+        0.2158605009317398,
+        0.31854677200317383
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "34500405",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "34522127-320467",
+      "slot": 0,
+      "vendor": "mat_17",
+      "original_rgb": [
+        0.3762621283531189,
+        0.34191441535949707,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "34522127-320936",
+      "slot": 0,
+      "vendor": "mat_17",
+      "original_rgb": [
+        0.3762621283531189,
+        0.34191441535949707,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "3510013564",
+      "slot": 0,
+      "vendor": "mat_20",
+      "original_rgb": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "351006970_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_2",
+      "original_rgb": [
+        0.33716362714767456,
+        0.6239603757858276,
+        0.8468732237815857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "351006970_QUILT_2",
+      "slot": 0,
+      "vendor": "mat_21",
+      "original_rgb": [
+        0.9559733271598816,
+        0.4677838087081909,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "351006970_QUILT_3",
+      "slot": 0,
+      "vendor": "mat_4",
+      "original_rgb": [
+        0.21223075687885284,
+        0.21223075687885284,
+        0.21223075687885284
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "351006970_QUILT_4",
+      "slot": 0,
+      "vendor": "mat_16",
+      "original_rgb": [
+        0.9386857151985168,
+        0.24228112399578094,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "351006970_QUILT_5",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "351006970_QUILT_6",
+      "slot": 0,
+      "vendor": "mat_9",
+      "original_rgb": [
+        0.8227857351303101,
+        0.8227857351303101,
+        0.8227857351303101
+      ],
+      "role": "hardware"
+    },
+    {
+      "object": "351006970_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "351006972_QUILT_1",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "351006972_SOLID_1",
+      "slot": 0,
+      "vendor": "mat_11",
+      "original_rgb": [
+        0.04373503103852272,
+        0.11953842639923096,
+        0.4564110338687897
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "3511508243",
+      "slot": 0,
+      "vendor": "mat_21",
+      "original_rgb": [
+        0.9559733271598816,
+        0.4677838087081909,
+        0.0003035269910469651
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "35200115-339343",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "35200115-340148",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "35215131",
+      "slot": 0,
+      "vendor": "mat_20",
+      "original_rgb": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "35300510062-763034",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "35600001",
+      "slot": 0,
+      "vendor": "mat_32",
+      "original_rgb": [
+        0.0,
+        0.12743768095970154,
+        0.0
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "357373580KX516",
+      "slot": 0,
+      "vendor": "mat_12",
+      "original_rgb": [
+        0.3762621283531189,
+        0.3762621283531189,
+        0.3762621283531189
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "357373580UX725X10",
+      "slot": 0,
+      "vendor": "mat_28",
+      "original_rgb": [
+        0.38132601976394653,
+        0.34191441535949707,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "37621025SC062-329702",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "37621025SC062-330172",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "37621025SC062-330642",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "37621025SC062-331112",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "37621031SC150-837251",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "37621031SC150-837721",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "37621038SC0150-479132",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "37621038SC0150-479602",
+      "slot": 0,
+      "vendor": "mat_3",
+      "original_rgb": [
+        1.0,
+        0.8879231214523315,
+        0.8069522380828857
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "37821203-709382",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "37821203-711293",
+      "slot": 0,
+      "vendor": "mat_1",
+      "original_rgb": [
+        0.3049873113632202,
+        0.3049873113632202,
+        0.3049873113632202
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "44605K422",
+      "slot": 0,
+      "vendor": "mat_0",
+      "original_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "role": "pump_green"
+    },
+    {
+      "object": "OBS_1100410251",
+      "slot": 0,
+      "vendor": "mat_7",
+      "original_rgb": [
+        0.5520114302635193,
+        0.7605245113372803,
+        0.8962693810462952
+      ],
+      "role": "pump_green"
+    }
+  ],
+  "images": [
+    {
+      "name": "01-pump-hero",
+      "seconds": 4.61,
+      "stats": {
+        "pixels": 880000,
+        "min": 0.0,
+        "max": 0.9843137860298157,
+        "mean": 0.2554408311843872,
+        "std": 0.18871651589870453,
+        "unique_rounded": 252
+      }
+    },
+    {
+      "name": "02-side-hero",
+      "seconds": 2.79,
+      "stats": {
+        "pixels": 880000,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.2582167983055115,
+        "std": 0.20242106914520264,
+        "unique_rounded": 256
+      }
+    },
+    {
+      "name": "03-drive-side",
+      "seconds": 2.77,
+      "stats": {
+        "pixels": 880000,
+        "min": 0.0,
+        "max": 0.9686275124549866,
+        "mean": 0.2764785885810852,
+        "std": 0.19944176077842712,
+        "unique_rounded": 248
+      }
+    }
+  ],
+  "elapsed_seconds": 13.666456699371338,
+  "resolution": [
+    1100,
+    800
+  ],
+  "samples": 40
+}

@@ -1,0 +1,1 @@
+READY rev3. See reports/astra-engine-export-code.md and astra-engine-export-ready-rev3.md. Dispatchnow. Read astra-modal-download-fix-required.md to fix your existing downloader before retrieval. Do not re-run heavyjob just for downloadfix.

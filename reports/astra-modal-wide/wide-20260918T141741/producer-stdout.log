@@ -1,0 +1,33 @@
+00:00.078  system.path      | WARNING Could not get a list of mounted file-systems
+00:01.552  blend            | Read blend: "/work/out/engine-and-pump-v10.blend"
+[widen    0.1s] source sha256 5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f
+[widen    0.1s]   OK total mesh objects == 468                      got 468
+[widen    0.1s]   OK collection CAD_pump_new == 415                 got 415
+[widen    0.1s]   OK collection CAD_engine == 7                     got 7
+[widen    0.1s]   OK collection CAD_pump == 20                      got 20
+[widen    0.1s]   OK collection CAD_skid == 14                      got 14
+[widen    0.1s]   OK collection CAD_bale == 9                       got 9
+[widen    0.1s]   OK collection CAD_controller == 3                 got 3
+[widen    0.1s]   OK all planned parts present                      missing []
+[widen    0.1s]   OK 17 lengthened                                  17 unique
+[widen    0.1s]   OK 23 rigid                                       23 unique
+[widen    0.1s]   OK rigid/lengthened disjoint                      
+[widen    0.1s]   OK 428 entirely fixed                             got 428
+Traceback (most recent call last):
+  File "/work/tools/astra_widen_v11.py", line 781, in <module>
+    main()
+    ~~~~^^
+  File "/work/tools/astra_widen_v11.py", line 531, in main
+    chk("fixed includes all CAD_pump_new + CAD_engine",
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        all(o.name in set(LEN) | set(RIGID) or coll_of(o) not in ("CAD_pump_new", "CAD_engine")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            for o in meshes), "")
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/tools/astra_widen_v11.py", line 512, in chk
+    raise RuntimeError("CHECK FAILED %s: %s" % (name, detail))
+RuntimeError: CHECK FAILED fixed includes all CAD_pump_new + CAD_engine: 
+
+[widen    0.2s] ABORTED: RuntimeError('CHECK FAILED fixed includes all CAD_pump_new + CAD_engine: ')
+[widen    0.2s] wrote failure report /work/reports/astra-widening-v11.json
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 02:18:37)

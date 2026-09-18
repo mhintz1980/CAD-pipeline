@@ -10,7 +10,9 @@ from collections import Counter
 TOL = 0.1
 SHIFT = 76.2
 GROW = 152.4
-CUT_LO, CUT_HI = -680.0, 798.0
+CUT_LO, CUT_HI = -680.0, 798.0          # 15 nominal members
+CUT_DOUB = (-665.0, 665.0)              # DOUBLER pair (ASTRA-WIDENING-DOUBLER-DECISION.md)
+DOUBLER_KEEP = 635.5                    # mm: DOUBLER central geometry must not move
 MM = 1000.0
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
@@ -91,22 +93,38 @@ def is_sub(n, *subs):
 SIDE_PATTERNS = ["MC CHANNEL", "MC-CHANNEL", "MC_CHANNEL", "PP-FTS-1005", "PP-FBS"]
 LEN_PATTERNS = ["PP-FTT", "PP-FTS-1008", "PART11^PP128-FTA", "PART1^PP128-PP108-SKID",
                 "TR12X6X0.25X80", "LBA-CB"]
+# Authoritative explicit member lists (must mirror tools/astra_widen_v11.py);
+# pattern matching alone misses rigid members like PP-LBB, LBS-LG, LBU-PP,
+# LBS-SH, MC6X18-SKE*.
+SIDE_NAMES = {"mc channel_ai_MC6x18x31.5", "mc channel_ai_MC6x18x31.001",
+              "MC6X18-SKE_MC6x18x57", "MC6X18-SKE_MC6x18x57.001",
+              "MC6X18-SKE1_MC6x18x57", "MC6X18-SKE1_MC6x18x57.001",
+              "PP-FTS-1005", "PP-FTS-1005.001",
+              "PP-FBS", "PP-FBS.001", "PP-FBS.002", "PP-FBS.003",
+              "LBS-LG", "LBS-LG.001", "LBS-SH", "LBS-SH.001",
+              "LBU-PP", "LBU-PP.001", "PP-LBB", "PP-LBB.001"}
+CTRL_NAMES = {"MSP-CP-CP750E", "PP-CPM-1001", "PP-CPM-1005"}
+LEN_NAMES = {"Copy of Copy of Part11^PP128-FTA", "Copy of Copy of Part11^PP128-FTA.001",
+             "Part1^PP128-PP108-SKID", "Part1^PP128-PP108-SKID.001",
+             "PP-FTS-1008", "PP-FTS-1008.001", "PP-FTS-1008.002", "PP-FTS-1008.003",
+             "PP-FTS-1008.004", "PP-FTS-1008.005",
+             "PP-FTT", "PP-FTT.001",
+             "tube rectangular_ai_TR12x6x0.25x80", "tube rectangular_ai_TR12x6x0.25x80.001",
+             "LBA-CB", "DOUBLER", "DOUBLER.001"}
 cls = {}
 for n in A["names"]:
-    o = A["objects"][n]
-    cname = " ".join(o["collections"]) + " " + n
-    if is_sub(cname, "CAD_controller"):
+    if n in CTRL_NAMES:
         cls[n] = "controller"
-    elif is_sub(cname, *SIDE_PATTERNS):
+    elif n in SIDE_NAMES:
         cls[n] = "side"
-    elif is_sub(n, *LEN_PATTERNS):
+    elif n in LEN_NAMES:
         cls[n] = "lengthened"
     else:
         cls[n] = "fixed"
 cnt = Counter(cls.values())
-check("class counts side=20 lengthened=15 controller=3 fixed=430",
-      cnt.get("side", 0) == 20 and cnt.get("lengthened", 0) == 15
-      and cnt.get("controller", 0) == 3 and cnt.get("fixed", 0) == 430, str(dict(cnt)))
+check("class counts side=20 lengthened=17 controller=3 fixed=428",
+      cnt.get("side", 0) == 20 and cnt.get("lengthened", 0) == 17
+      and cnt.get("controller", 0) == 3 and cnt.get("fixed", 0) == 428, str(dict(cnt)))
 
 def wdelta(n):
     a, b = A["objects"][n], B["objects"][n]
@@ -142,8 +160,40 @@ for n in [k for k, v in cls.items() if v == "fixed"]:
     d = wdelta(n)
     if d is None or np.abs(d).max() > TOL:
         fix_bad.append(n)
-check("fixed meshes (incl 415 pump, 7 engine, DOUBLER, MNT/PLT, PP128S22-MFB) unchanged",
+check("fixed meshes (incl 415 pump, 7 engine, MNT/PLT, PP128S22-MFB) unchanged",
       not fix_bad, str(fix_bad[:5]))
+# DOUBLER decision guard: central engine-support footprint within |X|<=635.5mm must not move.
+doub_bad = []
+for n in [k for k, v in cls.items() if v == "lengthened" and is_sub(n, "DOUBLER")]:
+    a, b = A["objects"][n], B["objects"][n]
+    d = b["world"] - a["world"]
+    if d.shape != a["world"].shape:
+        doub_bad.append(n + ":vcount"); continue
+    keep = np.abs(a["world"][:, 0]) <= DOUBLER_KEEP
+    moved = d[:, 0]
+    if not bool(np.abs(d[keep]).max() <= TOL):
+        doub_bad.append("%s:%d verts moved inside |X|<=%.1f"
+                        % (n, int((np.abs(d[keep]).max(axis=1) > TOL).sum()), DOUBLER_KEEP))
+    out = ~keep
+    if out.any():
+        dx = moved[out]
+        if not bool(((np.abs(np.abs(dx) - SHIFT) <= TOL) | (np.abs(dx) <= TOL)).all()
+                    and np.abs(d[out, 1:]).max() <= TOL):
+            doub_bad.append("%s:outboard deltas not {0,+-76.2}" % n)
+check("DOUBLER pair: central |X|<=635.5mm footprint unchanged, outboard ends extended +/-76.2mm",
+      not doub_bad, str(doub_bad[:5]))
+# DOUBLER pair must grow 152.4mm in X like other lengthened members.
+doub_span = []
+for n in [k for k, v in cls.items() if v == "lengthened" and is_sub(n, "DOUBLER")]:
+    s0 = A["objects"][n]["world"][:, 0].max() - A["objects"][n]["world"][:, 0].min()
+    s1 = B["objects"][n]["world"][:, 0].max() - B["objects"][n]["world"][:, 0].min()
+    if abs((s1 - s0) - GROW) > TOL or is_sub(n, "LBA-CB") is False and False:
+        doub_span.append(n)
+    c0 = (A["objects"][n]["world"][:, 0].max() + A["objects"][n]["world"][:, 0].min()) / 2
+    c1 = (B["objects"][n]["world"][:, 0].max() + B["objects"][n]["world"][:, 0].min()) / 2
+    if abs(c1 - c0) > TOL:
+        doub_span.append(n + ":centre")
+check("DOUBLER pair X span +152.4mm, bbox centre unchanged", not doub_span, str(doub_span[:5]))
 
 bad = []
 for cname in ("CAD_pump_new", "CAD_engine"):
@@ -180,18 +230,22 @@ for n in [k for k, v in cls.items() if v == "lengthened"]:
     if not (bool((np.abs(dx[top] - SHIFT) <= TOL).all()
                  and (np.abs(dx[bot] + SHIFT) <= TOL).all())):
         len_bad.append(n + ":ends")
-check("15 lengthened meshes: deltas in {-76.2,0,+76.2}mm, dYZ=0, ends move outward",
+check("17 lengthened meshes (incl DOUBLER pair): deltas in {-76.2,0,+76.2}mm, dYZ=0, ends move outward",
       not len_bad, str(len_bad[:5]))
-
 def cutplane_check(S, label):
     bad = []
+    # Cut planes only apply to the 17 lengthened members; all other meshes are
+    # already proven unchanged / rigid-translated by dedicated checks above.
     for n, o in S["objects"].items():
+        if cls.get(n) != "lengthened":
+            continue
         t = o["tris"]
         if t is None or not len(t):
             continue
         w = o["world"]
         tri = w[t]
-        for plane in (CUT_LO, CUT_HI):
+        planes = CUT_DOUB if is_sub(n, "DOUBLER") else (CUT_LO, CUT_HI)
+        for plane in planes:
             x = tri[:, :, 0]
             cross = (x.min(1) < plane) & (x.max(1) > plane)
             if not cross.any():
@@ -203,8 +257,9 @@ def cutplane_check(S, label):
             nx = np.abs(nrm[:, 0] / ln)
             if (nx > 0.05).any():
                 bad.append("%s@%d:maxnx=%.3f(%d)" % (n, plane, nx.max(), int((nx > 0.05).sum())))
-    check(label + ": triangles crossing X=%.0f/%.0fmm are planar X-extrusions (normalX~0)"
-          % (CUT_LO, CUT_HI), not bad, str(bad[:5]))
+    check(label + ": triangles crossing member cuts X=%.0f/%.0f, DOUBLER cuts X=%.0f/%.0f"
+          " are planar X-extrusions (normalX~0)" % (CUT_LO, CUT_HI, CUT_DOUB[0], CUT_DOUB[1]),
+          not bad, str(bad[:5]))
 cutplane_check(A, "baseline")
 cutplane_check(B, "candidate")
 
@@ -228,14 +283,25 @@ check("scene Y/Z bbox unchanged",
 
 up = [n for n in A["names"] if is_sub(n, "PP128-FTA")]
 if len(up) == 2:
-    def cx(S, n):
-        return S["objects"][n]["world"][:, 0].mean()
-    spa = abs(cx(B, up[0]) - cx(B, up[1])) - abs(cx(A, up[0]) - cx(A, up[1]))
-    check("upright spacing +152.4mm", abs(spa - GROW) <= TOL, "delta=%.3fmm" % spa)
-    d0 = cx(B, up[0]) - cx(A, up[0]); d1 = cx(B, up[1]) - cx(A, up[1])
-    check("uprights each exactly outward 76.2mm",
-          set(round(v, 1) for v in (d0, d1)) == {-SHIFT, SHIFT},
-          "%.2f,%.2f" % (d0, d1))
+    # These members are LENGTHENED (both cut ends extended outward per the
+    # producer), so their bbox centre stays fixed; the correct invariant is
+    # X-span growth of exactly +152.4 mm per member.
+    def span(S, n):
+        w = S["objects"][n]["world"][:, 0]
+        return w.max() - w.min()
+    spans = []
+    for n in up:
+        g = span(B, n) - span(A, n)
+        if abs(g - GROW) > TOL:
+            spans.append("%s:%.3f" % (n, g))
+    check("upright members each grow +152.4mm in X span", not spans, str(spans))
+    cen = []
+    for n in up:
+        c0 = (A["objects"][n]["world"][:, 0].max() + A["objects"][n]["world"][:, 0].min()) / 2
+        c1 = (B["objects"][n]["world"][:, 0].max() + B["objects"][n]["world"][:, 0].min()) / 2
+        if abs(c1 - c0) > TOL:
+            cen.append(n)
+    check("upright bbox centres unchanged (symmetric lengthening)", not cen, str(cen))
 else:
     check("upright pair found (2x PP128-FTA)", False, "found=%d" % len(up))
 
@@ -267,8 +333,10 @@ badrel = []
 if len(grp) >= 2:
     ref = grp[0]
     for n in grp[1:]:
-        ra = A["objects"][ref]["world"][:, :3] - A["objects"][n]["world"][:, :3]
-        rb = B["objects"][ref]["world"][:, :3] - B["objects"][n]["world"][:, :3]
+        # relative object transform within the group (works for meshes with
+        # different vertex counts; equivalent to the rigid-group invariant)
+        ra = np.linalg.inv(np.array(A["objects"][ref]["matrix_world"])) @ np.array(A["objects"][n]["matrix_world"])
+        rb = np.linalg.inv(np.array(B["objects"][ref]["matrix_world"])) @ np.array(B["objects"][n]["matrix_world"])
         if np.abs(ra - rb).max() > TOL:
             badrel.append(n)
 check("controller internal relative transforms unchanged (rigid group)", not badrel, str(badrel))
@@ -283,7 +351,8 @@ rep = {
     "passed": not FAILS,
     "limitations": [
         "Connection/stress integrity, weld/bolt adequacy NOT certified; geometry/transform checks only.",
-        "Cut-plane test is a heuristic (crossing tri world normal X~0, tol 0.05); curved longitudinal extrusions accepted when topology unchanged.",
+        "Cut-plane test is a heuristic (crossing tri world normal X~0, tol 0.05); nominal member planes X=-680/+798mm, DOUBLER planes X=-665/+665mm per ASTRA-WIDENING-DOUBLER-DECISION.md; curved longitudinal extrusions accepted when topology unchanged.",
+        "DOUBLER central engine-support footprint |X|<=635.5mm explicitly guarded as unmoved.",
         "No re-simulation of clearances/interference between moved parts.",
         "Baseline defects intentionally not rejected; before/after stats compared only.",
         "Remaining connection tests reported as UNVERIFIED - not full engineering certification.",

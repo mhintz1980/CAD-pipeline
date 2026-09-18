@@ -1,23 +1,20 @@
-"""Astra first-look preview renderer - WIDE scene variant (v10 input, or the
-planned out/engine-and-pump-v11-wide.blend once the geometry worker delivers
-it; this script does not require or assume v11 exists).
+"""Astra first-look preview renderer - engine/pump skid (v10 input).
 
-Prepared 2026-09-18 per ASTRA-WIDENING-PLAN-2026-09-18.md revision: NOT yet
-rendered. Structural palette split per revised owner direction:
+Run inside headless Blender 5.1:
   blender --background --python tools/astra_render_preview.py -- `
       --input <abs .blend> --output-dir <abs dir> [--width 1200] `
       [--samples 32] [--threads 4] [--with-controller-detail] `
       [--blue-hex #003DA5] [--save-blend <abs .blend>]
 
-Livery per ASTRA-WIDENING-PLAN-2026-09-18.md + ASTRA-LIVERY-DIRECTION-2026-09-18.md (supersedes MSP yellow):
-  - Skid (CAD_skid) and all structural tray/end-rail/support pieces under
-    CAD_pump (PP-FTT/PP-FTS/PP128-FTA/PP-FBS): RAL 6002 Leaf Green
-    (approx working sRGB #276235) - the skid is now green WITH the pump per
-    the widening revision. This differs from the original renderer, which
-    painted structure PMS 293 blue.
-  - Lifting bale (CAD_bale): PMS 293 blue (approx working sRGB #003DA5,
-    override with --blue-hex; Pantone Process Blue swap pending owner
-    clarification) - bale REMAINS blue while skid goes green.
+Livery per ASTRA-LIVERY-DIRECTION-2026-09-18.md (supersedes MSP yellow):
+  - Pump casing + genuinely pump-specific mounting brackets: RAL 6002 Leaf
+    Green (approx working sRGB #276235, not a certified paint match). The
+    frame-tray parts that live in the CAD_pump collection (PP-FTT/PP-FTS/
+    PP128-FTA/PP-FBS) are painted STRUCTURE sitting under the machine and take
+    PMS 293 blue with the skid, per owner visual review of the warm-up.
+  - Skid, lifting bale and frame tray: PMS 293 blue (approx working sRGB
+    #003DA5, override with --blue-hex; Pantone Process Blue swap pending owner
+    clarification)
   - Vendor engine painted castings: John Deere green #367C2B (explicit owner
     option; the incomplete five-digit grey string is deliberately NOT guessed).
   - Separable functional finishes are preserved: bright/bare metal -> zinc
@@ -76,14 +73,11 @@ FUNCTIONAL = {  # values reused from msp_render_cli/materials.py SUB_ASSEMBLY_MA
     "control":   ("#1F1F1F", 0.30, 0.10),   # control_panel_face
 }
 
-COLL_SKID = {"CAD_skid"}      # structural skid -> RAL 6002 green (wide revision)
-COLL_BALE = {"CAD_bale"}      # lifting bale stays PMS 293 blue
+COLL_FRAME = {"CAD_skid", "CAD_bale"}
 # CAD_pump holds the frame-tray parts (PP-FTT top tray, PP-FTS side/cross
-# members, PP128-FTA end rails, PP-FBS bottom supports). Revised owner
-# direction: those painted structure pieces now go RAL 6002 green WITH the
-# skid and pump (wide-revision livery; the original renderer painted them
-# blue) - except genuinely pump-specific mounting brackets, which also stay
-# RAL 6002.
+# members, PP128-FTA end rails, PP-FBS bottom supports). Those are painted
+# STRUCTURE sitting under the machine, not pump casing, so they take PMS 293
+# like the skid - the warmed-up preview showed this whole deck wrongly green.
 COLL_TRAY = {"CAD_pump"}
 COLL_PUMP = {"CAD_pump", "CAD_pump_new"}
 # ...except genuinely pump-specific mounting brackets, which stay RAL 6002.
@@ -184,15 +178,12 @@ def forced_role(o):
         return "rubber"
     if colls & COLL_CONTROL:
         return "control"
-    if colls & COLL_SKID:
-        return "green_structure"   # skid goes Leaf Green in the wide revision
-    if colls & COLL_BALE:
-        return "blue"              # lifting bale remains PMS 293 blue
-    # Frame-tray parts under CAD_pump are painted structure; in the wide
-    # revision they take RAL 6002 like the skid/pump. Pump-specific mounting
-    # brackets are exempt and fall through to the pump paint context.
+    if colls & COLL_FRAME:
+        return "blue"
+    # Frame-tray parts live in CAD_pump but are painted structure; pump-specific
+    # mounting brackets are exempt and fall through to the pump paint context.
     if colls & COLL_TRAY and not any(p in n for p in PUMP_MOUNT_PAT):
-        return "green_structure"
+        return "blue"
     if any(p in n for p in HARDWARE_PAT):
         return "hardware"
     return None
@@ -228,9 +219,9 @@ def slot_face_counts(mesh):
 def apply_livery(blue_hex):
     mats = {
         "pump_green": make_mat("ASTRA_Pump_RAL6002", LIVERY["pump_hex"], LIVERY["pump_rough"], 0.0, 0.2),
-        "green_structure": make_mat("ASTRA_Structure_RAL6002", LIVERY["pump_hex"], LIVERY["pump_rough"], 0.0, 0.1),
-        "blue": make_mat("ASTRA_Bale_PMS293", blue_hex, LIVERY["blue_rough"], 0.0),
+        "blue": make_mat("ASTRA_Structure_PMS293", blue_hex, LIVERY["blue_rough"], 0.0),
         "jd_green": make_mat("ASTRA_Engine_JDGreen", LIVERY["jd_green_hex"], LIVERY["jd_rough"], 0.0, 0.15),
+        "frame_dark": make_mat("ASTRA_Unsorted_Dark", "#1B1B1B", 0.55, 0.05),
         "control": make_mat("ASTRA_Control_Face", *FUNCTIONAL["control"]),
         "exhaust": make_mat("ASTRA_Exhaust", *FUNCTIONAL["exhaust"]),
         "rubber": make_mat("ASTRA_Rubber", *FUNCTIONAL["rubber"]),
@@ -259,7 +250,7 @@ def apply_livery(blue_hex):
 
         if not slots:  # no slot table to preserve - append a single material
             role = forced or ("jd_green" if ctx == "engine" else
-                              "pump_green" if ctx == "pump" else "green_structure")
+                              "pump_green" if ctx == "pump" else "frame_dark")
             o.data.materials.append(mats[role])
             _add(o, 0, None, None, role)
             continue
@@ -268,7 +259,7 @@ def apply_livery(blue_hex):
             # Whole-object role (structure paint, control face, name-matched
             # functional part, or unclassified fallback). Keep the slot list so
             # material_index stays valid; every slot gets the same material.
-            role = forced or "green_structure"
+            role = forced or "frame_dark"
             for i in range(len(slots)):
                 o.data.materials[i] = mats[role]
             _add(o, "*", None, None, role)
@@ -635,7 +626,7 @@ def image_stats(path):
 
 def main():
     if "--" not in sys.argv:
-        raise SystemExit("usage: blender -b --python astra_render_wide_preview.py -- "
+        raise SystemExit("usage: blender -b --python astra_render_preview.py -- "
                          "--input <blend> --output-dir <dir>")
     p = argparse.ArgumentParser()
     p.add_argument("--input", required=True)
@@ -651,7 +642,7 @@ def main():
     src = os.path.abspath(a.input)
     out_dir = os.path.abspath(a.output_dir)
     save_blend = (os.path.abspath(a.save_blend) if a.save_blend
-                  else os.path.join(out_dir, "astra-wide-preview-lookdev.blend"))
+                  else os.path.join(out_dir, "astra-preview-v10-lookdev.blend"))
     if os.path.abspath(save_blend) == src:
         raise SystemExit("[astra] refusing to save over the source .blend: " + save_blend)
     os.makedirs(out_dir, exist_ok=True)
@@ -681,31 +672,7 @@ def main():
 
     sc = bpy.context.scene
     sc.render.engine = "CYCLES"
-    # GPU (L4) when ASTRA_GPU=1 is set; silent CPU fallback otherwise.
     sc.cycles.device = "CPU"
-    if os.environ.get("ASTRA_GPU") == "1":
-        try:
-            prefs = bpy.context.preferences.addons["cycles"].preferences
-            for dt in ("OPTIX", "CUDA"):
-                try:
-                    prefs.compute_device_type = dt
-                    prefs.get_devices()
-                    if any(d.type == dt for d in prefs.devices):
-                        sc.cycles.device = "GPU"
-                        for d in prefs.devices:
-                            d.use = d.type == dt
-                        print("[astra] using GPU device:", dt)
-                        break
-                except Exception as e:
-                    print("[astra] GPU try", dt, "failed:", e)
-        except Exception as e:
-            print("[astra] GPU enable failed, CPU fallback:", e)
-    if sc.cycles.device == "CPU":
-        try:
-            prefs = bpy.context.preferences.addons["cycles"].preferences
-            prefs.compute_device_type = "NONE"
-        except Exception:
-            pass
     sc.cycles.samples = a.samples
     sc.cycles.use_denoising = True
     try:
@@ -750,13 +717,13 @@ def main():
     # the pump (CAD_pump_new, +Y end) is the nearest and largest subject and the
     # engine stays legible beyond it along the skid's Y axis. The bounding-box
     # fit keeps the complete machine in frame with margin.
-    shots = [("astra-wide-preview-threequarter",
+    shots = [("astra-preview-threequarter",
               fit_camera("Cam_PumpHero", lo, hi, (-0.40, 0.84, 0.45),
                          sc.render.resolution_x, sc.render.resolution_y,
                          lens=50.0, margin=0.92)[0])]
     # Secondary engine-side view from minus-X / minus-Y / above. Kept as an
     # additional view; it also exposes the minus-X controller face.
-    shots.append(("astra-wide-preview-engine-side",
+    shots.append(("astra-preview-engine-side",
                   fit_camera("Cam_EngineHero", lo, hi, (-0.72, -0.52, 0.46),
                              sc.render.resolution_x, sc.render.resolution_y,
                              lens=50.0, margin=0.92)[0]))
@@ -769,7 +736,7 @@ def main():
             cam, dist = fit_camera("Cam_Controller", clo, chi, (-0.55, -0.78, 0.30),
                                    sc.render.resolution_x, sc.render.resolution_y,
                                    lens=85.0, margin=0.88)
-            shots.append(("astra-wide-preview-controller-detail", cam))
+            shots.append(("astra-preview-controller-detail", cam))
             detail_info = {"bbox_min": [round(v, 4) for v in clo],
                            "bbox_max": [round(v, 4) for v in chi],
                            "camera_dist_m": round(dist, 3)}
@@ -854,7 +821,7 @@ def main():
     })
     with open(os.path.join(out_dir, "astra-render-execution.json"), "w") as fh:
         json.dump(result, fh, indent=1)
-    with open(os.path.join(out_dir, "astra-wide-preview-slot-inventory.json"), "w") as fh:
+    with open(os.path.join(out_dir, "astra-preview-slot-inventory.json"), "w") as fh:
         json.dump({"material_role_counts": counts, "slots": inventory}, fh, indent=1)
     print("[astra] DONE in %.1fs" % (time.time() - t0))
 

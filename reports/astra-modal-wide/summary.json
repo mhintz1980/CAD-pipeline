@@ -1,0 +1,23 @@
+{
+  "app_id": "astra-modal-wide",
+  "run_id": "wide-20260918T143014",
+  "source_sha256": "5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f",
+  "wall_sec": 180.51103925704956,
+  "stages": {
+    "producer": {
+      "rc": 0,
+      "elapsed": 24.816684007644653
+    },
+    "verifier": {
+      "rc": 0,
+      "elapsed": 5.728516101837158
+    },
+    "render": {
+      "rc": 0,
+      "elapsed": 14.29194951057434
+    }
+  },
+  "failure_stage": null,
+  "error": null,
+  "download_dir": "C:\\Projects\\CAD\\astra-engine-pump\\reports\\astra-modal-wide\\wide-20260918T143014"
+}

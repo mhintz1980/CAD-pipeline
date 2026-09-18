@@ -1,0 +1,6 @@
+/work/tools/astra_render_wide_preview.py:122: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/work/tools/astra_render_wide_preview.py:142: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if mat.use_nodes:
+/work/tools/astra_render_wide_preview.py:464: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True

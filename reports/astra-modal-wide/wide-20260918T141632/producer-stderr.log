@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/work/tools/astra_widen_v11.py", line 327, in <module>
+    def frame_all(o, mm=MM):
+                        ^^
+NameError: name 'MM' is not defined
+
+Error: script failed, file: '/work/tools/astra_widen_v11.py', exiting.

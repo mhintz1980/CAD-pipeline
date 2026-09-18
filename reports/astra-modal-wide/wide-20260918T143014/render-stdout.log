@@ -1,0 +1,30 @@
+00:00.085  system.path      | WARNING Could not get a list of mounted file-systems
+00:00.450  blend            | Read blend: "/work/out/engine-and-pump-v11-wide.blend"
+00:00.889  blend            | Read blend: "/work/out/engine-and-pump-v11-wide.blend"
+00:02.480  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:09.186  render           | Saved: '/out/wide-20260918T143014/lookdev/astra-wide-preview-threequarter.png'
+00:12.603  render           | Saved: '/out/wide-20260918T143014/lookdev/astra-wide-preview-engine-side.png'
+[astra] source sha256 (before): 92c4b271661d0914889b0f8fb42c440d884209f99dc589f3597b441be5638ced
+[astra] visibility fix: {'scope': 'collection:CAD_pump_new', 'before[hide_render,hide_viewport]': [True, False], 'after[hide_render,hide_viewport]': [False, False]}
+[astra] visibility fix: 1 change(s)
+[astra] bounds m: (-1.097, -2.372, -0.972) (1.12, 2.372, 1.956) radius 3.0
+[astra] geometry digest before look-dev: 089172a48c0963f0a6e300ec035b2e91f7854d4148428f80f55fe8f827809b0c
+[astra] material role counts (objects/slots): {'green_structure': 30, 'pump_green': 389, 'blue': 9, 'exhaust': 35, 'jd_green': 119, 'rubber': 12, 'hardware': 39, 'control': 3}
+[astra] floor GroundFloor size 180.0 m at z=-0.9743, in scene=True, hide_render=False
+[astra] using GPU device: OPTIX
+[astra] floor probe: hit=True object=GroundFloor z=-0.9743
+[astra] camera Cam_PumpHero: dist 12.32 m, lens 50 mm
+[astra] camera Cam_EngineHero: dist 11.50 m, lens 50 mm
+[astra] pump render check: 415/415 meshes renderable, all_in_view_layer=True, all_non_empty_eval=True
+[astra] pump camera-ray hits from Cam_PumpHero: 24/24 sample rays hit CAD_pump_new
+Info: Saved as "astra-wide-preview-lookdev.blend"
+[astra] saved look-dev blend (active camera Cam_PumpHero): /out/wide-20260918T143014/lookdev/astra-wide-preview-lookdev.blend
+[astra] wrote /out/wide-20260918T143014/lookdev/astra-wide-preview-threequarter.png in 5.8s stats={'pixels': 1792000, 'min': 0.0, 'max': 0.9843137860298157, 'mean': 0.4497765004634857, 'std': 0.14522668719291687, 'unique_rounded': 249}
+[astra] wrote /out/wide-20260918T143014/lookdev/astra-wide-preview-engine-side.png in 3.2s stats={'pixels': 1792000, 'min': 0.0, 'max': 1.0, 'mean': 0.45758992433547974, 'std': 0.15675042569637299, 'unique_rounded': 256}
+[astra] geometry digest after : 089172a48c0963f0a6e300ec035b2e91f7854d4148428f80f55fe8f827809b0c
+[astra] geometry unchanged: True
+[astra] source unchanged  : True
+[astra] DONE in 13.2s
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 02:18:37)
+
+Blender quit

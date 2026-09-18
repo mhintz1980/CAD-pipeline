@@ -1,0 +1,31 @@
+00:00.085  system.path      | WARNING Could not get a list of mounted file-systems
+00:00.465  blend            | Read blend: "/work/out/engine-and-pump-v10.blend"
+00:02.898  blend            | Read blend: "/work/out/engine-and-pump-v11-wide.blend"
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 02:18:37)
+Loading baseline /work/out/engine-and-pump-v10.blend
+Loading candidate /work/out/engine-and-pump-v11-wide.blend
+PASS object sets identical | only-base=[] only-cand=[]
+PASS candidate differs from baseline file (not stale copy) | 5f8632d8ef9b vs 92c4b271661d
+PASS expected mesh count 468 | n=468
+PASS class counts side=20 lengthened=17 controller=3 fixed=428 | {'side': 20, 'fixed': 428, 'lengthened': 17, 'controller': 3}
+PASS 20 side meshes translate uniformly +/-76.2mm X, dYZ=0 | []
+PASS 3 CAD_controller meshes translate -76.2mm X (left upright group), dYZ=0 | []
+PASS fixed meshes (incl 415 pump, 7 engine, MNT/PLT, PP128S22-MFB) unchanged | []
+PASS DOUBLER pair: central |X|<=635.5mm footprint unchanged, outboard ends extended +/-76.2mm | []
+PASS DOUBLER pair X span +152.4mm, bbox centre unchanged | []
+PASS engine/pump local vertex data + world matrices identical | []
+PASS topology (loop vert indices, tri counts) unchanged for all meshes | []
+PASS 17 lengthened meshes (incl DOUBLER pair): deltas in {-76.2,0,+76.2}mm, dYZ=0, ends move outward | []
+PASS baseline: triangles crossing member cuts X=-680/798, DOUBLER cuts X=-665/665 are planar X-extrusions (normalX~0) | []
+PASS candidate: triangles crossing member cuts X=-680/798, DOUBLER cuts X=-665/665 are planar X-extrusions (normalX~0) | []
+PASS overall X width +152.4mm | 2065.233 -> 2217.633 mm
+PASS bbox centre X unchanged | 11.363 -> 11.363 mm
+PASS scene Y/Z bbox unchanged
+PASS upright members each grow +152.4mm in X span | []
+PASS upright bbox centres unchanged (symmetric lengthening) | []
+PASS bale/assembly top height (48in) preserved | 1955.67 -> 1955.67 mm
+PASS materials, collections, parents, visibility metadata unchanged | []
+PASS no scale/rotation introduced vs baseline | base_bad=0 cand_bad=0
+PASS controller internal relative transforms unchanged (rigid group) | []
+REPORT /work/reports/astra-wide-verifier-result.json
+VERDICT: PASS

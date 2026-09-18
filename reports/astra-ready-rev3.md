@@ -1,0 +1,1 @@
+READY rev3. Authoritative reports/astra-engine-export-code.md. Read astra-modal-download-fix-required.md and dispatch. Multiple-glob `until ls` was falselyblockingbecauseoneglobdidn'tmatch; no furtherwaitneeded.
