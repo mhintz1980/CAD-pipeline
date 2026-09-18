@@ -1,0 +1,24 @@
+00:01.735  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v9.blend"
+00:04.281  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v10.blend"
+00:06.766  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v10.blend"
+PASS 1/2: baseline C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v9.blend
+[v9] 468 meshes, collections=['CAD_bale', 'CAD_controller', 'CAD_engine', 'CAD_pump', 'CAD_pump_new', 'CAD_skid']
+PASS 2/2: candidate C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v10.blend
+[v10] 468 meshes, collections=['CAD_bale', 'CAD_controller', 'CAD_engine', 'CAD_pump', 'CAD_pump_new', 'CAD_skid']
+  [OK]   no_unexpected_new_objects: new in v10: []
+  [OK]   removed_only_quarantine: removed from v9: []
+  [OK]   non_controller_untouched: changed non-controller objects: []
+  [OK]   all_materials_unchanged: objects with changed materials: []
+  [OK]   controller_geometry_unchanged: controller meshes edited: []
+  [OK]   controller_no_rotation: controller rotation change: []
+  [OK]   controller_all_moved: moved pairs: [('MSP-CP-CP750E', [-105.21, -94.64, -17.12]), ('PP-CPM-1001', [-105.21, -94.64, -17.12]), ('PP-CPM-1005', [-105.21, -94.64, -17.12])]
+  [OK]   controller_single_shared_translation: max deviation between part deltas 1.98e-07 m; delta_mm=[-105.208, -94.638, -17.119]
+  [OK]   bracket_present: PP-CPM-1005
+  [OK]   bracket_bottom_48in_above_skid: bracket bottom Z=246.86 mm, skid bottom Z=-972.34 mm -> 48.0000 in
+  [OK]   mate_faces_found: upright n=[-0.0, -0.9986, 0.052], bracket n=[-0.0, 0.9986, -0.0523]
+  [OK]   mate_normals_antiparallel: -Nu.Nb=1.00000000 (0.0054 deg off; upright taper ~2.87 deg off vertical)
+  [OK]   mate_planes_coincident: plane separation 0.0520 mm
+  [OK]   pump_shaft_unchanged: digest/matrix/bbox identical; bbox_min_v9=[-0.047455, 0.26584, 0.0770872]
+REPORT -> C:\Projects\CAD\astra-engine-pump\reports\astra-independent-verification.json
+VERDICT PASS
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)

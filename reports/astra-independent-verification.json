@@ -1,0 +1,107 @@
+{
+ "baseline": "C:\\Projects\\CAD\\astra-engine-pump\\out\\engine-and-pump-v9.blend",
+ "candidate": "C:\\Projects\\CAD\\astra-engine-pump\\out\\engine-and-pump-v10.blend",
+ "violations": [],
+ "checks": [
+  {
+   "assertion": "no_unexpected_new_objects",
+   "ok": true,
+   "detail": "new in v10: []"
+  },
+  {
+   "assertion": "removed_only_quarantine",
+   "ok": true,
+   "detail": "removed from v9: []"
+  },
+  {
+   "assertion": "non_controller_untouched",
+   "ok": true,
+   "detail": "changed non-controller objects: []"
+  },
+  {
+   "assertion": "all_materials_unchanged",
+   "ok": true,
+   "detail": "objects with changed materials: []"
+  },
+  {
+   "assertion": "controller_geometry_unchanged",
+   "ok": true,
+   "detail": "controller meshes edited: []"
+  },
+  {
+   "assertion": "controller_no_rotation",
+   "ok": true,
+   "detail": "controller rotation change: []"
+  },
+  {
+   "assertion": "controller_all_moved",
+   "ok": true,
+   "detail": "moved pairs: [('MSP-CP-CP750E', [-105.21, -94.64, -17.12]), ('PP-CPM-1001', [-105.21, -94.64, -17.12]), ('PP-CPM-1005', [-105.21, -94.64, -17.12])]"
+  },
+  {
+   "assertion": "controller_single_shared_translation",
+   "ok": true,
+   "detail": "max deviation between part deltas 1.98e-07 m; delta_mm=[-105.208, -94.638, -17.119]"
+  },
+  {
+   "assertion": "bracket_present",
+   "ok": true,
+   "detail": "PP-CPM-1005"
+  },
+  {
+   "assertion": "bracket_bottom_48in_above_skid",
+   "ok": true,
+   "detail": "bracket bottom Z=246.86 mm, skid bottom Z=-972.34 mm -> 48.0000 in"
+  },
+  {
+   "assertion": "mate_faces_found",
+   "ok": true,
+   "detail": "upright n=[-0.0, -0.9986, 0.052], bracket n=[-0.0, 0.9986, -0.0523]"
+  },
+  {
+   "assertion": "mate_normals_antiparallel",
+   "ok": true,
+   "detail": "-Nu.Nb=1.00000000 (0.0054 deg off; upright taper ~2.87 deg off vertical)"
+  },
+  {
+   "assertion": "mate_planes_coincident",
+   "ok": true,
+   "detail": "plane separation 0.0520 mm"
+  },
+  {
+   "assertion": "pump_shaft_unchanged",
+   "ok": true,
+   "detail": "digest/matrix/bbox identical; bbox_min_v9=[-0.047455, 0.26584, 0.0770872]"
+  }
+ ],
+ "census": {
+  "v9_meshes": 468,
+  "v10_meshes": 468,
+  "v9_collections": [
+   "CAD_bale",
+   "CAD_controller",
+   "CAD_engine",
+   "CAD_pump",
+   "CAD_pump_new",
+   "CAD_skid"
+  ],
+  "v10_collections": [
+   "CAD_bale",
+   "CAD_controller",
+   "CAD_engine",
+   "CAD_pump",
+   "CAD_pump_new",
+   "CAD_skid"
+  ]
+ },
+ "verdict": "PASS",
+ "summary": {
+  "controller_delta_mm": [
+   -105.208,
+   -94.638,
+   -17.119
+  ],
+  "bracket_height_in": 48.0,
+  "violations": []
+ }
+}

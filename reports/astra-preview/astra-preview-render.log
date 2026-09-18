@@ -1,0 +1,36 @@
+00:02.734  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v10.blend"
+C:\Projects\CAD\astra-engine-pump\tools\astra_render_preview.py:116: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+C:\Projects\CAD\astra-engine-pump\tools\astra_render_preview.py:136: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if mat.use_nodes:
+C:\Projects\CAD\astra-engine-pump\tools\astra_render_preview.py:455: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+00:05.031  cycles           | WARNING CUEW initialization failed: Error opening the library
+00:57.781  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\astra-preview\astra-preview-threequarter.png'
+02:02.000  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\astra-preview\astra-preview-engine-side.png'
+03:40.984  render           | Saved: 'C:\Projects\CAD\astra-engine-pump\reports\astra-preview\astra-preview-controller-detail.png'
+[astra] source sha256 (before): 5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f
+[astra] visibility fix: {'scope': 'collection:CAD_pump_new', 'before[hide_render,hide_viewport]': [True, False], 'after[hide_render,hide_viewport]': [False, False]}
+[astra] visibility fix: 1 change(s)
+[astra] bounds m: (-1.021, -2.372, -0.972) (1.044, 2.372, 1.956) radius 2.972
+[astra] geometry digest before look-dev: 235b40f27f96840d3bfb53b075e043a53ad93e7b0a7b3c3ed6a8f2fa2bfafc54
+[astra] material role counts (objects/slots): {'blue': 39, 'pump_green': 389, 'exhaust': 35, 'jd_green': 119, 'rubber': 12, 'hardware': 39, 'control': 3}
+[astra] floor GroundFloor size 178.3 m at z=-0.9743, in scene=True, hide_render=False
+[astra] floor probe: hit=True object=GroundFloor z=-0.9743
+[astra] camera Cam_PumpHero: dist 12.23 m, lens 50 mm
+[astra] camera Cam_EngineHero: dist 11.33 m, lens 50 mm
+[astra] camera Cam_Controller: dist 1.80 m, lens 85 mm
+[astra] pump render check: 415/415 meshes renderable, all_in_view_layer=True, all_non_empty_eval=True
+[astra] pump camera-ray hits from Cam_PumpHero: 24/24 sample rays hit CAD_pump_new
+Info: Saved as "astra-preview-v10-lookdev.blend"
+[astra] saved look-dev blend (active camera Cam_PumpHero): C:\Projects\CAD\astra-engine-pump\reports\astra-preview\astra-preview-v10-lookdev.blend
+[astra] wrote C:\Projects\CAD\astra-engine-pump\reports\astra-preview\astra-preview-threequarter.png in 51.7s stats={'pixels': 1008000, 'min': 0.0, 'max': 0.9764706492424011, 'mean': 0.45763087272644043, 'std': 0.1499709188938141, 'unique_rounded': 249}
+[astra] wrote C:\Projects\CAD\astra-engine-pump\reports\astra-preview\astra-preview-engine-side.png in 63.9s stats={'pixels': 1008000, 'min': 0.0, 'max': 1.0, 'mean': 0.46590355038642883, 'std': 0.15815868973731995, 'unique_rounded': 256}
+[astra] wrote C:\Projects\CAD\astra-engine-pump\reports\astra-preview\astra-preview-controller-detail.png in 98.8s stats={'pixels': 1008000, 'min': 0.0, 'max': 0.9803922176361084, 'mean': 0.23062609136104584, 'std': 0.2371315360069275, 'unique_rounded': 251}
+[astra] geometry digest after : 235b40f27f96840d3bfb53b075e043a53ad93e7b0a7b3c3ed6a8f2fa2bfafc54
+[astra] geometry unchanged: True
+[astra] source unchanged  : True
+[astra] DONE in 221.2s
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

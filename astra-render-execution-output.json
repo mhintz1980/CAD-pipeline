@@ -1,0 +1,2 @@
+[claude-code:unrecognized_model] {"model":"zai/glm-5.3-flash[1m]","query_source":"generate_session_title"}
+[claude-code:unrecognized_model] {"model":"deepseek/deepseek-flash","query_source":"sdk"}

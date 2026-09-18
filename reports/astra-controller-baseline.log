@@ -1,0 +1,14 @@
+00:01.922  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v9.blend"
+OBJECTS 468 -> reports/astra-baseline-v9.json
+  CAD_bale               n=  9 polys=   11,152
+  CAD_controller         n=  3 polys=  258,777
+  CAD_engine             n=  7 polys=2,276,902
+  CAD_pump               n= 20 polys=   29,200
+  CAD_pump_new           n=415 polys=  807,046
+  CAD_skid               n= 14 polys=    4,040
+SCENE min [-1.0212, -2.3719, -0.9723]
+SCENE max [1.044, 2.3719, 1.9557]
+SCENE size [2.0652, 4.7438, 2.928]
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

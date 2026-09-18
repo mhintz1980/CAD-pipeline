@@ -1,0 +1,812 @@
+{
+ "meta": {
+  "mode": "apply",
+  "source_blend": "C:\\Projects\\CAD\\astra-engine-pump\\out\\engine-and-pump-v9.blend",
+  "blender": "5.1.1",
+  "threads": 4,
+  "timestamp": "2026-09-18T10:15:42-0400",
+  "output_blend": "C:\\Projects\\CAD\\astra-engine-pump\\out\\engine-and-pump-v10.blend",
+  "output_bytes": 102843862,
+  "source_sha256_before": "09326d83af1a4bfafbe46572194c965b73de937e8e73814fd974c9824e5245a6",
+  "source_sha256_after": "09326d83af1a4bfafbe46572194c965b73de937e8e73814fd974c9824e5245a6",
+  "output_sha256": "5f8632d8ef9b27da15b221f47feb9fb37dcea7b52493aeba62125523ae5f5e6f"
+ },
+ "census": {
+  "total_mesh_objects": 468,
+  "total_polygons": 3387117,
+  "by_collection": {
+   "CAD_bale": 9,
+   "CAD_controller": 3,
+   "CAD_engine": 7,
+   "CAD_pump": 20,
+   "CAD_pump_new": 415,
+   "CAD_skid": 14
+  },
+  "controller_subtree": [
+   "MSP-CP-CP750E",
+   "PP-CPM-1001",
+   "PP-CPM-1005"
+  ]
+ },
+ "quarantine": {
+  "present": false,
+  "collections": [],
+  "objects": 0,
+  "removed": false
+ },
+ "measured_datums": {
+  "skid_bottom_z_mm": -972.342,
+  "scene_min_z_mm": -972.342,
+  "bracket_height_target_in": 48.0,
+  "bracket_bottom_target_z_mm": 246.858,
+  "engine_bbox_mm": {
+   "min_mm": [
+    -835.717,
+    -1762.413,
+    -482.756
+   ],
+   "max_mm": [
+    837.721,
+    521.779,
+    1715.81
+   ],
+   "size_mm": [
+    1673.438,
+    2284.191,
+    2198.566
+   ]
+  },
+  "upright_bbox_mm": {
+   "min_mm": [
+    -815.222,
+    -292.083,
+    -483.391
+   ],
+   "max_mm": [
+    -662.822,
+    292.083,
+    1955.669
+   ],
+   "size_mm": [
+    152.4,
+    584.166,
+    2439.06
+   ]
+  },
+  "upright_taper_candidates": [
+   {
+    "sign_y": -1.0,
+    "area_mm2": 272255.5,
+    "normal": [
+     -0.0,
+     -0.99865,
+     0.05201
+    ],
+    "centroid_mm": [
+     -729.757,
+     -233.749,
+     637.24
+    ],
+    "faces": 30,
+    "dot_toward_engine": 0.6303
+   },
+   {
+    "sign_y": 1.0,
+    "area_mm2": 272255.5,
+    "normal": [
+     0.0,
+     0.99865,
+     0.05201
+    ],
+    "centroid_mm": [
+     -729.757,
+     233.749,
+     637.24
+    ],
+    "faces": 30,
+    "dot_toward_engine": -0.6431
+   }
+  ],
+  "target_face": {
+   "object": "LBU-PP.001",
+   "outward_normal": [
+    -0.0,
+    -0.998647,
+    0.05201
+   ],
+   "centroid_mm": [
+    -729.757,
+    -233.749,
+    637.24
+   ],
+   "normal_angle_from_z_deg": 87.019,
+   "face_off_vertical_deg": 2.981,
+   "area_mm2": 272255.5,
+   "faces": 30,
+   "envelope_crosscheck": {
+    "deg": 2.9342283313072097,
+    "ymax_low_mm": 292.1,
+    "ymax_high_mm": 167.1,
+    "z_low_mm": -483.4,
+    "z_high_mm": 1955.7
+   }
+  },
+  "mating_candidates": [
+   {
+    "part": "PP-CPM-1005",
+    "area_mm2": 1696.2,
+    "normal": [
+     -4e-06,
+     0.998629,
+     -0.052336
+    ],
+    "dot_with_upright_normal": -1.0,
+    "centroid_mm": [
+     -624.549,
+     -155.558,
+     338.559
+    ]
+   },
+   {
+    "part": "MSP-CP-CP750E",
+    "area_mm2": 855.5,
+    "normal": [
+     -2.3e-05,
+     0.996177,
+     -0.087354
+    ],
+    "dot_with_upright_normal": -0.999372,
+    "centroid_mm": [
+     -705.226,
+     -379.85,
+     377.607
+    ]
+   },
+   {
+    "part": "PP-CPM-1001",
+    "area_mm2": 2646.3,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "dot_with_upright_normal": -0.998647,
+    "centroid_mm": [
+     -635.946,
+     -296.374,
+     305.979
+    ]
+   },
+   {
+    "part": "MSP-CP-CP750E",
+    "area_mm2": 86195.4,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "dot_with_upright_normal": -0.998646,
+    "centroid_mm": [
+     -722.468,
+     -370.562,
+     384.364
+    ]
+   },
+   {
+    "part": "MSP-CP-CP750E",
+    "area_mm2": 647.8,
+    "normal": [
+     -0.017615,
+     0.999845,
+     0.0
+    ],
+    "dot_with_upright_normal": -0.998492,
+    "centroid_mm": [
+     -799.807,
+     -365.137,
+     431.417
+    ]
+   },
+   {
+    "part": "MSP-CP-CP750E",
+    "area_mm2": 2377.4,
+    "normal": [
+     0.052254,
+     0.998634,
+     -0.0
+    ],
+    "dot_with_upright_normal": -0.997282,
+    "centroid_mm": [
+     -792.445,
+     -365.195,
+     434.798
+    ]
+   },
+   {
+    "part": "MSP-CP-CP750E",
+    "area_mm2": 4805.0,
+    "normal": [
+     -0.052326,
+     0.99863,
+     0.0
+    ],
+    "dot_with_upright_normal": -0.997278,
+    "centroid_mm": [
+     -798.691,
+     -309.773,
+     435.174
+    ]
+   },
+   {
+    "part": "MSP-CP-CP750E",
+    "area_mm2": 830.1,
+    "normal": [
+     4.2e-05,
+     0.996197,
+     0.087134
+    ],
+    "dot_with_upright_normal": -0.990316,
+    "centroid_mm": [
+     -709.365,
+     -370.928,
+     374.967
+    ]
+   }
+  ],
+  "bracket_mating_face": {
+   "bracket_object": "PP-CPM-1005",
+   "mating_normal": [
+    -4e-06,
+    0.99863,
+    -0.052336
+   ],
+   "mating_centroid_mm": [
+    -624.549,
+    -155.558,
+    338.559
+   ],
+   "area_mm2": 1696.2,
+   "deviation_from_antiparallel_deg": 0.0177,
+   "tight_candidate_parts": [
+    "PP-CPM-1005"
+   ],
+   "near_miss_parts": [
+    "MSP-CP-CP750E",
+    "PP-CPM-1001"
+   ]
+  },
+  "bracket_bottom_before_mm": 263.977,
+  "controller_subtree_bottom_before_mm": 214.63
+ },
+ "transform": {
+  "delta_mm": [
+   -105.208,
+   -94.638,
+   -17.119
+  ],
+  "perpendicular_gap_before_mm": 93.619,
+  "inplane_slide_t_mm": -22.018,
+  "x_align_mm": -105.208,
+  "rotation_deg": 0.0,
+  "note": "pure translation; mating faces already antiparallel"
+ },
+ "moved_objects": [
+  "MSP-CP-CP750E",
+  "PP-CPM-1001",
+  "PP-CPM-1005"
+ ],
+ "before": {
+  "MSP-CP-CP750E": {
+   "matrix_world": [
+    1.344e-07,
+    1.0000001192,
+    0.0,
+    -0.6460430026,
+    -1.0000001192,
+    1.344e-07,
+    -0.0,
+    -0.3988685608,
+    -0.0,
+    -0.0,
+    1.0,
+    0.3811315894,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": {
+    "min_mm": [
+     -831.771,
+     -541.016,
+     214.63
+    ],
+    "max_mm": [
+     -606.455,
+     -264.836,
+     518.323
+    ],
+    "size_mm": [
+     225.315,
+     276.18,
+     303.693
+    ]
+   }
+  },
+  "PP-CPM-1001": {
+   "matrix_world": [
+    -1.0,
+    -0.0,
+    0.0,
+    -0.6204000115,
+    0.0,
+    -1.0,
+    -0.0,
+    -0.3747543693,
+    0.0,
+    -0.0,
+    1.0,
+    0.2285746336,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": {
+    "min_mm": [
+     -724.223,
+     -482.704,
+     222.225
+    ],
+    "max_mm": [
+     -614.05,
+     -222.354,
+     441.935
+    ],
+    "size_mm": [
+     110.173,
+     260.35,
+     219.71
+    ]
+   }
+  },
+  "PP-CPM-1005": {
+   "matrix_world": [
+    1.344e-07,
+    1.0000001192,
+    0.0,
+    -0.6140500307,
+    -1.0000001192,
+    1.344e-07,
+    0.0,
+    -1.2771334648,
+    0.0,
+    -0.0,
+    1.0,
+    -0.6737473607,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": {
+    "min_mm": [
+     -633.619,
+     -273.154,
+     263.977
+    ],
+    "max_mm": [
+     -607.7,
+     -150.079,
+     442.473
+    ],
+    "size_mm": [
+     25.919,
+     123.076,
+     178.495
+    ]
+   }
+  }
+ },
+ "after": {
+  "MSP-CP-CP750E": {
+   "matrix_world": [
+    1.344e-07,
+    1.0000001192,
+    0.0,
+    -0.7512511015,
+    -1.0000001192,
+    1.344e-07,
+    -0.0,
+    -0.4935063124,
+    -0.0,
+    -0.0,
+    1.0,
+    0.3640127182,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": {
+    "min_mm": [
+     -936.979,
+     -635.654,
+     197.511
+    ],
+    "max_mm": [
+     -711.663,
+     -359.473,
+     501.204
+    ],
+    "size_mm": [
+     225.315,
+     276.18,
+     303.693
+    ]
+   }
+  },
+  "PP-CPM-1001": {
+   "matrix_world": [
+    -1.0,
+    -0.0,
+    0.0,
+    -0.7256081104,
+    0.0,
+    -1.0,
+    -0.0,
+    -0.4693921208,
+    0.0,
+    -0.0,
+    1.0,
+    0.2114557624,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": {
+    "min_mm": [
+     -829.431,
+     -577.342,
+     205.106
+    ],
+    "max_mm": [
+     -719.258,
+     -316.992,
+     424.816
+    ],
+    "size_mm": [
+     110.172,
+     260.35,
+     219.71
+    ]
+   }
+  },
+  "PP-CPM-1005": {
+   "matrix_world": [
+    1.344e-07,
+    1.0000001192,
+    0.0,
+    -0.7192581296,
+    -1.0000001192,
+    1.344e-07,
+    0.0,
+    -1.3717712164,
+    0.0,
+    -0.0,
+    1.0,
+    -0.6908662319,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": {
+    "min_mm": [
+     -738.827,
+     -367.792,
+     246.858
+    ],
+    "max_mm": [
+     -712.908,
+     -244.716,
+     425.354
+    ],
+    "size_mm": [
+     25.919,
+     123.076,
+     178.495
+    ]
+   }
+  }
+ },
+ "verification": {
+  "mating_gap_after_mm": 0.0001,
+  "mating_normal_alignment_negNu_dot_Nb": 0.99999995,
+  "mating_angle_error_deg": 0.0177,
+  "bracket_bottom_after_mm": 246.858,
+  "bracket_bottom_after_in_above_skid": 48.0,
+  "x_align_residual_mm": -0.0001,
+  "controller_subtree_bbox_after_mm": {
+   "min_mm": [
+    -936.979,
+    -635.654,
+    197.511
+   ],
+   "max_mm": [
+    -711.663,
+    -244.716,
+    501.204
+   ],
+   "size_mm": [
+    225.315,
+    390.937,
+    303.693
+   ]
+  }
+ },
+ "non_target_invariants": {
+  "pump": {
+   "objects": 435,
+   "matrices_unchanged": true,
+   "mesh_geometry_unchanged": true
+  },
+  "engine": {
+   "objects": 7,
+   "matrices_unchanged": true,
+   "mesh_geometry_unchanged": true
+  },
+  "skid": {
+   "objects": 14,
+   "matrices_unchanged": true,
+   "mesh_geometry_unchanged": true
+  },
+  "bale": {
+   "objects": 9,
+   "matrices_unchanged": true,
+   "mesh_geometry_unchanged": true
+  },
+  "all_non_target": {
+   "objects": 465,
+   "matrices_unchanged": true,
+   "mesh_geometry_unchanged": true
+  }
+ },
+ "invariant_summary": {
+  "moved": [
+   "MSP-CP-CP750E",
+   "PP-CPM-1001",
+   "PP-CPM-1005"
+  ],
+  "untouched_mesh_objects": 465
+ },
+ "assertions": [
+  {
+   "assertion": "controller_subtree_found",
+   "ok": true,
+   "detail": "root=CPM-PP-JD18 mesh children=['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005']"
+  },
+  {
+   "assertion": "controller_subtree_matches_collection",
+   "ok": true,
+   "detail": "subtree=['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005'] vs collection CAD_controller=['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005']"
+  },
+  {
+   "assertion": "minus_x_upright_exists",
+   "ok": true,
+   "detail": "object LBU-PP.001"
+  },
+  {
+   "assertion": "upright_is_minus_x",
+   "ok": true,
+   "detail": "LBU-PP.001 X range [-815.2, -662.8] mm"
+  },
+  {
+   "assertion": "upright_in_bale_collection",
+   "ok": true,
+   "detail": "CAD_bale = ['LBA-CB', 'LBS-LG', 'LBS-LG.001', 'LBS-SH', 'LBS-SH.001', 'LBU-PP', 'LBU-PP.001', 'PP-LBB', 'PP-LBB.001']"
+  },
+  {
+   "assertion": "skid_collection_nonempty",
+   "ok": true,
+   "detail": "CAD_skid n=14"
+  },
+  {
+   "assertion": "skid_bottom_is_scene_bottom",
+   "ok": true,
+   "detail": "CAD_skid min Z -972.34 mm == scene min Z -972.34 mm"
+  },
+  {
+   "assertion": "upright_taper_faces_found",
+   "ok": true,
+   "detail": "-Y faces=2 +Y faces=2"
+  },
+  {
+   "assertion": "engine_side_face_selected_by_geometry",
+   "ok": true,
+   "detail": "picked outward normal [-0.0, -0.99865, 0.05201] dot toward engine centroid 0.6303"
+  },
+  {
+   "assertion": "upright_taper_tilt_plausible",
+   "ok": true,
+   "detail": "engine-side face normal 87.019 deg from the Z axis = 2.981 deg off vertical (handoff: 87.13 deg from Z / 2.87 off vertical)"
+  },
+  {
+   "assertion": "taper_agrees_with_vertex_envelope",
+   "ok": true,
+   "detail": "face-normal taper 2.98 deg vs vertex-envelope taper 2.93 deg ({'deg': 2.9342283313072097, 'ymax_low_mm': 292.1, 'ymax_high_mm': 167.1, 'z_low_mm': -483.4, 'z_high_mm': 1955.7})"
+  },
+  {
+   "assertion": "bracket_mating_face_found",
+   "ok": true,
+   "detail": "controller parts with a face genuinely antiparallel (dot < -0.9995, <1.8 deg) to the upright taper: ['PP-CPM-1005']"
+  },
+  {
+   "assertion": "taper_mating_already_antiparallel",
+   "ok": true,
+   "detail": "PP-CPM-1005 mating normal [-0.0, 0.99863, -0.05234] vs upright [-0.0, -0.99865, 0.05201]: 0.018 deg off antiparallel (no rotation, nothing to cut)"
+  },
+  {
+   "assertion": "bracket_is_PP-CPM-1005",
+   "ok": true,
+   "detail": "mating part derived from geometry = PP-CPM-1005"
+  },
+  {
+   "assertion": "controller_subtree_size",
+   "ok": true,
+   "detail": "['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005']"
+  },
+  {
+   "assertion": "inplane_axis_valid",
+   "ok": true,
+   "detail": "in-plane slide axis [0.0, 0.05201, 0.998647] (S.N=0.0)"
+  },
+  {
+   "assertion": "source_hash_matches_expected",
+   "ok": true,
+   "detail": "C:\\Projects\\CAD\\astra-engine-pump\\out\\engine-and-pump-v9.blend sha256 09326d83af1a4bfa..."
+  },
+  {
+   "assertion": "output_is_new_file",
+   "ok": true,
+   "detail": "out=C:\\Projects\\CAD\\astra-engine-pump\\out\\engine-and-pump-v10.blend"
+  },
+  {
+   "assertion": "output_not_a_v9_file",
+   "ok": true,
+   "detail": "engine-and-pump-v10.blend"
+  },
+  {
+   "assertion": "moved_rigidly[MSP-CP-CP750E]",
+   "ok": true,
+   "detail": "world matrix == T @ before, max dev 2.98000000231724e-08"
+  },
+  {
+   "assertion": "geometry_unchanged[MSP-CP-CP750E]",
+   "ok": true,
+   "detail": "mesh hash identical (no cutting, no vertex edit)"
+  },
+  {
+   "assertion": "moved_rigidly[PP-CPM-1001]",
+   "ok": true,
+   "detail": "world matrix == T @ before, max dev 2.98000000231724e-08"
+  },
+  {
+   "assertion": "geometry_unchanged[PP-CPM-1001]",
+   "ok": true,
+   "detail": "mesh hash identical (no cutting, no vertex edit)"
+  },
+  {
+   "assertion": "moved_rigidly[PP-CPM-1005]",
+   "ok": true,
+   "detail": "world matrix == T @ before, max dev 0.0"
+  },
+  {
+   "assertion": "geometry_unchanged[PP-CPM-1005]",
+   "ok": true,
+   "detail": "mesh hash identical (no cutting, no vertex edit)"
+  },
+  {
+   "assertion": "mating_face_still_present_after",
+   "ok": true,
+   "detail": "PP-CPM-1005 mating face re-found"
+  },
+  {
+   "assertion": "mating_gap_zero",
+   "ok": true,
+   "detail": "perpendicular face-to-face gap after = 0.0001 mm"
+  },
+  {
+   "assertion": "mating_normals_antiparallel",
+   "ok": true,
+   "detail": "-Nu.Nb = 0.99999995 (0.0177 deg off)"
+  },
+  {
+   "assertion": "bracket_height_48in",
+   "ok": true,
+   "detail": "bracket bottom Z = 246.858 mm vs target 246.858 mm => 48.0 in above skid bottom"
+  },
+  {
+   "assertion": "x_centred_on_upright_face",
+   "ok": true,
+   "detail": "X residual between upright-face and bracket-face centroids = -0.0001 mm"
+  },
+  {
+   "assertion": "no_penetration_through_upright",
+   "ok": true,
+   "detail": "gap 0.0001 mm >= 0: bracket sits on the upright face"
+  },
+  {
+   "assertion": "invariant[pump]_matrices",
+   "ok": true,
+   "detail": "435 objects, world matrices bit-identical"
+  },
+  {
+   "assertion": "invariant[pump]_geometry",
+   "ok": true,
+   "detail": "435 objects, mesh hashes identical"
+  },
+  {
+   "assertion": "invariant[engine]_matrices",
+   "ok": true,
+   "detail": "7 objects, world matrices bit-identical"
+  },
+  {
+   "assertion": "invariant[engine]_geometry",
+   "ok": true,
+   "detail": "7 objects, mesh hashes identical"
+  },
+  {
+   "assertion": "invariant[skid]_matrices",
+   "ok": true,
+   "detail": "14 objects, world matrices bit-identical"
+  },
+  {
+   "assertion": "invariant[skid]_geometry",
+   "ok": true,
+   "detail": "14 objects, mesh hashes identical"
+  },
+  {
+   "assertion": "invariant[bale]_matrices",
+   "ok": true,
+   "detail": "9 objects, world matrices bit-identical"
+  },
+  {
+   "assertion": "invariant[bale]_geometry",
+   "ok": true,
+   "detail": "9 objects, mesh hashes identical"
+  },
+  {
+   "assertion": "invariant[all_non_target]_matrices",
+   "ok": true,
+   "detail": "465 objects, world matrices bit-identical"
+  },
+  {
+   "assertion": "invariant[all_non_target]_geometry",
+   "ok": true,
+   "detail": "465 objects, mesh hashes identical"
+  },
+  {
+   "assertion": "engine_pump_overlap_untouched",
+   "ok": true,
+   "detail": "intentional engine/pump Y overlap left exactly as in v9"
+  },
+  {
+   "assertion": "quarantine_absent_reported",
+   "ok": true,
+   "detail": "no quarantine collection existed in the source; nothing to remove"
+  },
+  {
+   "assertion": "output_saved",
+   "ok": true,
+   "detail": "C:\\Projects\\CAD\\astra-engine-pump\\out\\engine-and-pump-v10.blend"
+  },
+  {
+   "assertion": "source_untouched",
+   "ok": true,
+   "detail": "v9 blend sha256 identical before and after the run"
+  }
+ ],
+ "verdict": "PASS"
+}

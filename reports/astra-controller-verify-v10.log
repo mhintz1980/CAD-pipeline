@@ -1,0 +1,10 @@
+00:01.703  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v10.blend"
+  [OK]   census_matches_baseline: 468 mesh objects (baseline 468)
+  [OK]   controller_subtree_still_3: ['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005']
+  [OK]   non_targets_match_baseline: 465 non-controller objects match the v9 census within 0.02 mm (baseline grid)
+  [OK]   controller_group_moved: 3/3 controller parts shifted > 1 mm vs v9
+  [OK]   bracket_height_48in_in_file: bracket bottom 1219.2 mm above skid bottom = 48.0 in
+  [OK]   no_quarantine_in_output: collections: ['CAD_bale', 'CAD_controller', 'CAD_engine', 'CAD_pump', 'CAD_pump_new', 'CAD_skid']
+REPORT -> C:\Projects\CAD\astra-engine-pump\reports\astra-controller-verify-v10.json (2238 bytes)
+VERDICT PASS
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)

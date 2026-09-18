@@ -1,0 +1,128 @@
+{
+  "artifact": "reports/astra-routing-evidence.json",
+  "task": "Fresh review + routing evidence (DeepSeek Flash)",
+  "captured_at": "2026-09-18T14:24:30Z",
+  "method": {
+    "command": "ocx logs --json --limit 1000 (read-only)",
+    "source": "ocx proxy request log",
+    "total_records_available": 496,
+    "records_scanned": 496,
+    "fields_retained": ["timestamp", "requestId", "conversationId", "requestedModel", "resolvedModel", "provider", "status", "terminalStatus"],
+    "fields_deliberately_dropped": ["accountLogLabel", "usage", "spend", "raw request/response bodies", "credentials", "full raw logs"]
+  },
+  "attribution_caveat": "This is PROXY-LOG ATTRIBUTION from a local routing proxy, not provider-signed attestation. It proves which model the proxy routed to and what the upstream reported as resolved, not that the provider independently signed the version string.",
+  "version_caveat": "The proxy returns resolvedModel 'deepseek-flash'. The local registry maps alias deepseek/deepseek-flash to v4.1-Flash; the 'v4.1' label is NOT independently verified here. Requested alias zai/glm-5.3-flash resolves to 'glm-5.3-flash'.",
+  "conversations": [
+    {
+      "label": "scene / DeepSeek",
+      "conversationId": "c3f45747a351e8585bac87a0ebba3712",
+      "records": 33,
+      "successes": 33,
+      "failures": 0,
+      "route_kinds": {"explicit-provider": 33},
+      "fallback_observed": false,
+      "first_ts": "2026-09-18T14:12:03.222Z",
+      "last_ts": "2026-09-18T14:17:06.427Z",
+      "representative_records": [
+        {
+          "timestamp": "2026-09-18T14:13:27.768Z",
+          "requestId": "ocx-abf1bc4720ebc303a6e7e2704117cc06",
+          "conversationId": "c3f45747a351e8585bac87a0ebba3712",
+          "requestedModel": "deepseek/deepseek-flash",
+          "resolvedModel": "deepseek-flash",
+          "provider": "deepseek",
+          "status": 200,
+          "terminalStatus": "completed"
+        }
+      ],
+      "note": "32 of 33 records are deepseek/deepseek-flash. One record (ocx-51329957e23ac1414c1763577a549b9a) is zai/glm-5.3-flash -> glm-5.3-flash, routeKind explicit-provider, NOT a fallback. It is an in-conversation explicit-provider call (surface 'claude', 1,594 tokens, likely session-title generation) and is recorded separately below."
+    },
+    {
+      "label": "render / GLM",
+      "conversationId": "944e32cc9f037e13957e7629c3e8f5ae",
+      "records": 20,
+      "successes": 20,
+      "failures": 0,
+      "route_kinds": {"explicit-provider": 20},
+      "fallback_observed": false,
+      "first_ts": "2026-09-18T14:12:14.410Z",
+      "last_ts": "2026-09-18T14:15:45.531Z",
+      "representative_records": [
+        {
+          "timestamp": "2026-09-18T14:15:45.531Z",
+          "requestId": "ocx-383df012b5db9a4697faa83163c3c623",
+          "conversationId": "944e32cc9f037e13957e7629c3e8f5ae",
+          "requestedModel": "zai/glm-5.3-flash",
+          "resolvedModel": "glm-5.3-flash",
+          "provider": "zai",
+          "status": 200,
+          "terminalStatus": "completed"
+        }
+      ],
+      "note": "All 20 requests routed to zai/glm-5.3-flash and returned 200/completed. Routing succeeded; the render worker nonetheless produced no script or artifact (astra-render-worker-output.json records terminal_reason api_error, result 'Not logged in'), so routing success did not yield a deliverable."
+    },
+    {
+      "label": "verifier / GLM",
+      "conversationId": "df7159ca4bf2bd8fcca58d14783b94e8",
+      "records": 5,
+      "successes": 5,
+      "failures": 0,
+      "route_kinds": {"explicit-provider": 5},
+      "fallback_observed": false,
+      "first_ts": "2026-09-18T14:14:45.670Z",
+      "last_ts": "2026-09-18T14:18:06.975Z",
+      "representative_records": [
+        {
+          "timestamp": "2026-09-18T14:18:06.975Z",
+          "requestId": "ocx-3e52d2542faf4b0a98325ae80097db3c",
+          "conversationId": "df7159ca4bf2bd8fcca58d14783b94e8",
+          "requestedModel": "zai/glm-5.3-flash",
+          "resolvedModel": "glm-5.3-flash",
+          "provider": "zai",
+          "status": 200,
+          "terminalStatus": "completed"
+        }
+      ],
+      "note": "All 5 requests routed to zai/glm-5.3-flash, 200/completed."
+    }
+  ],
+  "in_conversation_cross_family_record": {
+    "timestamp": "2026-09-18T14:12:03.222Z",
+    "requestId": "ocx-51329957e23ac1414c1763577a549b9a",
+    "conversationId": "c3f45747a351e8585bac87a0ebba3712",
+    "requestedModel": "zai/glm-5.3-flash",
+    "resolvedModel": "glm-5.3-flash",
+    "provider": "zai",
+    "status": 200,
+    "terminalStatus": "completed",
+    "routeKind": "explicit-provider",
+    "classification": "explicit request, not a fallback"
+  },
+  "reviewer_own_route": {
+    "conversationId": "8dab07e1a1ba50dbf983cece784cd701",
+    "records": 16,
+    "successes": 16,
+    "route_kinds": {"explicit-provider": 16},
+    "representative_records": [
+      {
+        "timestamp": "2026-09-18T14:23:18.959Z",
+        "requestId": "ocx-9612456254e77587eef545e8dff68831",
+        "conversationId": "8dab07e1a1ba50dbf983cece784cd701",
+        "requestedModel": "deepseek/deepseek-flash",
+        "resolvedModel": "deepseek-flash",
+        "provider": "deepseek",
+        "status": 200,
+        "terminalStatus": "completed"
+      }
+    ],
+    "note": "Route captured for this review session (proxy-log attribution only)."
+  },
+  "conclusions": {
+    "successes_exist_for_each_requested_conversation": true,
+    "fallback_requests_in_target_conversations": false,
+    "fallback_check_method": "For every record in the three target conversations: requestedModel suffix == resolvedModel; status == 200; attempts count == 1; each attempt's provider/model equals the top-level resolved provider/model; no recoveryKinds. No divergence found.",
+    "deepseek_usage": "32/33 records in the scene conversation resolved to provider 'deepseek', model 'deepseek-flash' (requested alias deepseek/deepseek-flash).",
+    "glm_usage": "All render/GLM and verifier/GLM records resolved to provider 'zai', model 'glm-5.3-flash'.",
+    "caveat": "Routing evidence is proxy-log attribution; render deliverable is absent despite successful routing."
+  }
+}

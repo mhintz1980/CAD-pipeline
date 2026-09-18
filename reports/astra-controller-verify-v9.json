@@ -1,0 +1,90 @@
+{
+ "meta": {
+  "mode": "verify",
+  "file": "C:\\Projects\\CAD\\astra-engine-pump\\out\\engine-and-pump-v9.blend",
+  "baseline": "C:\\Projects\\CAD\\astra-engine-pump\\reports\\astra-baseline-v9.json",
+  "blender": "5.1.1",
+  "timestamp": "2026-09-18T10:16:18-0400"
+ },
+ "census": {
+  "total_mesh_objects": 468,
+  "total_polygons": 3387117,
+  "by_collection": {
+   "CAD_bale": 9,
+   "CAD_controller": 3,
+   "CAD_engine": 7,
+   "CAD_pump": 20,
+   "CAD_pump_new": 415,
+   "CAD_skid": 14
+  }
+ },
+ "controller_delta_mm": {
+  "MSP-CP-CP750E": {
+   "bbox_min_before_mm": [
+    -0.83177,
+    -0.54102,
+    0.21463
+   ],
+   "bbox_min_after_mm": [
+    -831.771,
+    -541.016,
+    214.63
+   ],
+   "max_abs_shift_mm": 0.004
+  },
+  "PP-CPM-1001": {
+   "bbox_min_before_mm": [
+    -0.72422,
+    -0.4827,
+    0.22222
+   ],
+   "bbox_min_after_mm": [
+    -724.223,
+    -482.704,
+    222.225
+   ],
+   "max_abs_shift_mm": 0.005
+  },
+  "PP-CPM-1005": {
+   "bbox_min_before_mm": [
+    -0.63362,
+    -0.27315,
+    0.26398
+   ],
+   "bbox_min_after_mm": [
+    -633.619,
+    -273.154,
+    263.977
+   ],
+   "max_abs_shift_mm": 0.004
+  }
+ },
+ "assertions": [
+  {
+   "assertion": "census_matches_baseline",
+   "ok": true,
+   "detail": "468 mesh objects (baseline 468)"
+  },
+  {
+   "assertion": "controller_subtree_still_3",
+   "ok": true,
+   "detail": "['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005']"
+  },
+  {
+   "assertion": "non_targets_match_baseline",
+   "ok": true,
+   "detail": "465 non-controller objects match the v9 census within 0.02 mm (baseline grid)"
+  },
+  {
+   "assertion": "controller_group_moved",
+   "ok": false,
+   "detail": "0/3 controller parts shifted > 1 mm vs v9"
+  },
+  {
+   "assertion": "uncaught_exception",
+   "ok": false,
+   "detail": "AssertionError('ASSERTION FAILED: controller_group_moved: 0/3 controller parts shifted > 1 mm vs v9')"
+  }
+ ],
+ "verdict": "FAIL"
+}

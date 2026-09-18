@@ -1,0 +1,19 @@
+00:02.688  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v10.blend"
+[inspect  0.0s] scene extent 4.7438 -> to_mm 1000.0
+[inspect    0.0s] Blender 5.1.1 | file C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v10.blend
+[inspect    0.1s] objects: 468 colls: {'CAD_pump_new': 415, 'CAD_engine': 7, 'CAD_pump': 20, 'CAD_skid': 14, 'CAD_bale': 9, 'CAD_controller': 3}
+[inspect    3.1s] structural parts: 46
+[inspect    3.7s] bore scan done on 12 parts
+[inspect    3.7s] skid centre X = 25.713972662462538  engine centre X = 1.002107615931891
+[inspect    3.7s] widening datum X = 59.0 mm  (skid agg centre 25.714 )
+[inspect    3.7s] side-structure inner faces: minus -816.9704714539456  plus 935.4259198426167
+[inspect    3.7s] uprights: ['LBU-PP.001', 'LBU-PP']
+[inspect    4.9s] engine verts 1969637 tris 2276902
+[inspect    5.7s] LBU-PP.001 ROI tris 276078
+[inspect    6.9s] LBU-PP ROI tris 138801
+[inspect    8.1s] surface-mating pairs (<1 mm): 82
+[inspect    8.2s] WROTE reports/astra-widening-inspection.json 663864 bytes
+[inspect    8.2s] DONE in 8.2s
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

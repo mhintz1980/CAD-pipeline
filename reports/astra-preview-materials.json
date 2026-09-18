@@ -1,0 +1,25 @@
+{
+  "report": "astra-preview-materials",
+  "date": "2026-09-18",
+  "source_of_truth": "ASTRA-LIVERY-DIRECTION-2026-09-18.md (supersedes MSP yellow)",
+  "swatch_status": "DIGITAL WORKING APPROXIMATIONS ONLY - not certified physical paint matches; pending calibrated digital palette and Pantone Process Blue vs PMS 293 clarification",
+  "swatch_references": [
+    "https://www.ral-farben.de/farbe/ral-classic/ral-6002/9191",
+    "https://www.pantone.com/color-finder/293-c"
+  ],
+  "palette": [
+    {"role": "pump_green", "materials": ["ASTRA_Pump_RAL6002"], "hex": "#276235", "name": "RAL 6002 Leaf Green (approx)", "roughness": 0.40, "metallic": 0.0, "coat": 0.2, "applies_to": "CAD_pump_new pump body (Vogelsang PP108C24) + CAD_pump pump-specific mounting brackets matched by 'mfb'/'mount' (PP128S22-MFB). NOT the CAD_pump frame-tray parts - see blue."},
+    {"role": "blue", "materials": ["ASTRA_Structure_PMS293"], "hex": "#003DA5", "name": "PMS 293 C (approx; Process Blue swap pending)", "roughness": 0.50, "metallic": 0.0, "coat": 0.0, "applies_to": "CAD_skid + CAD_bale structure, plus the CAD_pump frame-tray parts (PP-FTT top tray, PP-FTS side/cross members, PP128-FTA end rails, PP-FBS bottom supports) which are painted structure under the machine, not pump casing", "override": "--blue-hex", "correction": "2026-09-18: tray parts were previously misclassified as pump green; structural roles re-derived from reports/astra-baseline-v9.json. blue 23 -> 39 objects, pump_green 405 -> 389."},
+    {"role": "jd_green", "materials": ["ASTRA_Engine_JDGreen"], "hex": "#367C2B", "name": "John Deere green (explicit owner option)", "roughness": 0.45, "metallic": 0.0, "coat": 0.15, "applies_to": "CAD_engine painted castings"},
+    {"role": "frame_dark", "materials": ["ASTRA_Unsorted_Dark"], "hex": "#1B1B1B", "roughness": 0.55, "metallic": 0.05, "applies_to": "uncategorised meshes (safety fallback)"},
+    {"role": "control", "materials": ["ASTRA_Control_Face"], "hex": "#1F1F1F", "roughness": 0.30, "metallic": 0.10, "applies_to": "CAD_controller (CP750E, CPM-1001/1005)", "source": "control_panel_face in msp_render_cli/materials.py"},
+    {"role": "hardware", "materials": ["ASTRA_Hardware"], "hex": "#D8D8D8", "roughness": 0.25, "metallic": 0.95, "applies_to": "bolts/screws/nuts/washers/fasteners/plugs by name", "source": "zinc_plated_hardware"},
+    {"role": "rubber", "materials": ["ASTRA_Rubber"], "hex": "#171717", "roughness": 0.88, "metallic": 0.0, "applies_to": "rubber/grommet/seal/hose by name", "source": "rubber_fenders_tires"},
+    {"role": "exhaust", "materials": ["ASTRA_Exhaust"], "hex": "#4A4A4A", "roughness": 0.55, "metallic": 0.85, "applies_to": "exhaust/muffler by name", "source": "exhaust_muffler"}
+  ],
+  "excluded": ["MSP yellow #F7B500 (superseded)", "Pioneer grey #4C4DF (incomplete string - not silently corrected)", "Pioneer logo/branding (no verified assets)"],
+  "process_blue_note": "Pantone Process Blue digital approximation is #0085CA. The earlier #0057B8 example in reports/astra-render-plan.md was wrong and has been removed. PMS 293 (#003DA5) remains the first-preview choice; --blue-hex switches to Process Blue without code changes.",
+  "slot_classification_method": "Per-material-slot, not blanket. Vendor glTF base colours are classified by luminance and max-minus-min channel spread in linear light (DARK_L=0.045 rubber, DARK_METAL_L=0.13 + neutral -> exhaust, BRIGHT_L=0.55 + neutral -> hardware), so engine castings keep functional per-face finishes while painted castings take John Deere green. Per-slot evidence: reports/astra-preview/astra-preview-slot-inventory.json; run record: reports/astra-render-execution.json.",
+  "role_counts_from_final_run": {"blue": 39, "pump_green": 389, "exhaust": 35, "jd_green": 119, "rubber": 12, "hardware": 39, "control": 3},
+  "render_status": "RENDERED 2026-09-18 (reports/astra-render-execution.md). NOTE: out/engine-and-pump-v10.blend ships CAD_pump_new with collection hide_render=True, so the pump does not render unless the preview clears that flag in memory; the preview does so and records it in astra-render-execution.json under source_visibility_fix."
+}

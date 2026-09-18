@@ -1,0 +1,9 @@
+00:01.594  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v9.blend"
+  [OK]   census_matches_baseline: 468 mesh objects (baseline 468)
+  [OK]   controller_subtree_still_3: ['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005']
+  [OK]   non_targets_match_baseline: 465 non-controller objects match the v9 census within 0.02 mm (baseline grid)
+  [FAIL] controller_group_moved: 0/3 controller parts shifted > 1 mm vs v9
+EXCEPTION: AssertionError('ASSERTION FAILED: controller_group_moved: 0/3 controller parts shifted > 1 mm vs v9')
+REPORT -> reports/astra-controller-verify-v9.json (1958 bytes)
+VERDICT FAIL
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)

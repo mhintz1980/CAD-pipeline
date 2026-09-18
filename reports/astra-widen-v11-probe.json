@@ -1,0 +1,4775 @@
+{
+ "script": "tools/astra_widen_probe_v11.py",
+ "source_blend": "C:\\Projects\\CAD\\astra-engine-pump\\out\\engine-and-pump-v10.blend",
+ "mm": 1000.0,
+ "cut_planes_mm": [
+  -680.0,
+  798.0
+ ],
+ "objects": {
+  "Copy of Copy of Part11^PP128-FTA": {
+   "collection": "CAD_pump",
+   "verts": 88,
+   "polys": 172,
+   "edges": 258,
+   "bbox_x": [
+    -893.272,
+    1011.728
+   ],
+   "bbox_centre_x": 59.228,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -892.27,
+     1011.73
+    ]
+   ],
+   "det3x3": 1.0000004768371582,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -892.27,
+      1011.73
+     ],
+     "margin_mm": 212.27,
+     "spanning_faces": 88,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 1905.0,
+     "bridge_len_max": 1905.0,
+     "crossing_edges": 88,
+     "edge_dx_ratio_min": 0.9883,
+     "edges_not_X_parallel": 2,
+     "verts_left": 44,
+     "verts_right": 44,
+     "xmin_left_of_plane": -893.272,
+     "xmax_right_of_plane": 1011.728
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      -892.27,
+      1011.73
+     ],
+     "margin_mm": 213.73,
+     "spanning_faces": 88,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 1905.0,
+     "bridge_len_max": 1905.0,
+     "crossing_edges": 88,
+     "edge_dx_ratio_min": 0.9883,
+     "edges_not_X_parallel": 2,
+     "verts_left": 44,
+     "verts_right": 44,
+     "xmin_left_of_plane": -893.272,
+     "xmax_right_of_plane": 1011.728
+    }
+   ]
+  },
+  "Copy of Copy of Part11^PP128-FTA.001": {
+   "collection": "CAD_pump",
+   "verts": 88,
+   "polys": 172,
+   "edges": 258,
+   "bbox_x": [
+    -893.273,
+    1011.728
+   ],
+   "bbox_centre_x": 59.228,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -892.27,
+     1011.73
+    ]
+   ],
+   "det3x3": 1.0000007152557373,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -892.27,
+      1011.73
+     ],
+     "margin_mm": 212.27,
+     "spanning_faces": 88,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 1905.0,
+     "bridge_len_max": 1905.0,
+     "crossing_edges": 88,
+     "edge_dx_ratio_min": 0.9883,
+     "edges_not_X_parallel": 2,
+     "verts_left": 44,
+     "verts_right": 44,
+     "xmin_left_of_plane": -893.273,
+     "xmax_right_of_plane": 1011.728
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      -892.27,
+      1011.73
+     ],
+     "margin_mm": 213.73,
+     "spanning_faces": 88,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 1905.0,
+     "bridge_len_max": 1905.0,
+     "crossing_edges": 88,
+     "edge_dx_ratio_min": 0.9883,
+     "edges_not_X_parallel": 2,
+     "verts_left": 44,
+     "verts_right": 44,
+     "xmin_left_of_plane": -893.273,
+     "xmax_right_of_plane": 1011.728
+    }
+   ]
+  },
+  "Part1^PP128-PP108-SKID": {
+   "collection": "CAD_skid",
+   "verts": 144,
+   "polys": 288,
+   "edges": 432,
+   "bbox_x": [
+    -992.552,
+    988.649
+   ],
+   "bbox_centre_x": -1.951,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -991.55,
+     988.45
+    ]
+   ],
+   "det3x3": 1.0000003576278687,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -991.55,
+      988.45
+     ],
+     "margin_mm": 311.55,
+     "spanning_faces": 144,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 1981.2,
+     "bridge_len_max": 1981.2,
+     "crossing_edges": 144,
+     "edge_dx_ratio_min": 1.0,
+     "edges_not_X_parallel": 0,
+     "verts_left": 72,
+     "verts_right": 72,
+     "xmin_left_of_plane": -992.552,
+     "xmax_right_of_plane": 988.649
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      -991.55,
+      988.45
+     ],
+     "margin_mm": 190.45,
+     "spanning_faces": 144,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 1981.2,
+     "bridge_len_max": 1981.2,
+     "crossing_edges": 144,
+     "edge_dx_ratio_min": 1.0,
+     "edges_not_X_parallel": 0,
+     "verts_left": 72,
+     "verts_right": 72,
+     "xmin_left_of_plane": -992.552,
+     "xmax_right_of_plane": 988.649
+    }
+   ]
+  },
+  "Part1^PP128-PP108-SKID.001": {
+   "collection": "CAD_skid",
+   "verts": 144,
+   "polys": 288,
+   "edges": 432,
+   "bbox_x": [
+    -992.552,
+    988.648
+   ],
+   "bbox_centre_x": -1.952,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -991.55,
+     988.45
+    ]
+   ],
+   "det3x3": 1.0000003576278687,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -991.55,
+      988.45
+     ],
+     "margin_mm": 311.55,
+     "spanning_faces": 144,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 1981.2,
+     "bridge_len_max": 1981.2,
+     "crossing_edges": 144,
+     "edge_dx_ratio_min": 1.0,
+     "edges_not_X_parallel": 0,
+     "verts_left": 72,
+     "verts_right": 72,
+     "xmin_left_of_plane": -992.552,
+     "xmax_right_of_plane": 988.648
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      -991.55,
+      988.45
+     ],
+     "margin_mm": 190.45,
+     "spanning_faces": 144,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 1981.2,
+     "bridge_len_max": 1981.2,
+     "crossing_edges": 144,
+     "edge_dx_ratio_min": 1.0,
+     "edges_not_X_parallel": 0,
+     "verts_left": 72,
+     "verts_right": 72,
+     "xmin_left_of_plane": -992.552,
+     "xmax_right_of_plane": 988.648
+    }
+   ]
+  },
+  "PP-FTS-1008": {
+   "collection": "CAD_pump",
+   "verts": 914,
+   "polys": 1832,
+   "edges": 2748,
+   "bbox_x": [
+    -883.747,
+    1002.203
+   ],
+   "bbox_centre_x": 59.228,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -882.75,
+     -828.75
+    ],
+    [
+     -821.75,
+     -474.75
+    ],
+    [
+     -460.75,
+     -436.75
+    ],
+    [
+     -422.75,
+     -322.75
+    ],
+    [
+     -295.75,
+     -93.75
+    ],
+    [
+     -67.75,
+     33.25
+    ],
+    [
+     47.25,
+     71.25
+    ],
+    [
+     85.25,
+     185.25
+    ],
+    [
+     212.25,
+     414.25
+    ],
+    [
+     440.25,
+     541.25
+    ],
+    [
+     555.25,
+     579.25
+    ],
+    [
+     593.25,
+     940.25
+    ],
+    [
+     947.25,
+     1001.25
+    ]
+   ],
+   "det3x3": 1.0000004768371582,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -821.75,
+      -474.75
+     ],
+     "margin_mm": 141.75,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 128,
+     "verts_right": 786,
+     "xmin_left_of_plane": -883.747,
+     "xmax_right_of_plane": 1002.203
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      593.25,
+      940.25
+     ],
+     "margin_mm": 142.25,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 786,
+     "verts_right": 128,
+     "xmin_left_of_plane": -883.747,
+     "xmax_right_of_plane": 1002.203
+    }
+   ]
+  },
+  "PP-FTS-1008.001": {
+   "collection": "CAD_pump",
+   "verts": 914,
+   "polys": 1832,
+   "edges": 2748,
+   "bbox_x": [
+    -883.747,
+    1002.203
+   ],
+   "bbox_centre_x": 59.228,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -882.75,
+     -828.75
+    ],
+    [
+     -821.75,
+     -474.75
+    ],
+    [
+     -460.75,
+     -436.75
+    ],
+    [
+     -422.75,
+     -322.75
+    ],
+    [
+     -295.75,
+     -93.75
+    ],
+    [
+     -67.75,
+     33.25
+    ],
+    [
+     47.25,
+     71.25
+    ],
+    [
+     85.25,
+     185.25
+    ],
+    [
+     212.25,
+     414.25
+    ],
+    [
+     440.25,
+     541.25
+    ],
+    [
+     555.25,
+     579.25
+    ],
+    [
+     593.25,
+     940.25
+    ],
+    [
+     947.25,
+     1001.25
+    ]
+   ],
+   "det3x3": 1.0000004768371582,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -821.75,
+      -474.75
+     ],
+     "margin_mm": 141.75,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 128,
+     "verts_right": 786,
+     "xmin_left_of_plane": -883.747,
+     "xmax_right_of_plane": 1002.203
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      593.25,
+      940.25
+     ],
+     "margin_mm": 142.25,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 786,
+     "verts_right": 128,
+     "xmin_left_of_plane": -883.747,
+     "xmax_right_of_plane": 1002.203
+    }
+   ]
+  },
+  "PP-FTS-1008.002": {
+   "collection": "CAD_pump",
+   "verts": 914,
+   "polys": 1832,
+   "edges": 2748,
+   "bbox_x": [
+    -883.748,
+    1002.203
+   ],
+   "bbox_centre_x": 59.228,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -882.75,
+     -828.75
+    ],
+    [
+     -821.75,
+     -474.75
+    ],
+    [
+     -460.75,
+     -436.75
+    ],
+    [
+     -422.75,
+     -322.75
+    ],
+    [
+     -295.75,
+     -93.75
+    ],
+    [
+     -67.75,
+     33.25
+    ],
+    [
+     47.25,
+     71.25
+    ],
+    [
+     85.25,
+     185.25
+    ],
+    [
+     212.25,
+     414.25
+    ],
+    [
+     440.25,
+     541.25
+    ],
+    [
+     555.25,
+     579.25
+    ],
+    [
+     593.25,
+     940.25
+    ],
+    [
+     947.25,
+     1001.25
+    ]
+   ],
+   "det3x3": 1.0000007152557373,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -821.75,
+      -474.75
+     ],
+     "margin_mm": 141.75,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 128,
+     "verts_right": 786,
+     "xmin_left_of_plane": -883.748,
+     "xmax_right_of_plane": 1002.203
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      593.25,
+      940.25
+     ],
+     "margin_mm": 142.25,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 786,
+     "verts_right": 128,
+     "xmin_left_of_plane": -883.748,
+     "xmax_right_of_plane": 1002.203
+    }
+   ]
+  },
+  "PP-FTS-1008.003": {
+   "collection": "CAD_pump",
+   "verts": 914,
+   "polys": 1832,
+   "edges": 2748,
+   "bbox_x": [
+    -883.748,
+    1002.203
+   ],
+   "bbox_centre_x": 59.228,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -882.75,
+     -828.75
+    ],
+    [
+     -821.75,
+     -474.75
+    ],
+    [
+     -460.75,
+     -436.75
+    ],
+    [
+     -422.75,
+     -322.75
+    ],
+    [
+     -295.75,
+     -93.75
+    ],
+    [
+     -67.75,
+     33.25
+    ],
+    [
+     47.25,
+     71.25
+    ],
+    [
+     85.25,
+     185.25
+    ],
+    [
+     212.25,
+     414.25
+    ],
+    [
+     440.25,
+     541.25
+    ],
+    [
+     555.25,
+     579.25
+    ],
+    [
+     593.25,
+     940.25
+    ],
+    [
+     947.25,
+     1001.25
+    ]
+   ],
+   "det3x3": 1.0000007152557373,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -821.75,
+      -474.75
+     ],
+     "margin_mm": 141.75,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 128,
+     "verts_right": 786,
+     "xmin_left_of_plane": -883.748,
+     "xmax_right_of_plane": 1002.203
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      593.25,
+      940.25
+     ],
+     "margin_mm": 142.25,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 786,
+     "verts_right": 128,
+     "xmin_left_of_plane": -883.748,
+     "xmax_right_of_plane": 1002.203
+    }
+   ]
+  },
+  "PP-FTS-1008.004": {
+   "collection": "CAD_pump",
+   "verts": 914,
+   "polys": 1832,
+   "edges": 2748,
+   "bbox_x": [
+    -883.748,
+    1002.203
+   ],
+   "bbox_centre_x": 59.228,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -882.75,
+     -828.75
+    ],
+    [
+     -821.75,
+     -474.75
+    ],
+    [
+     -460.75,
+     -436.75
+    ],
+    [
+     -422.75,
+     -322.75
+    ],
+    [
+     -295.75,
+     -93.75
+    ],
+    [
+     -67.75,
+     33.25
+    ],
+    [
+     47.25,
+     71.25
+    ],
+    [
+     85.25,
+     185.25
+    ],
+    [
+     212.25,
+     414.25
+    ],
+    [
+     440.25,
+     541.25
+    ],
+    [
+     555.25,
+     579.25
+    ],
+    [
+     593.25,
+     940.25
+    ],
+    [
+     947.25,
+     1001.25
+    ]
+   ],
+   "det3x3": 1.0000007152557373,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -821.75,
+      -474.75
+     ],
+     "margin_mm": 141.75,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 128,
+     "verts_right": 786,
+     "xmin_left_of_plane": -883.748,
+     "xmax_right_of_plane": 1002.203
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      593.25,
+      940.25
+     ],
+     "margin_mm": 142.25,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 786,
+     "verts_right": 128,
+     "xmin_left_of_plane": -883.748,
+     "xmax_right_of_plane": 1002.203
+    }
+   ]
+  },
+  "PP-FTS-1008.005": {
+   "collection": "CAD_pump",
+   "verts": 914,
+   "polys": 1832,
+   "edges": 2748,
+   "bbox_x": [
+    -883.748,
+    1002.203
+   ],
+   "bbox_centre_x": 59.228,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -882.75,
+     -828.75
+    ],
+    [
+     -821.75,
+     -474.75
+    ],
+    [
+     -460.75,
+     -436.75
+    ],
+    [
+     -422.75,
+     -322.75
+    ],
+    [
+     -295.75,
+     -93.75
+    ],
+    [
+     -67.75,
+     33.25
+    ],
+    [
+     47.25,
+     71.25
+    ],
+    [
+     85.25,
+     185.25
+    ],
+    [
+     212.25,
+     414.25
+    ],
+    [
+     440.25,
+     541.25
+    ],
+    [
+     555.25,
+     579.25
+    ],
+    [
+     593.25,
+     940.25
+    ],
+    [
+     947.25,
+     1001.25
+    ]
+   ],
+   "det3x3": 1.0000007152557373,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -821.75,
+      -474.75
+     ],
+     "margin_mm": 141.75,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 128,
+     "verts_right": 786,
+     "xmin_left_of_plane": -883.748,
+     "xmax_right_of_plane": 1002.203
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      593.25,
+      940.25
+     ],
+     "margin_mm": 142.25,
+     "spanning_faces": 120,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 347.99,
+     "bridge_len_max": 349.5,
+     "crossing_edges": 120,
+     "edge_dx_ratio_min": 0.8473,
+     "edges_not_X_parallel": 10,
+     "verts_left": 786,
+     "verts_right": 128,
+     "xmin_left_of_plane": -883.748,
+     "xmax_right_of_plane": 1002.203
+    }
+   ]
+  },
+  "PP-FTT": {
+   "collection": "CAD_pump",
+   "verts": 3968,
+   "polys": 8152,
+   "edges": 12228,
+   "bbox_x": [
+    -855.173,
+    973.628
+   ],
+   "bbox_centre_x": 59.228,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -854.17,
+     -824.17
+    ],
+    [
+     -810.17,
+     -605.17
+    ],
+    [
+     -591.17,
+     -386.17
+    ],
+    [
+     -372.17,
+     -167.17
+    ],
+    [
+     -153.17,
+     52.83
+    ],
+    [
+     65.83,
+     271.83
+    ],
+    [
+     284.83,
+     490.83
+    ],
+    [
+     503.83,
+     709.83
+    ],
+    [
+     722.83,
+     928.83
+    ],
+    [
+     942.83,
+     972.83
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -810.17,
+      -605.17
+     ],
+     "margin_mm": 74.83,
+     "spanning_faces": 530,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 206.47,
+     "bridge_len_max": 1828.8,
+     "crossing_edges": 530,
+     "edge_dx_ratio_min": 0.2936,
+     "edges_not_X_parallel": 172,
+     "verts_left": 724,
+     "verts_right": 3244,
+     "xmin_left_of_plane": -855.173,
+     "xmax_right_of_plane": 973.628
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      722.83,
+      928.83
+     ],
+     "margin_mm": 75.17,
+     "spanning_faces": 528,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 206.47,
+     "bridge_len_max": 1828.8,
+     "crossing_edges": 528,
+     "edge_dx_ratio_min": 0.2936,
+     "edges_not_X_parallel": 170,
+     "verts_left": 3244,
+     "verts_right": 724,
+     "xmin_left_of_plane": -855.173,
+     "xmax_right_of_plane": 973.628
+    }
+   ]
+  },
+  "PP-FTT.001": {
+   "collection": "CAD_pump",
+   "verts": 3968,
+   "polys": 8152,
+   "edges": 12228,
+   "bbox_x": [
+    -855.173,
+    973.628
+   ],
+   "bbox_centre_x": 59.228,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -854.17,
+     -824.17
+    ],
+    [
+     -810.17,
+     -605.17
+    ],
+    [
+     -591.17,
+     -386.17
+    ],
+    [
+     -372.17,
+     -167.17
+    ],
+    [
+     -153.17,
+     52.83
+    ],
+    [
+     65.83,
+     271.83
+    ],
+    [
+     284.83,
+     490.83
+    ],
+    [
+     503.83,
+     709.83
+    ],
+    [
+     722.83,
+     928.83
+    ],
+    [
+     942.83,
+     972.83
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -810.17,
+      -605.17
+     ],
+     "margin_mm": 74.83,
+     "spanning_faces": 530,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 206.47,
+     "bridge_len_max": 1828.8,
+     "crossing_edges": 530,
+     "edge_dx_ratio_min": 0.2936,
+     "edges_not_X_parallel": 172,
+     "verts_left": 724,
+     "verts_right": 3244,
+     "xmin_left_of_plane": -855.173,
+     "xmax_right_of_plane": 973.628
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      722.83,
+      928.83
+     ],
+     "margin_mm": 75.17,
+     "spanning_faces": 528,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 206.47,
+     "bridge_len_max": 1828.8,
+     "crossing_edges": 528,
+     "edge_dx_ratio_min": 0.2936,
+     "edges_not_X_parallel": 170,
+     "verts_left": 3244,
+     "verts_right": 724,
+     "xmin_left_of_plane": -855.173,
+     "xmax_right_of_plane": 973.628
+    }
+   ]
+  },
+  "tube rectangular_ai_TR12x6x0.25x80": {
+   "collection": "CAD_skid",
+   "verts": 160,
+   "polys": 320,
+   "edges": 480,
+   "bbox_x": [
+    -988.021,
+    1043.98
+   ],
+   "bbox_centre_x": 27.98,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -987.02,
+     1043.98
+    ]
+   ],
+   "det3x3": 1.0000004768371582,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -987.02,
+      1043.98
+     ],
+     "margin_mm": 307.02,
+     "spanning_faces": 160,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 2032.0,
+     "bridge_len_max": 2032.0,
+     "crossing_edges": 160,
+     "edge_dx_ratio_min": 0.9907,
+     "edges_not_X_parallel": 0,
+     "verts_left": 80,
+     "verts_right": 80,
+     "xmin_left_of_plane": -988.021,
+     "xmax_right_of_plane": 1043.98
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      -987.02,
+      1043.98
+     ],
+     "margin_mm": 245.98,
+     "spanning_faces": 160,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 2032.0,
+     "bridge_len_max": 2032.0,
+     "crossing_edges": 160,
+     "edge_dx_ratio_min": 0.9907,
+     "edges_not_X_parallel": 0,
+     "verts_left": 80,
+     "verts_right": 80,
+     "xmin_left_of_plane": -988.021,
+     "xmax_right_of_plane": 1043.98
+    }
+   ]
+  },
+  "tube rectangular_ai_TR12x6x0.25x80.001": {
+   "collection": "CAD_skid",
+   "verts": 160,
+   "polys": 320,
+   "edges": 480,
+   "bbox_x": [
+    -988.02,
+    1043.98
+   ],
+   "bbox_centre_x": 27.98,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -987.02,
+     1043.98
+    ]
+   ],
+   "det3x3": 1.0000007152557373,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -987.02,
+      1043.98
+     ],
+     "margin_mm": 307.02,
+     "spanning_faces": 160,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 2032.0,
+     "bridge_len_max": 2032.0,
+     "crossing_edges": 160,
+     "edge_dx_ratio_min": 0.9907,
+     "edges_not_X_parallel": 0,
+     "verts_left": 80,
+     "verts_right": 80,
+     "xmin_left_of_plane": -988.02,
+     "xmax_right_of_plane": 1043.98
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      -987.02,
+      1043.98
+     ],
+     "margin_mm": 245.98,
+     "spanning_faces": 160,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 2032.0,
+     "bridge_len_max": 2032.0,
+     "crossing_edges": 160,
+     "edge_dx_ratio_min": 0.9907,
+     "edges_not_X_parallel": 0,
+     "verts_left": 80,
+     "verts_right": 80,
+     "xmin_left_of_plane": -988.02,
+     "xmax_right_of_plane": 1043.98
+    }
+   ]
+  },
+  "LBA-CB": {
+   "collection": "CAD_bale",
+   "verts": 234,
+   "polys": 472,
+   "edges": 708,
+   "bbox_x": [
+    -941.263,
+    1040.191
+   ],
+   "bbox_centre_x": 49.464,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -915.26,
+     -205.26
+    ],
+    [
+     -102.26,
+     201.74
+    ],
+    [
+     303.74,
+     1014.74
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -915.26,
+      -205.26
+     ],
+     "margin_mm": 235.26,
+     "spanning_faces": 52,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 711.33,
+     "bridge_len_max": 1930.65,
+     "crossing_edges": 52,
+     "edge_dx_ratio_min": 0.9697,
+     "edges_not_X_parallel": 12,
+     "verts_left": 42,
+     "verts_right": 192,
+     "xmin_left_of_plane": -941.263,
+     "xmax_right_of_plane": 1040.191
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      303.74,
+      1014.74
+     ],
+     "margin_mm": 216.74,
+     "spanning_faces": 50,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 711.33,
+     "bridge_len_max": 1930.65,
+     "crossing_edges": 50,
+     "edge_dx_ratio_min": 0.9697,
+     "edges_not_X_parallel": 12,
+     "verts_left": 194,
+     "verts_right": 40,
+     "xmin_left_of_plane": -941.263,
+     "xmax_right_of_plane": 1040.191
+    }
+   ]
+  },
+  "DOUBLER": {
+   "collection": "CAD_skid",
+   "verts": 104,
+   "polys": 216,
+   "edges": 324,
+   "bbox_x": [
+    -711.227,
+    711.167
+   ],
+   "bbox_centre_x": -0.03,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -698.23,
+     -636.23
+    ],
+    [
+     -635.23,
+     -484.23
+    ],
+    [
+     -483.23,
+     -76.23
+    ],
+    [
+     -75.23,
+     75.77
+    ],
+    [
+     76.77,
+     482.77
+    ],
+    [
+     483.77,
+     634.77
+    ],
+    [
+     635.77,
+     697.77
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -665.0,
+     "inside_run": true,
+     "run": [
+      -698.23,
+      -636.23
+     ],
+     "margin_mm": 28.77,
+     "spanning_faces": 28,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 75.56,
+     "bridge_len_max": 1397.0,
+     "crossing_edges": 28,
+     "edge_dx_ratio_min": 0.5706,
+     "edges_not_X_parallel": 18,
+     "verts_left": 40,
+     "verts_right": 64,
+     "xmin_left_of_plane": -711.227,
+     "xmax_right_of_plane": 711.167
+    },
+    {
+     "plane": 665.0,
+     "inside_run": true,
+     "run": [
+      635.77,
+      697.77
+     ],
+     "margin_mm": 29.23,
+     "spanning_faces": 24,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 75.56,
+     "bridge_len_max": 1397.0,
+     "crossing_edges": 24,
+     "edge_dx_ratio_min": 0.5706,
+     "edges_not_X_parallel": 16,
+     "verts_left": 64,
+     "verts_right": 40,
+     "xmin_left_of_plane": -711.227,
+     "xmax_right_of_plane": 711.167
+    }
+   ],
+   "curved_transverse_edge_X": [
+    -711.2,
+    -711.0,
+    -710.5,
+    -709.5,
+    -708.2,
+    -706.7,
+    -704.9,
+    -702.9,
+    -700.7,
+    -698.5,
+    698.5,
+    700.7,
+    702.8,
+    704.8,
+    706.7,
+    708.2,
+    709.5,
+    710.4,
+    711.0,
+    711.2
+   ],
+   "H2": {
+    "cut_-665": {
+     "curved_transverse_features_within_120mm": [
+      -711.23,
+      -711.01,
+      -710.46,
+      -709.52,
+      -708.24,
+      -706.68,
+      -704.88,
+      -702.87,
+      -700.73,
+      -698.53
+     ],
+     "nearest_curved_feature_dist_mm": 33.532,
+     "verts_moved": 40,
+     "verts_moved_outside_635.5": 40,
+     "verts_inside_635.5_that_would_move": 0
+    },
+    "cut_665": {
+     "curved_transverse_features_within_120mm": [
+      698.47,
+      700.7,
+      702.84,
+      704.82,
+      706.65,
+      708.21,
+      709.49,
+      710.4,
+      710.98,
+      711.17
+     ],
+     "nearest_curved_feature_dist_mm": 33.472,
+     "verts_moved": 64,
+     "verts_moved_outside_635.5": 48,
+     "verts_inside_635.5_that_would_move": 16
+    }
+   }
+  },
+  "DOUBLER.001": {
+   "collection": "CAD_skid",
+   "verts": 104,
+   "polys": 216,
+   "edges": 324,
+   "bbox_x": [
+    -711.167,
+    711.227
+   ],
+   "bbox_centre_x": 0.03,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -698.17,
+     -636.17
+    ],
+    [
+     -635.17,
+     -484.17
+    ],
+    [
+     -483.17,
+     -77.17
+    ],
+    [
+     -76.17,
+     75.83
+    ],
+    [
+     76.83,
+     482.83
+    ],
+    [
+     483.83,
+     634.83
+    ],
+    [
+     635.83,
+     697.83
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -665.0,
+     "inside_run": true,
+     "run": [
+      -698.17,
+      -636.17
+     ],
+     "margin_mm": 28.83,
+     "spanning_faces": 24,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 75.56,
+     "bridge_len_max": 1397.0,
+     "crossing_edges": 24,
+     "edge_dx_ratio_min": 0.5706,
+     "edges_not_X_parallel": 16,
+     "verts_left": 40,
+     "verts_right": 64,
+     "xmin_left_of_plane": -711.167,
+     "xmax_right_of_plane": 711.227
+    },
+    {
+     "plane": 665.0,
+     "inside_run": true,
+     "run": [
+      635.83,
+      697.83
+     ],
+     "margin_mm": 29.17,
+     "spanning_faces": 28,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 75.56,
+     "bridge_len_max": 1397.0,
+     "crossing_edges": 28,
+     "edge_dx_ratio_min": 0.5706,
+     "edges_not_X_parallel": 18,
+     "verts_left": 64,
+     "verts_right": 40,
+     "xmin_left_of_plane": -711.167,
+     "xmax_right_of_plane": 711.227
+    }
+   ],
+   "curved_transverse_edge_X": [
+    -711.2,
+    -711.0,
+    -710.4,
+    -709.5,
+    -708.2,
+    -706.7,
+    -704.8,
+    -702.8,
+    -700.7,
+    -698.5,
+    698.5,
+    700.7,
+    702.9,
+    704.9,
+    706.7,
+    708.2,
+    709.5,
+    710.5,
+    711.0,
+    711.2
+   ],
+   "H2": {
+    "cut_-665": {
+     "curved_transverse_features_within_120mm": [
+      -711.17,
+      -710.98,
+      -710.4,
+      -709.49,
+      -708.21,
+      -706.65,
+      -704.82,
+      -702.84,
+      -700.7,
+      -698.47
+     ],
+     "nearest_curved_feature_dist_mm": 33.472,
+     "verts_moved": 40,
+     "verts_moved_outside_635.5": 40,
+     "verts_inside_635.5_that_would_move": 0
+    },
+    "cut_665": {
+     "curved_transverse_features_within_120mm": [
+      698.53,
+      700.73,
+      702.87,
+      704.88,
+      706.68,
+      708.24,
+      709.52,
+      710.46,
+      711.01,
+      711.23
+     ],
+     "nearest_curved_feature_dist_mm": 33.532,
+     "verts_moved": 64,
+     "verts_moved_outside_635.5": 48,
+     "verts_inside_635.5_that_would_move": 16
+    }
+   }
+  },
+  "MSP-CP-CP750E": {
+   "collection": "CAD_controller",
+   "verts": 127317,
+   "polys": 254637,
+   "edges": 382103,
+   "bbox_x": [
+    -936.979,
+    -711.664
+   ],
+   "bbox_centre_x": -824.321,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 127317,
+     "verts_right": 0,
+     "xmin_left_of_plane": -936.979,
+     "xmax_right_of_plane": null
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 127317,
+     "verts_right": 0,
+     "xmin_left_of_plane": -936.979,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "PP-CPM-1001": {
+   "collection": "CAD_controller",
+   "verts": 1538,
+   "polys": 3140,
+   "edges": 4710,
+   "bbox_x": [
+    -829.431,
+    -719.258
+   ],
+   "bbox_centre_x": -774.344,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -817.43,
+     -803.43
+    ],
+    [
+     -775.43,
+     -752.43
+    ]
+   ],
+   "det3x3": 1.0,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 1538,
+     "verts_right": 0,
+     "xmin_left_of_plane": -829.431,
+     "xmax_right_of_plane": null
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 1538,
+     "verts_right": 0,
+     "xmin_left_of_plane": -829.431,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "PP-CPM-1005": {
+   "collection": "CAD_controller",
+   "verts": 492,
+   "polys": 1000,
+   "edges": 1500,
+   "bbox_x": [
+    -738.827,
+    -712.908
+   ],
+   "bbox_centre_x": -725.868,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 492,
+     "verts_right": 0,
+     "xmin_left_of_plane": -738.827,
+     "xmax_right_of_plane": null
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 492,
+     "verts_right": 0,
+     "xmin_left_of_plane": -738.827,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "mc channel_ai_MC6x18x31.5": {
+   "collection": "CAD_skid",
+   "verts": 76,
+   "polys": 148,
+   "edges": 222,
+   "bbox_x": [
+    -905.972,
+    -816.971
+   ],
+   "bbox_centre_x": -861.472,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -885.97,
+     -823.97
+    ]
+   ],
+   "det3x3": 1.0000004768371582,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 76,
+     "verts_right": 0,
+     "xmin_left_of_plane": -905.972,
+     "xmax_right_of_plane": null
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 76,
+     "verts_right": 0,
+     "xmin_left_of_plane": -905.972,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "mc channel_ai_MC6x18x31.001": {
+   "collection": "CAD_skid",
+   "verts": 76,
+   "polys": 148,
+   "edges": 222,
+   "bbox_x": [
+    935.426,
+    1024.428
+   ],
+   "bbox_centre_x": 979.927,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     942.43,
+     1004.43
+    ]
+   ],
+   "det3x3": 1.0000007152557373,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 76,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1024.428
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 76,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1024.428
+    }
+   ]
+  },
+  "MC6X18-SKE_MC6x18x57": {
+   "collection": "CAD_skid",
+   "verts": 79,
+   "polys": 154,
+   "edges": 231,
+   "bbox_x": [
+    -905.973,
+    -816.971
+   ],
+   "bbox_centre_x": -861.472,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -885.97,
+     -823.97
+    ]
+   ],
+   "det3x3": 1.0000004768371582,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 79,
+     "verts_right": 0,
+     "xmin_left_of_plane": -905.973,
+     "xmax_right_of_plane": null
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 79,
+     "verts_right": 0,
+     "xmin_left_of_plane": -905.973,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "MC6X18-SKE_MC6x18x57.001": {
+   "collection": "CAD_skid",
+   "verts": 79,
+   "polys": 154,
+   "edges": 231,
+   "bbox_x": [
+    935.426,
+    1024.428
+   ],
+   "bbox_centre_x": 979.927,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     942.43,
+     1004.43
+    ]
+   ],
+   "det3x3": 1.0000007152557373,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 79,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1024.428
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 79,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1024.428
+    }
+   ]
+  },
+  "MC6X18-SKE1_MC6x18x57": {
+   "collection": "CAD_skid",
+   "verts": 83,
+   "polys": 162,
+   "edges": 243,
+   "bbox_x": [
+    -905.972,
+    -816.97
+   ],
+   "bbox_centre_x": -861.471,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -885.97,
+     -823.97
+    ]
+   ],
+   "det3x3": 1.0000004768371582,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 83,
+     "verts_right": 0,
+     "xmin_left_of_plane": -905.972,
+     "xmax_right_of_plane": null
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 83,
+     "verts_right": 0,
+     "xmin_left_of_plane": -905.972,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "MC6X18-SKE1_MC6x18x57.001": {
+   "collection": "CAD_skid",
+   "verts": 83,
+   "polys": 162,
+   "edges": 243,
+   "bbox_x": [
+    935.426,
+    1024.428
+   ],
+   "bbox_centre_x": 979.927,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     942.43,
+     1004.43
+    ]
+   ],
+   "det3x3": 1.0000007152557373,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 83,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1024.428
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 83,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1024.428
+    }
+   ]
+  },
+  "PP-FTS-1005": {
+   "collection": "CAD_pump",
+   "verts": 88,
+   "polys": 172,
+   "edges": 258,
+   "bbox_x": [
+    948.228,
+    1011.728
+   ],
+   "bbox_centre_x": 979.978,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     949.23,
+     1001.23
+    ]
+   ],
+   "det3x3": 1.0000007152557373,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 88,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1011.728
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 88,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1011.728
+    }
+   ]
+  },
+  "PP-FTS-1005.001": {
+   "collection": "CAD_pump",
+   "verts": 88,
+   "polys": 172,
+   "edges": 258,
+   "bbox_x": [
+    -893.273,
+    -829.772
+   ],
+   "bbox_centre_x": -861.522,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -883.27,
+     -830.27
+    ]
+   ],
+   "det3x3": 1.0000004768371582,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 88,
+     "verts_right": 0,
+     "xmin_left_of_plane": -893.273,
+     "xmax_right_of_plane": null
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 88,
+     "verts_right": 0,
+     "xmin_left_of_plane": -893.273,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "PP-FBS": {
+   "collection": "CAD_pump",
+   "verts": 78,
+   "polys": 152,
+   "edges": 228,
+   "bbox_x": [
+    -1021.253,
+    -1011.728
+   ],
+   "bbox_centre_x": -1016.49,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 78,
+     "verts_right": 0,
+     "xmin_left_of_plane": -1021.253,
+     "xmax_right_of_plane": null
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 78,
+     "verts_right": 0,
+     "xmin_left_of_plane": -1021.253,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "PP-FBS.001": {
+   "collection": "CAD_pump",
+   "verts": 78,
+   "polys": 152,
+   "edges": 228,
+   "bbox_x": [
+    1011.728,
+    1021.253
+   ],
+   "bbox_centre_x": 1016.491,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 78,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1021.253
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 78,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1021.253
+    }
+   ]
+  },
+  "PP-FBS.002": {
+   "collection": "CAD_pump",
+   "verts": 78,
+   "polys": 152,
+   "edges": 228,
+   "bbox_x": [
+    1011.728,
+    1021.253
+   ],
+   "bbox_centre_x": 1016.49,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 78,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1021.253
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 78,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 1021.253
+    }
+   ]
+  },
+  "PP-FBS.003": {
+   "collection": "CAD_pump",
+   "verts": 78,
+   "polys": 152,
+   "edges": 228,
+   "bbox_x": [
+    -1021.253,
+    -1011.728
+   ],
+   "bbox_centre_x": -1016.491,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 78,
+     "verts_right": 0,
+     "xmin_left_of_plane": -1021.253,
+     "xmax_right_of_plane": null
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 78,
+     "verts_right": 0,
+     "xmin_left_of_plane": -1021.253,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "LBS-LG": {
+   "collection": "CAD_bale",
+   "verts": 52,
+   "polys": 100,
+   "edges": 150,
+   "bbox_x": [
+    780.822,
+    920.522
+   ],
+   "bbox_centre_x": 850.672,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     781.82,
+     795.82
+    ],
+    [
+     796.82,
+     887.82
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 52,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 920.522
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      796.82,
+      887.82
+     ],
+     "margin_mm": 1.18,
+     "spanning_faces": 12,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 92.71,
+     "bridge_len_max": 124.46,
+     "crossing_edges": 12,
+     "edge_dx_ratio_min": 0.2518,
+     "edges_not_X_parallel": 6,
+     "verts_left": 12,
+     "verts_right": 40,
+     "xmin_left_of_plane": 780.822,
+     "xmax_right_of_plane": 920.522
+    }
+   ]
+  },
+  "LBS-LG.001": {
+   "collection": "CAD_bale",
+   "verts": 52,
+   "polys": 100,
+   "edges": 150,
+   "bbox_x": [
+    -802.522,
+    -662.822
+   ],
+   "bbox_centre_x": -732.672,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -770.52,
+     -678.52
+    ],
+    [
+     -677.52,
+     -663.52
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -770.52,
+      -678.52
+     ],
+     "margin_mm": 1.48,
+     "spanning_faces": 12,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 92.71,
+     "bridge_len_max": 124.46,
+     "crossing_edges": 12,
+     "edge_dx_ratio_min": 0.2518,
+     "edges_not_X_parallel": 6,
+     "verts_left": 40,
+     "verts_right": 12,
+     "xmin_left_of_plane": -802.522,
+     "xmax_right_of_plane": -662.822
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 52,
+     "verts_right": 0,
+     "xmin_left_of_plane": -802.522,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "LBS-SH": {
+   "collection": "CAD_bale",
+   "verts": 52,
+   "polys": 100,
+   "edges": 150,
+   "bbox_x": [
+    780.822,
+    920.522
+   ],
+   "bbox_centre_x": 850.672,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     781.82,
+     795.82
+    ],
+    [
+     796.82,
+     887.82
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 52,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 920.522
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      796.82,
+      887.82
+     ],
+     "margin_mm": 1.18,
+     "spanning_faces": 12,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 92.71,
+     "bridge_len_max": 124.46,
+     "crossing_edges": 12,
+     "edge_dx_ratio_min": 0.3021,
+     "edges_not_X_parallel": 6,
+     "verts_left": 12,
+     "verts_right": 40,
+     "xmin_left_of_plane": 780.822,
+     "xmax_right_of_plane": 920.522
+    }
+   ]
+  },
+  "LBS-SH.001": {
+   "collection": "CAD_bale",
+   "verts": 52,
+   "polys": 100,
+   "edges": 150,
+   "bbox_x": [
+    -802.522,
+    -662.822
+   ],
+   "bbox_centre_x": -732.672,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -770.52,
+     -678.52
+    ],
+    [
+     -677.52,
+     -663.52
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -770.52,
+      -678.52
+     ],
+     "margin_mm": 1.48,
+     "spanning_faces": 12,
+     "max_abs_nx": 0.0,
+     "faces_nx_gt_0.001": 0,
+     "faces_nx_gt_0.05": 0,
+     "bridge_len_min": 92.71,
+     "bridge_len_max": 124.46,
+     "crossing_edges": 12,
+     "edge_dx_ratio_min": 0.3021,
+     "edges_not_X_parallel": 6,
+     "verts_left": 40,
+     "verts_right": 12,
+     "xmin_left_of_plane": -802.522,
+     "xmax_right_of_plane": -662.822
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 52,
+     "verts_right": 0,
+     "xmin_left_of_plane": -802.522,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "LBU-PP": {
+   "collection": "CAD_bale",
+   "verts": 886,
+   "polys": 1800,
+   "edges": 2700,
+   "bbox_x": [
+    780.822,
+    933.222
+   ],
+   "bbox_centre_x": 857.022,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     785.82,
+     799.82
+    ],
+    [
+     807.82,
+     826.82
+    ],
+    [
+     869.82,
+     904.82
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 886,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 933.222
+    },
+    {
+     "plane": 798.0,
+     "inside_run": true,
+     "run": [
+      785.82,
+      799.82
+     ],
+     "margin_mm": 1.82,
+     "spanning_faces": 56,
+     "max_abs_nx": 0.99319,
+     "faces_nx_gt_0.001": 8,
+     "faces_nx_gt_0.05": 8,
+     "bridge_len_min": 19.05,
+     "bridge_len_max": 124.51,
+     "crossing_edges": 56,
+     "edge_dx_ratio_min": 0.0238,
+     "edges_not_X_parallel": 40,
+     "verts_left": 36,
+     "verts_right": 850,
+     "xmin_left_of_plane": 780.822,
+     "xmax_right_of_plane": 933.222
+    }
+   ]
+  },
+  "LBU-PP.001": {
+   "collection": "CAD_bale",
+   "verts": 886,
+   "polys": 1800,
+   "edges": 2700,
+   "bbox_x": [
+    -815.222,
+    -662.822
+   ],
+   "bbox_centre_x": -739.022,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [
+    [
+     -787.22,
+     -752.22
+    ],
+    [
+     -709.22,
+     -690.22
+    ],
+    [
+     -681.22,
+     -667.22
+    ]
+   ],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": true,
+     "run": [
+      -681.22,
+      -667.22
+     ],
+     "margin_mm": 1.22,
+     "spanning_faces": 56,
+     "max_abs_nx": 0.99319,
+     "faces_nx_gt_0.001": 8,
+     "faces_nx_gt_0.05": 8,
+     "bridge_len_min": 19.05,
+     "bridge_len_max": 124.51,
+     "crossing_edges": 56,
+     "edge_dx_ratio_min": 0.0238,
+     "edges_not_X_parallel": 40,
+     "verts_left": 850,
+     "verts_right": 36,
+     "xmin_left_of_plane": -815.222,
+     "xmax_right_of_plane": -662.822
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 886,
+     "verts_right": 0,
+     "xmin_left_of_plane": -815.222,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "PP-LBB": {
+   "collection": "CAD_bale",
+   "verts": 1628,
+   "polys": 3340,
+   "edges": 5010,
+   "bbox_x": [
+    -834.272,
+    -815.222
+   ],
+   "bbox_centre_x": -824.747,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 1628,
+     "verts_right": 0,
+     "xmin_left_of_plane": -834.272,
+     "xmax_right_of_plane": null
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 1628,
+     "verts_right": 0,
+     "xmin_left_of_plane": -834.272,
+     "xmax_right_of_plane": null
+    }
+   ]
+  },
+  "PP-LBB.001": {
+   "collection": "CAD_bale",
+   "verts": 1628,
+   "polys": 3340,
+   "edges": 5010,
+   "bbox_x": [
+    933.222,
+    952.272
+   ],
+   "bbox_centre_x": 942.747,
+   "modifiers": [],
+   "unclipped_feature_free_runs": [],
+   "det3x3": 1.000000238418579,
+   "plane_checks": [
+    {
+     "plane": -680.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 1628,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 952.272
+    },
+    {
+     "plane": 798.0,
+     "inside_run": false,
+     "crossing_edges": 0,
+     "verts_left": 0,
+     "verts_right": 1628,
+     "xmin_left_of_plane": null,
+     "xmax_right_of_plane": 952.272
+    }
+   ]
+  }
+ },
+ "empties": {
+  "CPM-PP-JD18": {
+   "type": "EMPTY",
+   "parent": "engine and pump",
+   "children": [
+    "MSP-CP-CP750E",
+    "PP-CPM-1001",
+    "PP-CPM-1005"
+   ],
+   "matrix_world": [
+    [
+     -1.0,
+     -3.102051969735778e-16,
+     5.186400523729973e-15,
+     0.23482400178909302
+    ],
+    [
+     3.102051969735778e-16,
+     -1.0,
+     -3.712308238590367e-16,
+     -1.4131386280059814
+    ],
+    [
+     5.186400523729973e-15,
+     -3.712308238590367e-16,
+     1.0,
+     -0.690866231918335
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "JD18-EMA": {
+   "type": "EMPTY",
+   "parent": "PP128-PP108-SKID",
+   "children": [
+    "DOUBLER",
+    "DOUBLER.001",
+    "EM-SP",
+    "EM-SP.001",
+    "EM-SP.002",
+    "EM-SP.003",
+    "PP12-EM-JD18"
+   ],
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -5.350313257484942e-16,
+     -9.516799792663733e-08
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -2.0828681786304114e-16,
+     -0.7083123326301575
+    ],
+    [
+     2.0828685756771055e-16,
+     -5.350312198693758e-16,
+     1.0,
+     -0.4827564060688019
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "MNT-PEA-CTF-PP12-WIDE": {
+   "type": "EMPTY",
+   "parent": "engine and pump",
+   "children": [
+    "MNT-PEB-CTF-PP12-WIDE",
+    "PLT-MNT-6SL-PE-PP12"
+   ],
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     -1.0000001192092896,
+     -5.99537013967527e-16,
+     4.313066952000521e-18
+    ],
+    [
+     1.0000001192092896,
+     -1.3435885648505064e-07,
+     -3.347346887909111e-16,
+     1.0248056650161743
+    ],
+    [
+     3.347346887909111e-16,
+     -5.99537013967527e-16,
+     1.0,
+     -0.4667249917984009
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP128-FTA": {
+   "type": "EMPTY",
+   "parent": "PP128-PP108-SKID",
+   "children": [
+    "Copy of Copy of Part11^PP128-FTA",
+    "Copy of Copy of Part11^PP128-FTA.001",
+    "MC6X18-SKE1_MC6x18x57",
+    "MC6X18-SKE1_MC6x18x57.001",
+    "MC6X18-SKE_MC6x18x57",
+    "MC6X18-SKE_MC6x18x57.001",
+    "PP-FTS-1005",
+    "PP-FTS-1005.001",
+    "PP-FTS-1008",
+    "PP-FTS-1008.001",
+    "PP-FTS-1008.002",
+    "PP-FTS-1008.003",
+    "PP-FTS-1008.004",
+    "PP-FTS-1008.005",
+    "PP-FTT",
+    "PP-FTT.001",
+    "mc channel_ai_MC6x18x31.001",
+    "mc channel_ai_MC6x18x31.5",
+    "tube rectangular_ai_TR12x6x0.25x80",
+    "tube rectangular_ai_TR12x6x0.25x80.001"
+   ],
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     -2.220446313948109e-16,
+     1.3435885648505064e-07,
+     0.059227775782346725
+    ],
+    [
+     -1.3435885648505064e-07,
+     2.983365920640205e-23,
+     1.0000001192092896,
+     -0.0027928112540394068
+    ],
+    [
+     -6.725709653159151e-32,
+     -1.0,
+     -2.220446049250313e-16,
+     -0.6516664028167725
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP128-PP108-SKID": {
+   "type": "EMPTY",
+   "parent": "engine and pump",
+   "children": [
+    "JD18-EMA",
+    "LBA-CB",
+    "LBS-LG",
+    "LBS-LG.001",
+    "LBS-SH",
+    "LBS-SH.001",
+    "LBU-PP",
+    "LBU-PP.001",
+    "PP-FBS",
+    "PP-FBS.001",
+    "PP-FBS.002",
+    "PP-FBS.003",
+    "PP-LBB",
+    "PP-LBB.001",
+    "PP128-FTA",
+    "PP128S22-MFB",
+    "PP128S22-MFB.001",
+    "PP128S22-MFB.002",
+    "PP128S22-MFB.003",
+    "Part1^PP128-PP108-SKID",
+    "Part1^PP128-PP108-SKID.001"
+   ],
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     1.0000001192092896,
+     6.725709653159151e-32,
+     -3.213950713070685e-17
+    ],
+    [
+     -1.0000001192092896,
+     -1.3435885648505064e-07,
+     1.92593224027464e-34,
+     3.976161069534236e-34
+    ],
+    [
+     1.92593224027464e-34,
+     -6.725709653159151e-32,
+     1.0,
+     -0.4833914041519165
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP128-PP108-SKID.001": null
+ },
+ "shared_mesh": {},
+ "sets": {
+  "missing": [],
+  "n_len": 17,
+  "n_rig_skid_bale": 20,
+  "n_ctrl": 3,
+  "n_fixed_extra": 8
+ },
+ "width": {
+  "min": [
+   -1021.2531863316945,
+   -2361.290816434651,
+   -972.3415580412337
+  ],
+  "max": [
+   1043.9801542208322,
+   2361.2909583128826,
+   1955.6690454483032
+  ],
+  "size": [
+   2065.233340552527,
+   4722.581774747534,
+   2928.010603489537
+  ],
+  "centre": [
+   11.363483944568884,
+   7.093911585798196e-05,
+   491.66374370353475
+  ]
+ },
+ "hierarchy": {
+  "Copy of Copy of Part11^PP128-FTA": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     -1.3435887069590535e-07,
+     -1.8327175646776044e-14,
+     1.0117281675338745
+    ],
+    [
+     -1.3435885648505064e-07,
+     -1.000000238418579,
+     -1.3435887069590535e-07,
+     2.1689071655273438
+    ],
+    [
+     -5.2829782409940634e-17,
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -0.4992663860321045
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "Copy of Copy of Part11^PP128-FTA.001": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     -1.0000003576278687,
+     1.3435887069590535e-07,
+     -1.8327175646776044e-14,
+     -0.8932726383209229
+    ],
+    [
+     1.3435888490676007e-07,
+     1.000000238418579,
+     -1.3435887069590535e-07,
+     -2.174492835998535
+    ],
+    [
+     5.2829775792495733e-17,
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -0.4992663860321045
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "CPM-PP-JD18": {
+   "type": "EMPTY",
+   "parent": "engine and pump",
+   "collection": "Scene Collection",
+   "matrix_world": [
+    [
+     -1.0,
+     -3.102051969735778e-16,
+     5.186400523729973e-15,
+     0.23482400178909302
+    ],
+    [
+     3.102051969735778e-16,
+     -1.0,
+     -3.712308238590367e-16,
+     -1.4131386280059814
+    ],
+    [
+     5.186400523729973e-15,
+     -3.712308238590367e-16,
+     1.0,
+     -0.690866231918335
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "DOUBLER": {
+   "type": "MESH",
+   "parent": "JD18-EMA",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -4.822015631908883e-16,
+     -387.4747619628906
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -2.095371311374171e-16,
+     -1.761587381362915
+    ],
+    [
+     2.095371576071967e-16,
+     -4.822014573117699e-16,
+     1.0,
+     -0.47386640310287476
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "DOUBLER.001": {
+   "type": "MESH",
+   "parent": "JD18-EMA",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     1.0000001192092896,
+     -4.822015631908883e-16,
+     387.4747619628906
+    ],
+    [
+     -1.0000001192092896,
+     -1.3435885648505064e-07,
+     -2.095371311374171e-16,
+     0.3449627757072449
+    ],
+    [
+     -2.095371576071967e-16,
+     4.822014573117699e-16,
+     1.0,
+     -0.47386640310287476
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "EM-SP": {
+   "type": "MESH",
+   "parent": "JD18-EMA",
+   "collection": "CAD_engine",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -4.822015631908883e-16,
+     0.4481346905231476
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -2.095371311374171e-16,
+     -0.7083123922348022
+    ],
+    [
+     2.095371576071967e-16,
+     -4.822014573117699e-16,
+     1.0,
+     -0.4827564060688019
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "EM-SP.001": {
+   "type": "MESH",
+   "parent": "JD18-EMA",
+   "collection": "CAD_engine",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -4.822015631908883e-16,
+     0.17151229083538055
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -2.095371311374171e-16,
+     -0.7083123326301575
+    ],
+    [
+     2.095371576071967e-16,
+     -4.822014573117699e-16,
+     1.0,
+     -0.4827564060688019
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "EM-SP.002": {
+   "type": "MESH",
+   "parent": "JD18-EMA",
+   "collection": "CAD_engine",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -4.822015631908883e-16,
+     -0.43860986828804016
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -2.095371311374171e-16,
+     -0.7083122730255127
+    ],
+    [
+     2.095371576071967e-16,
+     -4.822014573117699e-16,
+     1.0,
+     -0.4827564060688019
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "EM-SP.003": {
+   "type": "MESH",
+   "parent": "JD18-EMA",
+   "collection": "CAD_engine",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -4.822015631908883e-16,
+     -0.16198746860027313
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -2.095371311374171e-16,
+     -0.7083123326301575
+    ],
+    [
+     2.095371576071967e-16,
+     -4.822014573117699e-16,
+     1.0,
+     -0.4827564060688019
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "JD18-EMA": {
+   "type": "EMPTY",
+   "parent": "PP128-PP108-SKID",
+   "collection": "Scene Collection",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -5.350313257484942e-16,
+     -9.516799792663733e-08
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -2.0828681786304114e-16,
+     -0.7083123326301575
+    ],
+    [
+     2.0828685756771055e-16,
+     -5.350312198693758e-16,
+     1.0,
+     -0.4827564060688019
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "LBA-CB": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_bale",
+   "matrix_world": [
+    [
+     -1.0000001192092896,
+     -2.687177413918107e-07,
+     -6.143572318082803e-17,
+     0.04946400597691536
+    ],
+    [
+     2.687177413918107e-07,
+     -1.0000001192092896,
+     1.3028090677243246e-16,
+     0.009525001980364323
+    ],
+    [
+     -6.143576288549743e-17,
+     1.3028089353754266e-16,
+     1.0,
+     -0.5348519682884216
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "LBS-LG": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_bale",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     -3.0294631869765e-07,
+     1.0000001192092896,
+     0.9205223917961121
+    ],
+    [
+     -1.0000001192092896,
+     4.0894808291678034e-14,
+     -1.3435885648505064e-07,
+     -1.157531457351979e-07
+    ],
+    [
+     -1.9129049297145277e-16,
+     -1.0,
+     -3.0294629027594056e-07,
+     -0.031245827674865723
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "LBS-LG.001": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_bale",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     -3.0294631869765e-07,
+     -1.0000001192092896,
+     -0.8025223612785339
+    ],
+    [
+     -1.0000001192092896,
+     4.0513477446955937e-14,
+     1.3435885648505064e-07,
+     1.1575313862977055e-07
+    ],
+    [
+     -1.9004021940174622e-16,
+     1.0,
+     -3.0294629027594056e-07,
+     -0.021720826625823975
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "LBS-SH": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_bale",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     -3.0294631869765e-07,
+     1.0000001192092896,
+     0.9205223917961121
+    ],
+    [
+     -1.0000001192092896,
+     4.0894808291678034e-14,
+     -1.3435885648505064e-07,
+     -1.157531457351979e-07
+    ],
+    [
+     -1.9129049297145277e-16,
+     -1.0,
+     -3.0294629027594056e-07,
+     0.781554102897644
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "LBS-SH.001": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_bale",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     -3.0294631869765e-07,
+     -1.0000001192092896,
+     -0.8025223612785339
+    ],
+    [
+     -1.0000001192092896,
+     4.0513477446955937e-14,
+     1.3435885648505064e-07,
+     1.1575313862977055e-07
+    ],
+    [
+     -1.9004021940174622e-16,
+     1.0,
+     -3.0294629027594056e-07,
+     0.7910791635513306
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "LBU-PP": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_bale",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     1.0000001192092896,
+     5.2829775792495733e-17,
+     0.9205223917961121
+    ],
+    [
+     -1.0000001192092896,
+     -1.3435885648505064e-07,
+     -1.2503082078947014e-18,
+     -1.157531457351979e-07
+    ],
+    [
+     -1.2503009700643415e-18,
+     -5.282976917505083e-17,
+     1.0,
+     -0.4833914041519165
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "LBU-PP.001": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_bale",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     5.2829775792495733e-17,
+     -0.8025223612785339
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -1.2503082078947014e-18,
+     1.1575313862977055e-07
+    ],
+    [
+     1.2503009700643415e-18,
+     5.282976917505083e-17,
+     1.0,
+     -0.4833914041519165
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "mc channel_ai_MC6x18x31.001": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     -1.0000003576278687,
+     1.3435887069590535e-07,
+     -1.8301415680784146e-14,
+     1.024427890777588
+    ],
+    [
+     1.3435888490676007e-07,
+     1.000000238418579,
+     -1.3435887069590535e-07,
+     -0.002792940940707922
+    ],
+    [
+     2.7069740317426497e-17,
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -0.8199414014816284
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "mc channel_ai_MC6x18x31.5": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     -1.3435887069590535e-07,
+     -1.8712904286560285e-14,
+     -0.9059723615646362
+    ],
+    [
+     -1.3435885648505064e-07,
+     -1.000000238418579,
+     -1.3435887069590535e-07,
+     -0.0027926815673708916
+    ],
+    [
+     -4.38557820006696e-16,
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -0.8199414014816284
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "MC6X18-SKE1_MC6x18x57": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     -1.3435887069590535e-07,
+     -1.8712904286560285e-14,
+     -0.9059721827507019
+    ],
+    [
+     -1.3435885648505064e-07,
+     -1.000000238418579,
+     -1.3435887069590535e-07,
+     1.425957441329956
+    ],
+    [
+     -4.38557820006696e-16,
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -0.8199414014816284
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "MC6X18-SKE1_MC6x18x57.001": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     -1.0000003576278687,
+     1.3435887069590535e-07,
+     -1.8351083998745243e-14,
+     1.0244276523590088
+    ],
+    [
+     1.3435888490676007e-07,
+     1.000000238418579,
+     -1.3435887069590535e-07,
+     -1.4315431118011475
+    ],
+    [
+     7.673814099658542e-17,
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -0.8199414014816284
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "MC6X18-SKE_MC6x18x57": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     -1.3435887069590535e-07,
+     -1.8712904286560285e-14,
+     -0.9059725403785706
+    ],
+    [
+     -1.3435885648505064e-07,
+     -1.000000238418579,
+     -1.3435887069590535e-07,
+     -1.4315428733825684
+    ],
+    [
+     -4.38557820006696e-16,
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -0.8199414014816284
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "MC6X18-SKE_MC6x18x57.001": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     -1.0000003576278687,
+     1.3435887069590535e-07,
+     -1.835210890861142e-14,
+     1.024428129196167
+    ],
+    [
+     1.3435888490676007e-07,
+     1.000000238418579,
+     -1.3435887069590535e-07,
+     1.425957202911377
+    ],
+    [
+     7.776338173500814e-17,
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -0.8199414014816284
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "MNT-PEA-CTF-PP12-WIDE": {
+   "type": "EMPTY",
+   "parent": "engine and pump",
+   "collection": "Scene Collection",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     -1.0000001192092896,
+     -5.99537013967527e-16,
+     4.313066952000521e-18
+    ],
+    [
+     1.0000001192092896,
+     -1.3435885648505064e-07,
+     -3.347346887909111e-16,
+     1.0248056650161743
+    ],
+    [
+     3.347346887909111e-16,
+     -5.99537013967527e-16,
+     1.0,
+     -0.4667249917984009
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "MNT-PEB-CTF-PP12-WIDE": {
+   "type": "MESH",
+   "parent": "MNT-PEA-CTF-PP12-WIDE",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     -1.0000001192092896,
+     -5.99537013967527e-16,
+     6.717943090706058e-09
+    ],
+    [
+     1.0000001192092896,
+     -1.3435885648505064e-07,
+     -3.347346887909111e-16,
+     0.9748056530952454
+    ],
+    [
+     3.347346887909111e-16,
+     -5.99537013967527e-16,
+     1.0,
+     -0.4667249917984009
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "MSP-CP-CP750E": {
+   "type": "MESH",
+   "parent": "CPM-PP-JD18",
+   "collection": "CAD_controller",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     1.0000001192092896,
+     1.099817648384611e-15,
+     -0.7512511014938354
+    ],
+    [
+     -1.0000001192092896,
+     1.3435885648505064e-07,
+     -7.99148163042765e-16,
+     -0.4935063123703003
+    ],
+    [
+     -7.991489041965939e-16,
+     -1.0998180719010847e-15,
+     1.0,
+     0.3640127182006836
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "Part1^PP128-PP108-SKID": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     1.30600170678008e-07,
+     1.0000001192092896,
+     -3.1557913615642974e-08,
+     -0.001951780286617577
+    ],
+    [
+     0.9720250964164734,
+     -1.3435885648505064e-07,
+     -0.2348778247833252,
+     0.0251777246594429
+    ],
+    [
+     -0.2348777949810028,
+     -6.707490666215756e-32,
+     -0.9720249772071838,
+     -0.12733739614486694
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "Part1^PP128-PP108-SKID.001": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     -1.3060015646715328e-07,
+     -1.0000001192092896,
+     3.1557913615642974e-08,
+     -0.001951787038706243
+    ],
+    [
+     -0.9720250368118286,
+     1.3435885648505064e-07,
+     0.2348778247833252,
+     -0.0251777246594429
+    ],
+    [
+     -0.2348777949810028,
+     6.707490666215756e-32,
+     -0.9720249772071838,
+     -0.12733739614486694
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PLT-MNT-6SL-PE-PP12": {
+   "type": "MESH",
+   "parent": "MNT-PEA-CTF-PP12-WIDE",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     -1.000000238418579,
+     2.687177413918107e-07,
+     -5.99537013967527e-16,
+     0.48895007371902466
+    ],
+    [
+     -2.687177413918107e-07,
+     -1.000000238418579,
+     -3.6433528745411707e-16,
+     1.1002177000045776
+    ],
+    [
+     -5.995371198466454e-16,
+     -3.6433523451455787e-16,
+     1.0,
+     -0.4762499928474426
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-CPM-1001": {
+   "type": "MESH",
+   "parent": "CPM-PP-JD18",
+   "collection": "CAD_controller",
+   "matrix_world": [
+    [
+     -1.0,
+     -3.112290215787918e-16,
+     5.1932678433498376e-15,
+     -0.7256081104278564
+    ],
+    [
+     3.112290215787918e-16,
+     -1.0,
+     -3.677613769070831e-16,
+     -0.4693921208381653
+    ],
+    [
+     5.1932678433498376e-15,
+     -3.677613769070831e-16,
+     1.0,
+     0.21145576238632202
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-CPM-1005": {
+   "type": "MESH",
+   "parent": "CPM-PP-JD18",
+   "collection": "CAD_controller",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     1.0000001192092896,
+     5.194435901784101e-15,
+     -0.7192581295967102
+    ],
+    [
+     -1.0000001192092896,
+     1.3435885648505064e-07,
+     2.3317941205843427e-14,
+     -1.371771216392517
+    ],
+    [
+     2.3317941205843427e-14,
+     -5.194436325300575e-15,
+     1.0,
+     -0.690866231918335
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FBS": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     1.0000001192092896,
+     5.2829775792495733e-17,
+     -1.0117279291152954
+    ],
+    [
+     -1.0000001192092896,
+     -1.3435885648505064e-07,
+     -1.2503082078947014e-18,
+     -0.04193023592233658
+    ],
+    [
+     -1.2503009700643415e-18,
+     -5.282976917505083e-17,
+     1.0,
+     -0.842049241065979
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FBS.001": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     1.0000001192092896,
+     5.2829775792495733e-17,
+     1.0212528705596924
+    ],
+    [
+     -1.0000001192092896,
+     -1.3435885648505064e-07,
+     -1.2503082078947014e-18,
+     -0.041930507868528366
+    ],
+    [
+     -1.2503009700643415e-18,
+     -5.282976917505083e-17,
+     1.0,
+     -0.842049241065979
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FBS.002": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     5.2829775792495733e-17,
+     1.0117279291152954
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -1.2503082078947014e-18,
+     0.04193023592233658
+    ],
+    [
+     1.2503009700643415e-18,
+     5.282976917505083e-17,
+     1.0,
+     -0.842049241065979
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FBS.003": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -3.359779549454084e-25,
+     -1.0212528705596924
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -2.500602146923836e-18,
+     0.041930507868528366
+    ],
+    [
+     2.500601940128683e-18,
+     6.707490666215756e-32,
+     1.0,
+     -0.842049241065979
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FTS-1005": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     -1.0000003576278687,
+     1.3435887069590535e-07,
+     -1.826813406222063e-14,
+     1.0117279291152954
+    ],
+    [
+     1.3435888490676007e-07,
+     1.000000238418579,
+     -1.3435887069590535e-07,
+     -0.0027929393108934164
+    ],
+    [
+     -6.21252716928002e-18,
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -0.49291640520095825
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FTS-1005.001": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     -1.3435887069590535e-07,
+     -1.8386218925397352e-14,
+     -0.893272340297699
+    ],
+    [
+     -1.3435885648505064e-07,
+     -1.000000238418579,
+     -1.3435887069590535e-07,
+     -0.002792683197185397
+    ],
+    [
+     -1.1187208826684853e-16,
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -0.49291640520095825
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FTS-1008": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     1.3435887069590535e-07,
+     -1.710444970609657e-14,
+     0.05922795459628105
+    ],
+    [
+     -1.3435885648505064e-07,
+     1.000000238418579,
+     -1.3435887069590535e-07,
+     1.3275322914123535
+    ],
+    [
+     -7.25807180030041e-16,
+     1.3435885648505064e-07,
+     1.0000001192092896,
+     -0.6453164219856262
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FTS-1008.001": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     1.3435887069590535e-07,
+     -1.710444970609657e-14,
+     0.0592278353869915
+    ],
+    [
+     -1.3435885648505064e-07,
+     1.000000238418579,
+     -1.3435887069590535e-07,
+     0.4385322630405426
+    ],
+    [
+     -7.25807180030041e-16,
+     1.3435885648505064e-07,
+     1.0000001192092896,
+     -0.6453164219856262
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FTS-1008.002": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     -1.0000003576278687,
+     -1.3435887069590535e-07,
+     -1.785997090779541e-14,
+     0.0592275969684124
+    ],
+    [
+     1.3435888490676007e-07,
+     -1.000000238418579,
+     -1.3435887069590535e-07,
+     -1.333117961883545
+    ],
+    [
+     -2.9713273897525515e-17,
+     1.3435885648505064e-07,
+     1.0000001192092896,
+     -0.6453164219856262
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FTS-1008.003": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     -1.0000003576278687,
+     -1.3435887069590535e-07,
+     -1.785997090779541e-14,
+     0.05922771617770195
+    ],
+    [
+     1.3435888490676007e-07,
+     -1.000000238418579,
+     -1.3435887069590535e-07,
+     -0.44411787390708923
+    ],
+    [
+     -2.9713273897525515e-17,
+     1.3435885648505064e-07,
+     1.0000001192092896,
+     -0.6453164219856262
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FTS-1008.004": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     -1.0000003576278687,
+     -1.3435887069590535e-07,
+     -1.785997090779541e-14,
+     0.0592275969684124
+    ],
+    [
+     1.3435888490676007e-07,
+     -1.000000238418579,
+     -1.3435887069590535e-07,
+     -1.333117961883545
+    ],
+    [
+     -2.9713273897525515e-17,
+     1.3435885648505064e-07,
+     1.0000001192092896,
+     -0.6453164219856262
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FTS-1008.005": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     -1.0000003576278687,
+     -1.3435887069590535e-07,
+     -1.785997090779541e-14,
+     0.05922771617770195
+    ],
+    [
+     1.3435888490676007e-07,
+     -1.000000238418579,
+     -1.3435887069590535e-07,
+     -0.44411787390708923
+    ],
+    [
+     -2.9713273897525515e-17,
+     1.3435885648505064e-07,
+     1.0000001192092896,
+     -0.6453164219856262
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FTT": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     -1.6921485560231518e-16,
+     1.3435885648505064e-07,
+     0.059227488934993744
+    ],
+    [
+     -1.3435885648505064e-07,
+     -1.2502783259950729e-18,
+     1.0000001192092896,
+     -2.1300430297851562
+    ],
+    [
+     5.282976917505083e-17,
+     -1.0,
+     -2.2329490496451746e-16,
+     -0.49291640520095825
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-FTT.001": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     -1.6921485560231518e-16,
+     1.3435885648505064e-07,
+     0.059227488934993744
+    ],
+    [
+     -1.3435885648505064e-07,
+     -1.2502783259950729e-18,
+     1.0000001192092896,
+     -2.1300430297851562
+    ],
+    [
+     5.282976917505083e-17,
+     -1.0,
+     -2.2329490496451746e-16,
+     -0.8199414014816284
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-LBB": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_bale",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     1.0000001192092896,
+     5.2829775792495733e-17,
+     -0.8342723250389099
+    ],
+    [
+     -1.0000001192092896,
+     -1.3435885648505064e-07,
+     -1.2503082078947014e-18,
+     1.2001903826330818e-07
+    ],
+    [
+     -1.2503009700643415e-18,
+     -5.282976917505083e-17,
+     1.0,
+     -0.49291640520095825
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP-LBB.001": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_bale",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     1.0000001192092896,
+     5.2829775792495733e-17,
+     0.9332223534584045
+    ],
+    [
+     -1.0000001192092896,
+     -1.3435885648505064e-07,
+     -1.2503082078947014e-18,
+     -1.1745949990427107e-07
+    ],
+    [
+     -1.2503009700643415e-18,
+     -5.282976917505083e-17,
+     1.0,
+     -0.49291640520095825
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP12-EM-JD18": {
+   "type": "MESH",
+   "parent": "JD18-EMA",
+   "collection": "CAD_engine",
+   "matrix_world": [
+    [
+     1.3435885648505064e-07,
+     -1.0000001192092896,
+     -4.822015631908883e-16,
+     -9.516799792663733e-08
+    ],
+    [
+     1.0000001192092896,
+     1.3435885648505064e-07,
+     -2.095371311374171e-16,
+     -0.7083123326301575
+    ],
+    [
+     2.095371576071967e-16,
+     -4.822014573117699e-16,
+     1.0,
+     -0.4827564060688019
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP128-FTA": {
+   "type": "EMPTY",
+   "parent": "PP128-PP108-SKID",
+   "collection": "Scene Collection",
+   "matrix_world": [
+    [
+     1.0000001192092896,
+     -2.220446313948109e-16,
+     1.3435885648505064e-07,
+     0.059227775782346725
+    ],
+    [
+     -1.3435885648505064e-07,
+     2.983365920640205e-23,
+     1.0000001192092896,
+     -0.0027928112540394068
+    ],
+    [
+     -6.725709653159151e-32,
+     -1.0,
+     -2.220446049250313e-16,
+     -0.6516664028167725
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP128-PP108-SKID": {
+   "type": "EMPTY",
+   "parent": "engine and pump",
+   "collection": "Scene Collection",
+   "matrix_world": [
+    [
+     -1.3435885648505064e-07,
+     1.0000001192092896,
+     6.725709653159151e-32,
+     -3.213950713070685e-17
+    ],
+    [
+     -1.0000001192092896,
+     -1.3435885648505064e-07,
+     1.92593224027464e-34,
+     3.976161069534236e-34
+    ],
+    [
+     1.92593224027464e-34,
+     -6.725709653159151e-32,
+     1.0,
+     -0.4833914041519165
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP128S22-MFB": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     -1.3435669643513393e-07,
+     1.0000001192092896,
+     -7.625306497338613e-10,
+     -0.48268505930900574
+    ],
+    [
+     -0.9999840259552002,
+     -1.3435885648505064e-07,
+     -0.005675328895449638,
+     -0.04046550765633583
+    ],
+    [
+     -0.005675328429788351,
+     1.5667120041772001e-19,
+     0.9999839067459106,
+     -0.8553965091705322
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP128S22-MFB.001": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     -1.3435669643513393e-07,
+     1.0000001192092896,
+     -7.625306497338613e-10,
+     0.4922100603580475
+    ],
+    [
+     -0.9999840259552002,
+     -1.3435885648505064e-07,
+     -0.005675328895449638,
+     -0.04046563804149628
+    ],
+    [
+     -0.005675328429788351,
+     -3.5626299336322667e-19,
+     0.9999839067459106,
+     -0.8553965091705322
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP128S22-MFB.002": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     1.3435673906769807e-07,
+     -1.0000004768371582,
+     7.625306497338613e-10,
+     -0.4922100603580475
+    ],
+    [
+     0.9999843835830688,
+     1.3435889911761478e-07,
+     0.005675328895449638,
+     0.04046563804149628
+    ],
+    [
+     -0.005675328429788351,
+     1.5837282726001523e-19,
+     0.9999839067459106,
+     -0.8553965091705322
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "PP128S22-MFB.003": {
+   "type": "MESH",
+   "parent": "PP128-PP108-SKID",
+   "collection": "CAD_pump",
+   "matrix_world": [
+    [
+     1.3435673906769807e-07,
+     -1.0000004768371582,
+     7.625306497338613e-10,
+     0.48268505930900574
+    ],
+    [
+     0.9999843835830688,
+     1.3435889911761478e-07,
+     0.005675328895449638,
+     0.04046550765633583
+    ],
+    [
+     -0.005675328429788351,
+     3.562630192126208e-19,
+     0.9999839067459106,
+     -0.8553965091705322
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "tube rectangular_ai_TR12x6x0.25x80": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     -1.3435887069590535e-07,
+     -1.000000238418579,
+     1.3435885648505064e-07,
+     0.027979694306850433
+    ],
+    [
+     1.837015579258562e-14,
+     1.3435887069590535e-07,
+     1.0000001192092896,
+     -0.7076429128646851
+    ],
+    [
+     -1.0000001192092896,
+     1.3435885648505064e-07,
+     9.580874369688117e-17,
+     -0.8199414014816284
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "tube rectangular_ai_TR12x6x0.25x80.001": {
+   "type": "MESH",
+   "parent": "PP128-FTA",
+   "collection": "CAD_skid",
+   "matrix_world": [
+    [
+     -1.3435887069590535e-07,
+     1.000000238418579,
+     -1.3435888490676007e-07,
+     0.027979880571365356
+    ],
+    [
+     1.7787769819371455e-14,
+     -1.3435887069590535e-07,
+     -1.0000003576278687,
+     0.7020572423934937
+    ],
+    [
+     -1.0000001192092896,
+     1.3435885648505064e-07,
+     4.865767001216935e-16,
+     -0.8199414014816284
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  }
+ },
+ "n_mesh": 468,
+ "engine_mount_footprint": {
+  "EM-SP": {
+   "collection": "CAD_engine",
+   "x": [
+    438.61,
+    448.135
+   ],
+   "y": [
+    -1752.887,
+    336.263
+   ],
+   "z": [
+    -482.756,
+    -365.281
+   ]
+  },
+  "EM-SP.001": {
+   "collection": "CAD_engine",
+   "x": [
+    161.987,
+    171.512
+   ],
+   "y": [
+    -1752.887,
+    336.263
+   ],
+   "z": [
+    -482.756,
+    -365.281
+   ]
+  },
+  "EM-SP.002": {
+   "collection": "CAD_engine",
+   "x": [
+    -448.135,
+    -438.61
+   ],
+   "y": [
+    -1752.887,
+    336.263
+   ],
+   "z": [
+    -482.756,
+    -365.281
+   ]
+  },
+  "EM-SP.003": {
+   "collection": "CAD_engine",
+   "x": [
+    -171.513,
+    -161.987
+   ],
+   "y": [
+    -1752.887,
+    336.263
+   ],
+   "z": [
+    -482.756,
+    -365.281
+   ]
+  },
+  "MNT-PEB-CTF-PP12-WIDE": {
+   "collection": "CAD_skid",
+   "x": [
+    -449.986,
+    449.986
+   ],
+   "y": [
+    882.731,
+    1066.881
+   ],
+   "z": [
+    -474.345,
+    -381.0
+   ]
+  },
+  "PLT-MNT-6SL-PE-PP12": {
+   "collection": "CAD_skid",
+   "x": [
+    -488.95,
+    488.95
+   ],
+   "y": [
+    850.98,
+    1098.63
+   ],
+   "z": [
+    -476.25,
+    -466.725
+   ]
+  },
+  "PP12-EM-JD18": {
+   "collection": "CAD_engine",
+   "x": [
+    -635.0,
+    635.0
+   ],
+   "y": [
+    -1762.413,
+    345.788
+   ],
+   "z": [
+    -482.756,
+    -355.756
+   ]
+  },
+  "PP128S22-MFB": {
+   "collection": "CAD_pump",
+   "x": [
+    -492.21,
+    -482.685
+   ],
+   "y": [
+    2180.843,
+    2307.843
+   ],
+   "z": [
+    -671.309,
+    -493.045
+   ]
+  },
+  "PP128S22-MFB.001": {
+   "collection": "CAD_pump",
+   "x": [
+    482.685,
+    492.21
+   ],
+   "y": [
+    2180.843,
+    2307.843
+   ],
+   "z": [
+    -671.309,
+    -493.045
+   ]
+  },
+  "PP128S22-MFB.002": {
+   "collection": "CAD_pump",
+   "x": [
+    -492.21,
+    -482.685
+   ],
+   "y": [
+    -2307.844,
+    -2180.844
+   ],
+   "z": [
+    -671.309,
+    -493.045
+   ]
+  },
+  "PP128S22-MFB.003": {
+   "collection": "CAD_pump",
+   "x": [
+    482.685,
+    492.21
+   ],
+   "y": [
+    -2307.844,
+    -2180.844
+   ],
+   "z": [
+    -671.309,
+    -493.045
+   ]
+  }
+ }
+}

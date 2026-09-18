@@ -1,0 +1,34 @@
+00:01.641  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v9.blend"
+census: 468 mesh objects in 6 collections
+quarantine collections: NONE
+  [OK]   controller_subtree_found: root=CPM-PP-JD18 mesh children=['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005']
+  [OK]   controller_subtree_matches_collection: subtree=['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005'] vs collection CAD_controller=['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005']
+  [OK]   minus_x_upright_exists: object LBU-PP.001
+  [OK]   upright_is_minus_x: LBU-PP.001 X range [-815.2, -662.8] mm
+  [OK]   upright_in_bale_collection: CAD_bale = ['LBA-CB', 'LBS-LG', 'LBS-LG.001', 'LBS-SH', 'LBS-SH.001', 'LBU-PP', 'LBU-PP.001', 'PP-LBB', 'PP-LBB.001']
+  [OK]   skid_collection_nonempty: CAD_skid n=14
+  [OK]   skid_bottom_is_scene_bottom: CAD_skid min Z -972.34 mm == scene min Z -972.34 mm
+  [OK]   upright_taper_faces_found: -Y faces=2 +Y faces=2
+  [OK]   engine_side_face_selected_by_geometry: picked outward normal [-0.0, -0.99865, 0.05201] dot toward engine centroid 0.6303
+  [OK]   upright_taper_tilt_plausible: engine-side face normal 87.019 deg from the Z axis = 2.981 deg off vertical (handoff: 87.13 deg from Z / 2.87 off vertical)
+  [OK]   taper_agrees_with_vertex_envelope: face-normal taper 2.98 deg vs vertex-envelope taper 2.93 deg ({'deg': 2.9342283313072097, 'ymax_low_mm': 292.1, 'ymax_high_mm': 167.1, 'z_low_mm': -483.4, 'z_high_mm': 1955.7})
+  candidate mating face: PP-CPM-1005 area=1696.2 mm2 normal=[-4e-06, 0.998629, -0.052336] dot=-1.0
+  candidate mating face: MSP-CP-CP750E area=855.5 mm2 normal=[-2.3e-05, 0.996177, -0.087354] dot=-0.999372
+  candidate mating face: PP-CPM-1001 area=2646.3 mm2 normal=[0.0, 1.0, 0.0] dot=-0.998647
+  candidate mating face: MSP-CP-CP750E area=86195.4 mm2 normal=[0.0, 1.0, 0.0] dot=-0.998646
+  candidate mating face: MSP-CP-CP750E area=647.8 mm2 normal=[-0.017615, 0.999845, 0.0] dot=-0.998492
+  candidate mating face: MSP-CP-CP750E area=2377.4 mm2 normal=[0.052254, 0.998634, -0.0] dot=-0.997282
+  candidate mating face: MSP-CP-CP750E area=4805.0 mm2 normal=[-0.052326, 0.99863, 0.0] dot=-0.997278
+  candidate mating face: MSP-CP-CP750E area=830.1 mm2 normal=[4.2e-05, 0.996197, 0.087134] dot=-0.990316
+  [OK]   bracket_mating_face_found: controller parts with a face genuinely antiparallel (dot < -0.9995, <1.8 deg) to the upright taper: ['PP-CPM-1005']
+  [OK]   taper_mating_already_antiparallel: PP-CPM-1005 mating normal [-0.0, 0.99863, -0.05234] vs upright [-0.0, -0.99865, 0.05201]: 0.018 deg off antiparallel (no rotation, nothing to cut)
+  [OK]   bracket_is_PP-CPM-1005: mating part derived from geometry = PP-CPM-1005
+  [OK]   controller_subtree_size: ['MSP-CP-CP750E', 'PP-CPM-1001', 'PP-CPM-1005']
+bracket(PP-CPM-1005) bottom before = 263.98 mm (48.67 in above skid bottom); target 48.0 in
+  [OK]   inplane_axis_valid: in-plane slide axis [0.0, 0.05201, 0.998647] (S.N=0.0)
+total translation dX=-105.21 dY=-94.64 dZ=-17.12 mm
+  [FAIL] source_hash_matches_expected: C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v9.blend sha256 0000000000000000...
+EXCEPTION: AssertionError('ASSERTION FAILED: source_hash_matches_expected: C:\\Projects\\CAD\\astra-engine-pump\\out\\engine-and-pump-v9.blend sha256 0000000000000000...')
+REPORT -> reports/astra-controller-negtest.json (8322 bytes)
+VERDICT FAIL
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)

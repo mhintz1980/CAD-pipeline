@@ -1,0 +1,57 @@
+00:01.547  blend            | Read blend: "C:\Projects\CAD\astra-engine-pump\out\engine-and-pump-v10.blend"
+[probe    0.0s] scene extent 4.7438 -> to_mm 1000.0
+[probe    0.0s] mesh objects 468
+[probe    0.0s] missing names: []
+[probe    0.4s] aggregate bbox [-1021.25 -2361.29  -972.34] [1043.98 2361.29 1955.67] width 2065.233
+[probe    0.4s] empties: {'CPM-PP-JD18': 'EMPTY', 'JD18-EMA': 'EMPTY', 'MNT-PEA-CTF-PP12-WIDE': 'EMPTY', 'PP128-FTA': 'EMPTY', 'PP128-PP108-SKID': 'EMPTY', 'PP128-PP108-SKID.001': None}
+[probe    0.4s] CTRL_ROOT children: [('MSP-CP-CP750E', 'MESH'), ('PP-CPM-1001', 'MESH'), ('PP-CPM-1005', 'MESH')]
+[probe    0.4s] CTRL_ROOT parent: engine and pump
+[probe    0.4s] shared/multiuser: {}
+[probe    0.4s] Copy of Copy of Part11^PP128-FTA         v88     f172    runs[(-892.3, 1011.7)]
+[probe    0.4s] Copy of Copy of Part11^PP128-FTA.001     v88     f172    runs[(-892.3, 1011.7)]
+[probe    0.4s] Part1^PP128-PP108-SKID                   v144    f288    runs[(-991.6, 988.4)]
+[probe    0.4s] Part1^PP128-PP108-SKID.001               v144    f288    runs[(-991.6, 988.4)]
+[probe    0.4s] PP-FTS-1008                              v914    f1832   runs[(-882.7, -828.7), (-821.7, -474.7), (-460.7, -436.7), (-422.7, -322.7)]
+[probe    0.4s] PP-FTS-1008.001                          v914    f1832   runs[(-882.7, -828.7), (-821.7, -474.7), (-460.7, -436.7), (-422.7, -322.7)]
+[probe    0.4s] PP-FTS-1008.002                          v914    f1832   runs[(-882.7, -828.7), (-821.7, -474.7), (-460.7, -436.7), (-422.7, -322.7)]
+[probe    0.4s] PP-FTS-1008.003                          v914    f1832   runs[(-882.7, -828.7), (-821.7, -474.7), (-460.7, -436.7), (-422.7, -322.7)]
+[probe    0.4s] PP-FTS-1008.004                          v914    f1832   runs[(-882.7, -828.7), (-821.7, -474.7), (-460.7, -436.7), (-422.7, -322.7)]
+[probe    0.4s] PP-FTS-1008.005                          v914    f1832   runs[(-882.7, -828.7), (-821.7, -474.7), (-460.7, -436.7), (-422.7, -322.7)]
+[probe    0.4s] PP-FTT                                   v3968   f8152   runs[(-854.2, -824.2), (-810.2, -605.2), (-591.2, -386.2), (-372.2, -167.2)]
+[probe    0.4s] PP-FTT.001                               v3968   f8152   runs[(-854.2, -824.2), (-810.2, -605.2), (-591.2, -386.2), (-372.2, -167.2)]
+[probe    0.4s] tube rectangular_ai_TR12x6x0.25x80       v160    f320    runs[(-987.0, 1044.0)]
+[probe    0.4s] tube rectangular_ai_TR12x6x0.25x80.001   v160    f320    runs[(-987.0, 1044.0)]
+[probe    0.4s] LBA-CB                                   v234    f472    runs[(-915.3, -205.3), (-102.3, 201.7), (303.7, 1014.7)]
+[probe    0.4s] DOUBLER                                  v104    f216    runs[(-698.2, -636.2), (-635.2, -484.2), (-483.2, -76.2), (-75.2, 75.8)]
+[probe    0.4s] DOUBLER.001                              v104    f216    runs[(-698.2, -636.2), (-635.2, -484.2), (-483.2, -77.2), (-76.2, 75.8)]
+[probe    0.7s] MSP-CP-CP750E                            v127317 f254637 runs[]
+[probe    0.7s] PP-CPM-1001                              v1538   f3140   runs[(-817.4, -803.4), (-775.4, -752.4)]
+[probe    0.7s] PP-CPM-1005                              v492    f1000   runs[]
+[probe    0.7s] mc channel_ai_MC6x18x31.5                v76     f148    runs[(-886.0, -824.0)]
+[probe    0.7s] mc channel_ai_MC6x18x31.001              v76     f148    runs[(942.4, 1004.4)]
+[probe    0.7s] MC6X18-SKE_MC6x18x57                     v79     f154    runs[(-886.0, -824.0)]
+[probe    0.7s] MC6X18-SKE_MC6x18x57.001                 v79     f154    runs[(942.4, 1004.4)]
+[probe    0.7s] MC6X18-SKE1_MC6x18x57                    v83     f162    runs[(-886.0, -824.0)]
+[probe    0.7s] MC6X18-SKE1_MC6x18x57.001                v83     f162    runs[(942.4, 1004.4)]
+[probe    0.7s] PP-FTS-1005                              v88     f172    runs[(949.2, 1001.2)]
+[probe    0.7s] PP-FTS-1005.001                          v88     f172    runs[(-883.3, -830.3)]
+[probe    0.7s] PP-FBS                                   v78     f152    runs[]
+[probe    0.7s] PP-FBS.001                               v78     f152    runs[]
+[probe    0.7s] PP-FBS.002                               v78     f152    runs[]
+[probe    0.7s] PP-FBS.003                               v78     f152    runs[]
+[probe    0.7s] LBS-LG                                   v52     f100    runs[(781.8, 795.8), (796.8, 887.8)]
+[probe    0.7s] LBS-LG.001                               v52     f100    runs[(-770.5, -678.5), (-677.5, -663.5)]
+[probe    0.7s] LBS-SH                                   v52     f100    runs[(781.8, 795.8), (796.8, 887.8)]
+[probe    0.7s] LBS-SH.001                               v52     f100    runs[(-770.5, -678.5), (-677.5, -663.5)]
+[probe    0.7s] LBU-PP                                   v886    f1800   runs[(785.8, 799.8), (807.8, 826.8), (869.8, 904.8)]
+[probe    0.7s] LBU-PP.001                               v886    f1800   runs[(-787.2, -752.2), (-709.2, -690.2), (-681.2, -667.2)]
+[probe    0.7s] PP-LBB                                   v1628   f3340   runs[]
+[probe    0.7s] PP-LBB.001                               v1628   f3340   runs[]
+[probe    0.7s] engine mount footprint |X| max: 635.0
+[probe    0.7s] DOUBLER H2: {"cut_-665": {"curved_transverse_features_within_120mm": [-711.23, -711.01, -710.46, -709.52, -708.24, -706.68, -704.88, -702.87, -700.73, -698.53], "nearest_curved_feature_dist_mm": 33.532, "verts_moved": 40, "verts_moved_outside_635.5": 40, "verts_inside_635.5_that_would_move": 0}, "cut_665": {"curved_transverse_features_within_120mm": [698.47, 700.7, 702.84, 704.82, 706.65, 708.21, 709.49, 710.4, 710.98, 711.17], "nearest_curved_feature_dist_mm": 33.472, "verts_moved": 64, "verts_moved_outside_635.5": 48, "verts_inside_635.5_that_would_move": 16}}
+[probe    0.7s] DOUBLER.001 H2: {"cut_-665": {"curved_transverse_features_within_120mm": [-711.17, -710.98, -710.4, -709.49, -708.21, -706.65, -704.82, -702.84, -700.7, -698.47], "nearest_curved_feature_dist_mm": 33.472, "verts_moved": 40, "verts_moved_outside_635.5": 40, "verts_inside_635.5_that_would_move": 0}, "cut_665": {"curved_transverse_features_within_120mm": [698.53, 700.73, 702.87, 704.88, 706.68, 708.24, 709.52, 710.46, 711.01, 711.23], "nearest_curved_feature_dist_mm": 33.532, "verts_moved": 64, "verts_moved_outside_635.5": 48, "verts_inside_635.5_that_would_move": 16}}
+[probe    0.7s] WROTE reports/astra-widen-v11-probe.json
+[probe    0.7s] DONE
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit
